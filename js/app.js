@@ -39,7 +39,8 @@
 
   // 表格型頁面（共用 renderDocTable）：原站整頁是欄位表格，逐頁解析成結構化 JSON
   var DOC_DEFS = [
-    { gid: "official|南區公文", file: "data/doc-south-gongwen.json", icon: "📑", sub: "發文日期、字號、收送對象一覽" }
+    { gid: "official|南區公文", file: "data/doc-south-gongwen.json", icon: "📑", sub: "發文日期、字號、收送對象一覽" },
+    { gid: "official|高屏小區公文", file: "data/doc-gaoping-gongwen.json", icon: "📋", sub: "高屏小區聚會、活動通知一覽" }
   ];
   var DOCS = {};
 
@@ -788,10 +789,11 @@
       if (cfBtn) cfBtn.addEventListener("click", function () { pushDetail(renderCampusDetail); });
       var svBtn = $("#detailBody").querySelector("[data-sv-open]");
       if (svBtn) svBtn.addEventListener("click", function () { pushDetail(renderServicesDetail); });
-      var docBtn = $("#detailBody").querySelector("[data-doc-open]");
-      if (docBtn) docBtn.addEventListener("click", function () {
-        var gid = docBtn.getAttribute("data-doc-open");
-        pushDetail(function () { renderDocPageDetail(gid); });
+      $("#detailBody").querySelectorAll("[data-doc-open]").forEach(function (docBtn) {
+        docBtn.addEventListener("click", function () {
+          var gid = docBtn.getAttribute("data-doc-open");
+          pushDetail(function () { renderDocPageDetail(gid); });
+        });
       });
       $("#detailBody").querySelectorAll("[data-group]").forEach(function (b) {
         b.addEventListener("click", function () { pushDetail(function () { renderGroupDetail(b.getAttribute("data-group")); }); });
