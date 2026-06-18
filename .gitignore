@@ -1,0 +1,23 @@
+# 設計探索與驗證截圖（非上線必要）
+mockups/
+
+# 爬蟲中間產物與除錯輸出（sync 會重新產生）
+crawl/*.png
+crawl/*.csv
+crawl/home-raw.html
+crawl/home-utf8.html
+crawl/page-titles.txt
+crawl/home-structure.txt
+crawl/links-per-source.txt
+
+# 大圖原檔（CMYK tif）— 網站用的是 assets/ 內已轉好的 PNG/SVG
+*.tif
+
+# gstack 工具本機狀態（含 token，絕不發布）
+.gstack/
+
+# 同步備份與暫存
+data/.backup/
+*.bak
+__pycache__/
+*.pyc

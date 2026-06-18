@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0041C4">
+<title>真耶穌教會南區辦事處</title>
+<meta name="description" content="真耶穌教會南區辦事處 — 安息日與聚會、公文公告、教材資源、教牧行政、影音靈糧、服務表單一站查詢。">
+<link rel="icon" href="assets/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="assets/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="assets/favicon-180.png">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- TopBar (editorial: logo + desktop category nav + search) -->
+<header class="topbar" id="topbar">
+  <button class="iconbtn only-mobile" id="menuBtn" aria-label="開啟選單" aria-expanded="false">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+  </button>
+  <a class="brand" href="#top" aria-label="回到首頁">
+    <span class="brand-badge"><img src="assets/logo-icon.png" alt="真耶穌教會 LOGO" width="30" height="30"></span>
+    <span class="brand-name">真耶穌教會<b>南區辦事處</b></span>
+  </a>
+  <nav class="topnav only-desktop" id="topnav" aria-label="主分類"></nav>
+  <button class="iconbtn searchbtn" id="searchBtn" aria-label="搜尋">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+    <span class="only-desktop">搜尋</span>
+  </button>
+</header>
+
+<!-- Drawer (mobile) -->
+<div class="drawer-scrim" id="scrim" hidden></div>
+<nav class="drawer" id="drawer" aria-label="分類選單" hidden>
+  <div class="drawer-head">
+    <span>分類選單</span>
+    <button class="iconbtn" id="drawerClose" aria-label="關閉選單">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+  <ul class="drawer-list" id="drawerList"></ul>
+</nav>
+
+<main id="top">
+  <div class="container">
+    <!-- HERO: 特別公告 + 尋人啟示 -->
+    <section class="hero" id="heroWrap" aria-label="特別公告"></section>
+
+    <!-- Activity strip: 教區活動 -->
+    <section class="strip" id="activityStrip" aria-label="教區活動"></section>
+
+    <!-- Remaining bulletin: 最新公告 / 宣導事項 / 備查公告 -->
+    <section class="block" aria-label="本月公告">
+      <h2 class="block-title">本月公告</h2>
+      <div class="bulletin" id="bulletin"></div>
+    </section>
+
+    <!-- Category grid -->
+    <section class="block" aria-label="資訊分類">
+      <h2 class="block-title">資訊分類　<span class="block-sub">全站連結完整歸檔</span></h2>
+      <div class="cat-grid" id="catList"></div>
+    </section>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container foot-grid">
+    <div class="foot-brand">
+      <span class="fb-name">真耶穌教會<b>南區辦事處</b></span>
+    </div>
+    <div class="foot-col">
+      <h3>網站地圖</h3>
+      <ul class="foot-links" id="footSitemap"></ul>
+    </div>
+    <div class="foot-col">
+      <h3>聯絡 / 奉獻</h3>
+      <ul class="foot-links">
+        <li>✉ <a href="mailto:southtjc@yahoo.com.tw">southtjc@yahoo.com.tw</a>
+          <button class="footcopy" data-copy="southtjc@yahoo.com.tw">複製</button></li>
+        <li>郵政劃撥 <b>03468821</b>
+          <button class="footcopy" data-copy="03468821">複製</button></li>
+        <li class="fc-muted">戶名：財團法人真耶穌教會臺灣總會南區辦事處</li>
+        <li class="fc-todo">電話　<span>待提供</span></li>
+        <li class="fc-todo">地址　<span>待提供</span></li>
+        <li class="fc-todo">辦公時間　<span>待提供</span></li>
+      </ul>
+    </div>
+    <div class="foot-col">
+      <h3>實用連結</h3>
+      <ul class="foot-links">
+        <li><a href="#" id="footChurches">各教會通訊錄</a></li>
+        <li><a href="http://south.tjc.org.tw/公告附件/永久性公告/高雄捷運路線圖.jpg" target="_blank" rel="noopener">高雄捷運路線圖</a></li>
+        <li><a href="http://south.tjc.org.tw/公告附件/永久性公告/南區劃撥單.jpg" target="_blank" rel="noopener">郵政劃撥單</a></li>
+        <li><a href="http://south.tjc.org.tw" target="_blank" rel="noopener">原官網 ↗</a></li>
+      </ul>
+    </div>
+  </div>
+  <p class="copy container">© 真耶穌教會南區辦事處　·　本站為手機 / 桌機優化版，內容連結指向原官網。</p>
+</footer>
+
+<!-- Search overlay -->
+<div class="search-overlay" id="searchOverlay" hidden>
+  <div class="search-bar">
+    <svg class="search-ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+    <input type="search" id="searchInput" placeholder="搜尋連結標題、分類、教會…" autocomplete="off" aria-label="搜尋">
+    <button class="iconbtn" id="searchClose" aria-label="關閉搜尋">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+  <div class="search-results container" id="searchResults"></div>
+</div>
+
+<!-- Detail overlay (category / group / church) -->
+<div class="detail-overlay" id="detailOverlay" hidden>
+  <header class="detail-head">
+    <button class="iconbtn" id="detailBack" aria-label="返回">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg>
+    </button>
+    <h2 id="detailTitle"></h2>
+  </header>
+  <div class="detail-body" id="detailBody"></div>
+</div>
+
+<script src="js/search.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,615 @@
+{
+  "meta": {
+    "source": "http://south.tjc.org.tw/",
+    "generated": "2026-06-12"
+  },
+  "districts": [
+    {
+      "name": "台南小區",
+      "churches": [
+        {
+          "district": "台南小區",
+          "name": "臺南教會",
+          "links": [
+            {
+              "label": "臺南教會",
+              "url": "http://tainan.tjchurch.org.tw/"
+            },
+            {
+              "label": "相片",
+              "url": "http://south.tjc.org.tw/各教會相片/01.台南.jpg"
+            },
+            {
+              "label": "FB",
+              "url": "https://www.facebook.com/TJC.Tainan/?fref=ts"
+            },
+            {
+              "label": "簡介",
+              "url": "https://www.tjc.org.tw/brochure/church/content?category=5&collapse=23&id=D106"
+            }
+          ],
+          "address": "700007 臺南市中西區民族路二段 82 號",
+          "phone": "(06) 221-7108",
+          "fax": "(06) 224-6927"
+        },
+        {
+          "district": "台南小區",
+          "name": "開元教會",
+          "links": [
+            {
+              "label": "相片",
+              "url": "http://south.tjc.org.tw/各教會相片/02.開元.JPG"
+            },
+            {
+              "label": "FB",
+              "url": "https://www.facebook.com/pages/%E7%9C%9F%E8%80%B6%E7%A9%8C%E6%95%99%E6%9C%83%E9%96%8B%E5%85%83%E6%95%99%E6%9C%83/148782528646593?fref=ts"
+            },
+            {
+              "label": "網站",
+              "url": "http://kaiyuan.tjc.org.tw/"
+            },
+            {
+              "label": "簡介",
+              "url": "https://www.tjc.org.tw/brochure/church/content?category=5&collapse=23&id=D105"
+            }
+          ],
+          "address": "704023 臺南市北區長榮路四段 100 號",
+          "phone": "(06) 236-0343",
+          "fax": "(06) 208-0221"
+        },
+        {
+          "district": "台南小區",
+          "name": "麻豆教會",
+          "links": [
+            {
+              "label": "相片",
+              "url": "http://south.tjc.org.tw/各教會相片/03.麻豆.jpg"
+            },
+            {
+              "label": "FB",
+              "url": "https://www.facebook.com/groups/163909153633622/?fref=ts"
+            },
+            {
+              "label": "簡介",
+              "url": "https://www.tjc.org.tw/brochure/church/content?category=5&collapse=23&id=D102"
+            }
+          ],
+          "address": "721005 臺南市麻豆區興中路 198 號",
+          "phone": "(06) 572-2187",
+          "fax": "(06) 571-0124"
+        },
+        {
+          "district": "台南小區",
+          "name": "南門教會",
+          "links": [
+            {
+              "label": "相片",
+              "url": "http://south.tjc.org.tw/各教會相片/04.南門.JPG"
+            },
+            {
+              "label": "FB",
+              "url": "https://www.facebook.com/groups/1607170579608335/"
+            },
+            {
+              "label": "簡介",
+              "url": "https://www.tjc.org.tw/brochure/church/content?category=5&collapse=23&id=D107"
+            }
+          ],
+          "address": "702023 臺南市南區水交社路 339 號",
+          "phone": "(06) 261-6994",
+          "fax": "無"
+        },
+        {
+          "district": "台南小區",
+          "name": "東昇教會",
+          "links": [
+            {
+              "label": "相片",
+              "url": "http://south.tjc.org.tw/各教會相片/05.東昇.jpg"
+            },
+            {
+              "label": "FB",
+              "url": "https://www.facebook.com/groups/749982745036311/?fref=ts"
+            },
+            {
+              "label": "簡介",
+              "url": "https://www.tjc.org.tw/brochure/church/content?category=5&collapse=23&id=D108"
+            }
+          ],
+          "address": "701021 臺南市崇德一街 16 號",
+          "phone": "(06) 268-4129",
+          "fax": "(06) 268-6591"
+        },
+        {
+          "district": "台南小區",
+          "name": "喜樹教會",
+          "links": [
+            {
+              "label": "相片",
+              "url": "http://south.tjc.org.tw/各教會相片/06.喜樹.JPG"
+            },
+            {
+              "label": "FB",
+              "url": "https://www.facebook.com/pages/%E7%9C%9F%E8%80%B6%E7%A9%8C%E6%95%99%E6%9C%83%E5%96%9C%E6%A8%B9%E6%95%99%E6%9C%83/261146674056948?fref=ts"
+            },
+            {
+              "label": "簡介",
+              "url": "https://www.tjc.org.tw/brochure/church/content?category=5&collapse=23&id=D110"
+            }
+          ],
+          "address": "702018 臺南市南區喜樹路 45 號之 6",
+          "phone": "(06) 262-9615",
+          "fax": "(06)262-5370"
+        },
+        {
+          "district": "台南小區",
+          "name": "和順教會",
+          "links": [
+            {
+              "label": "和順教會",
+              "url": "http://heshun.tjc.org.tw/"
+            },
+            {
+              "label": "相片",
+              "url": "http://south.tjc.org.tw/各教會相片/07.和順.jpg"
+            },
+            {
+              "label": "FB",
+              "url": "https://www.facebook.com/tjchsc"
+            },
+            {
+              "label": "簡介",
+              "url": "https://www.tjc.org.tw/brochure/church/content?category=5&collapse=23&id=D109"
+            }
+          ],
+          "address": "709026 台南市安南區海佃路四段 140 巷 20 號",
+          "phone": "(06) 246-4075",
+          "fax": "(06) 256-3929"
+        },
+        {
+          "district": "台南小區",
+          "name": "新營教會",
+          "links": [
+            {
+              "label": "相片",
+              "url": "http://south.tjc.org.tw/各教會相片/08.新營.jpg"
+            },
+            {
+              "label": "簡介",
+              "url": "https://www.tjc.org.tw/brochure/church/content?category=5&collapse=23&id=D101"
+            }
+          ],
+          "address": "730006 臺南市新營區大仁街 16 號",
+          "phone": "(06) 632-6702",
+          "fax": "(06) 635-6185"
+        },
+        {
+          "district": "台南小區",
+          "name": "歸仁教會",
+          "links": [
+            {
+              "label": "相片",
+              "url": "http://south.tjc.org.tw/各教會相片/09.歸仁.jpg"
+            },
+            {
+              "label": "FB",
+              "url": "https://www.facebook.com/pages/%E7%9C%9F%E8%80%B6%E7%A9%8C%E6%95%99%E6%9C%83%E6%AD%B8%E4%BB%81%E6%95%99%E6%9C%83/165467233513527?fref=ts"
+            },
+            {
+              "label": "簡介",
+              "url": "https://www.tjc.org.tw/brochure/church/content?category=5&collapse=23&id=D104"
+            }
+          ],
+          "address": "711013 臺南市歸仁區大順街 70 巷 20 號",
+          "phone": "(06) 239-8323",
+          "fax": "(06) 239-8322"
+        },
+        {
+          "district": "台南小區",
+          "name": "永康教會",
+          "links": [
+            {
+              "label": "相片",
+              "url": "http://south.tjc.org.tw/各教會相片/10.永康.jpg"
+            },
+            {
+              "label": "FB",
+              "url": "https://www.facebook.com/YongkangTJC/?fref=ts"
+            },
+            {
+              "label": "簡介",
+              "url": "https://www.tjc.org.tw/brochure/church/content?category=5&collapse=23&id=D103"
+            }
+          ],
+          "address": "710048 臺南市永康區永大路三段 477 號",
+          "phone": "0935-235816",
+          "fax": "無"
+        }
+      ]
+    },
+    {
+      "name": "高屏小區",
+      "churches": [
+        {
+          "district": "高屏小區",
+          "name": "莒光教會",
+          "links": [
+            {
+              "label": "相片",
+              "url": "http://south.tjc.org.tw/各教會相片/11.莒光.jpg"
+            },
+            {
+              "label": "簡介",
+              "url": "https://www.tjc.org.tw/brochure/church/content?category=5&collapse=24&id=D203"
+            }
+          ],
+          "address": "811002 高雄市楠梓區榮新街 11 號",
+          "phone": "(07) 362-2499",
+          "fax": "(07) 364-9343"
+        },
+        {
+          "district": "高屏小區",
+          "name": "高雄教會",
+          "links": [
+            {
+              "label": "相片",
+              "url": "http://south.tjc.org.tw/各教會相片/12.高雄.jpg"
+            },
+            {
+              "label": "FB",
+              "url": "https://www.facebook.com/TJC.KHC/"
+            },
+            {
+              "label": "簡介",
+              "url": "https://www.tjc.org.tw/brochure/church/content?category=5&collapse=24&id=D205"
+            }
+          ],
+          "address": "801005 高雄市前金區中華三路 69 號",
+          "phone": "(07) 291-7270",
+          "fax": "(07) 241-1060"
+        },
+        {
+          "district": "高屏小區",
+          "name": "鳳山教會",
+          "links": [
+            {
+              "label": "相片",
+              "url": "http://south.tjc.org.tw/各教會相片/13.鳳山.JPG"
+            },
+            {
+              "label": "FB",
+              "url": "https://www.facebook.com/%E7%9C%9F%E8%80%B6%E7%A9%8C%E6%95%99%E6%9C%83%E9%B3%B3%E5%B1%B1%E6%95%99%E6%9C%83-128389610512171/"
+            },
+            {
+              "label": "簡介",
+              "url": "https://www.tjc.org.tw/brochure/church/content?category=5&collapse=24&id=D207"
+            }
+          ],
+          "address": "830025 高雄市鳳山區博愛路 515 號",
+          "phone": "(07) 742-6755",
+          "fax": "(07) 746-3647"
+        },
+        {
+          "district": "高屏小區",
+          "name": "五甲教會",
+          "links": [
+            {
+              "label": "相片",
+              "url": "http://south.tjc.org.tw/各教會相片/14.五甲.JPG"
+            },
+            {
+              "label": "FB",
+              "url": "https://www.facebook.com/tjcwujia/"
+            },
+            {
+              "label": "簡介",
+              "url": "https://www.tjc.org.tw/brochure/church/content?category=5&collapse=24&id=D208"
+            }
+          ],
+          "address": "830065 高雄市鳳山區明學路 21 號",
+          "phone": "(07) 796-5821",
+          "fax": "無"
+        },
+        {
+          "district": "高屏小區",
+          "name": "迦美教會",
+          "links": [
+            {
+              "label": "相片",
+              "url": "http://south.tjc.org.tw/各教會相片/15.迦美.jpg"
+            },
+            {
+              "label": "FB",
+              "url": "https://www.facebook.com/TJCJIAMEI/"
+            },
+            {
+              "label": "簡介",
+              "url": "https://www.tjc.org.tw/brochure/church/content?category=5&collapse=24&id=D223"
+            }
+          ],
+          "address": "833168 高雄市鳥松區應安路 303 號",
+          "phone": "(07) 370-7562",
+          "fax": "無"
+        },
+        {
+          "district": "高屏小區",
+          "name": "十全教會",
+          "links": [
+            {
+              "label": "相片",
+              "url": "http://south.tjc.org.tw/各教會相片/16.十全.jpg"
+            },
+            {
+              "label": "FB",
+              "url": "https://www.facebook.com/shihcyuan"
+            },
+            {
+              "label": "簡介",
+              "url": "https://www.tjc.org.tw/brochure/church/content?category=5&collapse=24&id=D204"
+            }
+          ],
+          "address": "804058 高雄市鼓山區大順一路 611 號",
+          "phone": "(07) 554-6640",
+          "fax": "(07) 555-2127"
+        },
+        {
+          "district": "高屏小區",
+          "name": "岡山教會",
+          "links": [
+            {
+              "label": "岡山教會",
+              "url": "http://home.kimo.com.tw/tjcksc/"
+            },
+            {
+              "label": "相片",
+              "url": "http://south.tjc.org.tw/各教會相片/17.岡山.jpg"
+            },
+            {
+              "label": "簡介",
+              "url": "https://www.tjc.org.tw/brochure/church/content?category=5&collapse=24&id=D201"
+            }
+          ],
+          "address": "820011 高雄市岡山區成功路 24 巷 32 號",
+          "phone": "(07) 621-4342",
+          "fax": "(07) 621-4542"
+        },
+        {
+          "district": "高屏小區",
+          "name": "杉林教會",
+          "links": [
+            {
+              "label": "相片",
+              "url": "http://south.tjc.org.tw/各教會相片/18.杉林.jpg"
+            },
+            {
+              "label": "簡介",
+              "url": "https://www.tjc.org.tw/brochure/church/content?category=5&collapse=24&id=D221"
+            }
+          ],
+          "address": "846054 高雄市杉林區大愛里合心路 33 之 1 號",
+          "phone": "電話 ： (07) 677-6730",
+          "fax": "傳真 ： (07) 677-6727"
+        },
+        {
+          "district": "高屏小區",
+          "name": "三多教會",
+          "links": [
+            {
+              "label": "相片",
+              "url": "http://south.tjc.org.tw/各教會相片/19.三多.jpg"
+            },
+            {
+              "label": "FB",
+              "url": "https://www.facebook.com/pages/%E7%9C%9F%E8%80%B6%E7%A9%8C%E6%95%99%E6%9C%83%E4%B8%89%E5%A4%9A%E6%95%99%E6%9C%83/198340893546339?fref=ts"
+            },
+            {
+              "label": "簡介",
+              "url": "https://www.tjc.org.tw/brochure/church/content?category=5&collapse=24&id=D206"
+            }
+          ],
+          "address": "806007 高雄市前鎮區英德街 737 巷 2 號",
+          "phone": "(07) 716-7497",
+          "fax": "(07) 722-2914"
+        },
+        {
+          "district": "高屏小區",
+          "name": "楠梓教會",
+          "links": [
+            {
+              "label": "相片",
+              "url": "http://south.tjc.org.tw/各教會相片/20.楠梓.JPG"
+            },
+            {
+              "label": "簡介",
+              "url": "https://www.tjc.org.tw/brochure/church/content?category=5&collapse=24&id=D202"
+            }
+          ],
+          "address": "811026 高雄市楠梓區旗楠路長安巷 42 號",
+          "phone": "(07) 351-5040",
+          "fax": "無"
+        },
+        {
+          "district": "高屏小區",
+          "name": "前鎮教會",
+          "links": [
+            {
+              "label": "相片",
+              "url": "http://south.tjc.org.tw/各教會相片/21.前鎮.JPG"
+            },
+            {
+              "label": "簡介",
+              "url": "https://www.tjc.org.tw/brochure/church/content?category=5&collapse=24&id=D213"
+            }
+          ],
+          "address": "806038 高雄市前鎮區南衙路 88 號",
+          "phone": "(07) 831-9048",
+          "fax": "(07) 822-2310"
+        },
+        {
+          "district": "高屏小區",
+          "name": "小港教會",
+          "links": [
+            {
+              "label": "相片",
+              "url": "http://south.tjc.org.tw/各教會相片/22.小港.jpg"
+            },
+            {
+              "label": "FB",
+              "url": "https://www.facebook.com/tjcsg/"
+            },
+            {
+              "label": "簡介",
+              "url": "https://www.tjc.org.tw/brochure/church/content?category=5&collapse=24&id=D214"
+            }
+          ],
+          "address": "812005 高雄市小港區港後路 5 號",
+          "phone": "(07) 821-3405",
+          "fax": "無"
+        },
+        {
+          "district": "高屏小區",
+          "name": "民生教會",
+          "links": [
+            {
+              "label": "相片",
+              "url": "http://south.tjc.org.tw/各教會相片/23.民生.jpg"
+            },
+            {
+              "label": "簡介",
+              "url": "https://www.tjc.org.tw/brochure/church/content?category=5&collapse=24&id=D215"
+            }
+          ],
+          "address": "849001 高雄市那瑪夏區達卡努瓦里大光巷 5 號",
+          "phone": "(07) 670-1254",
+          "fax": "無"
+        },
+        {
+          "district": "高屏小區",
+          "name": "民權教會",
+          "links": [
+            {
+              "label": "相片",
+              "url": "http://south.tjc.org.tw/各教會相片/24.民權.jpg"
+            },
+            {
+              "label": "簡介",
+              "url": "https://www.tjc.org.tw/brochure/church/content?category=5&collapse=24&id=D216"
+            }
+          ],
+          "address": "849001 高雄市那瑪夏區瑪雅里 5 鄰平和巷 123 號",
+          "phone": "(07) 670-1289",
+          "fax": "無"
+        },
+        {
+          "district": "高屏小區",
+          "name": "茂林教會",
+          "links": [
+            {
+              "label": "相片",
+              "url": "http://south.tjc.org.tw/各教會相片/25.茂林.jpg"
+            },
+            {
+              "label": "FB",
+              "url": "https://www.facebook.com/groups/854722548458289/"
+            },
+            {
+              "label": "簡介",
+              "url": "https://www.tjc.org.tw/brochure/church/content?category=5&collapse=24&id=D217"
+            }
+          ],
+          "address": "851001 高雄市茂林區茂林 里 15 之 6 號",
+          "phone": "(07) 680-1685",
+          "fax": "(07) 680-1205"
+        },
+        {
+          "district": "高屏小區",
+          "name": "屏東教會",
+          "links": [
+            {
+              "label": "屏東教會",
+              "url": "http://pingtung.tjchurch.org.tw/"
+            },
+            {
+              "label": "相片",
+              "url": "http://south.tjc.org.tw/各教會相片/26.屏東.jpg"
+            },
+            {
+              "label": "FB",
+              "url": "https://www.facebook.com/TJC.Pingtung/"
+            },
+            {
+              "label": "簡介",
+              "url": "https://www.tjc.org.tw/brochure/church/content?category=5&collapse=24&id=D209"
+            }
+          ],
+          "address": "900007 屏東市中山路 42 號",
+          "phone": "(08) 732-0604",
+          "fax": "(08) 766-7597"
+        },
+        {
+          "district": "高屏小區",
+          "name": "烏龍教會",
+          "links": [
+            {
+              "label": "烏龍教會",
+              "url": "http://pingtung.tjchurch.org.tw/"
+            },
+            {
+              "label": "相片",
+              "url": "http://south.tjc.org.tw/各教會相片/27.烏龍.JPG"
+            },
+            {
+              "label": "FB",
+              "url": "https://www.facebook.com/%E7%9C%9F%E8%80%B6%E7%A9%8C%E6%95%99%E6%9C%83-%E7%83%8F%E9%BE%8D%E6%95%99%E6%9C%83-1687089134860199/"
+            },
+            {
+              "label": "簡介",
+              "url": "https://www.tjc.org.tw/brochure/church/content?category=5&collapse=24&id=D211"
+            }
+          ],
+          "address": "932015 屏東縣新園鄉興龍村臥龍路 72 號",
+          "phone": "(08) 835-1052",
+          "fax": "(08) 835-1022"
+        },
+        {
+          "district": "高屏小區",
+          "name": "潮州教會",
+          "links": [
+            {
+              "label": "潮州教會",
+              "url": "http://pingtung.tjchurch.org.tw/"
+            },
+            {
+              "label": "相片",
+              "url": "http://south.tjc.org.tw/各教會相片/28.潮州.jpg"
+            },
+            {
+              "label": "簡介",
+              "url": "https://www.tjc.org.tw/brochure/church/content?category=5&collapse=24&id=D210"
+            }
+          ],
+          "address": "920002 屏東縣潮州鎮朝昇路 138 號",
+          "phone": "(08) 788-1076",
+          "fax": "無"
+        },
+        {
+          "district": "高屏小區",
+          "name": "古樓教會",
+          "links": [
+            {
+              "label": "相片",
+              "url": "http://south.tjc.org.tw/各教會相片/29.古樓.jpg"
+            },
+            {
+              "label": "簡介",
+              "url": "https://www.tjc.org.tw/brochure/church/content?category=5&collapse=24&id=D212"
+            }
+          ],
+          "address": "922020 屏東縣來義鄉古樓村新隆路 225 號",
+          "phone": "0933-884068",
+          "fax": "無"
+        }
+      ]
+    }
+  ]
+}
