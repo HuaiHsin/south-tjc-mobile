@@ -31,13 +31,15 @@
     return (g.churches || g.links || []).length;
   }
 
-  var DATA = null, INDEX = null, CATS = {}, BULLETIN = null;
+  var DATA = null, INDEX = null, CATS = {}, BULLETIN = null, AIGUIDE = null;
+  var AI_GUIDE_GID = "spirit|南區AI指引";   // 開啟時顯示重製版「南區 AI 使用指引」整頁
 
   Promise.all([
     fetch("data/links.json").then(function (r) { return r.json(); }),
-    fetch("data/announcements.json").then(function (r) { return r.json(); }).catch(function () { return null; })
+    fetch("data/announcements.json").then(function (r) { return r.json(); }).catch(function () { return null; }),
+    fetch("data/ai-guide.json").then(function (r) { return r.json(); }).catch(function () { return null; })
   ]).then(function (res) {
-    DATA = res[0]; BULLETIN = res[1];
+    DATA = res[0]; BULLETIN = res[1]; AIGUIDE = res[2];
     (DATA.categories || []).forEach(function (c) { CATS[c.id] = c; });
     INDEX = window.TJCSearch.buildIndex(DATA);
     renderTopnav();
@@ -93,7 +95,7 @@
     $("#topnav").querySelectorAll(".td-item").forEach(function (a) {
       a.addEventListener("click", function (e) {
         e.preventDefault(); closeAllDrops();
-        openCategoryDetail(a.getAttribute("data-cat"), a.getAttribute("data-gid"));
+        openGroup(a.getAttribute("data-cat"), a.getAttribute("data-gid"));
       });
     });
     $("#topnav").querySelectorAll(".td-all").forEach(function (a) {
@@ -123,9 +125,12 @@
         }).join("") + "</div></div>";
     }).join("");
     if (!body) { host.hidden = true; return; }
+    var guideBtn = AIGUIDE ? '<button class="ab-guide" id="abGuide">南區 AI 使用指引 · 智能體分析　›</button>' : "";
     host.innerHTML = '<div class="aibots-inner">' +
-      '<div class="ab-kicker">✦ AI 靈修智能體</div>' + body + "</div>";
+      '<div class="ab-kicker">✦ AI 靈修智能體</div>' + body + guideBtn + "</div>";
     host.hidden = false;
+    var gb = $("#abGuide");
+    if (gb) gb.addEventListener("click", openAiGuide);
   }
 
   /* ---------- Hero (特別公告 + 尋人啟示) ---------- */
@@ -315,7 +320,7 @@
     $("#drawerList").querySelectorAll(".draw-sub a").forEach(function (a) {
       a.addEventListener("click", function (e) {
         e.preventDefault(); closeDrawer();
-        openCategoryDetail(a.getAttribute("data-cat"), a.getAttribute("data-gid"));
+        openGroup(a.getAttribute("data-cat"), a.getAttribute("data-gid"));
       });
     });
   }
@@ -356,14 +361,140 @@
   }
   $("#detailBack").addEventListener("click", popDetail);
 
+  function openGroup(catId, gid) {
+    if (gid === AI_GUIDE_GID && AIGUIDE) { openAiGuide(); return; }
+    openCategoryDetail(catId, gid);
+  }
   function openCategoryDetail(catId, targetGid) {
     detailStack = [];
     pushDetail(function () { renderCategoryDetail(catId, targetGid); });
+  }
+  function openAiGuide() { detailStack = []; pushDetail(renderAiGuideDetail); }
+
+  /* ---------- 南區 AI 使用指引（重製 index.htm + index4.htm） ---------- */
+  function agentCard(a) {
+    function lk(url, label, cls) {
+      return '<a class="aig-bot ' + cls + '" ' + attrs(url) + "><b>" + label + "</b></a>";
+    }
+    var note = a.note ? '<a class="aig-note" ' + attrs(a.note) + ">使用備註 ›</a>" : "";
+    return '<div class="aig-agent">' +
+      '<div class="aig-agent-h"><span class="aig-agent-nm">《' + esc(a.name) + "》</span>" + note + "</div>" +
+      '<div class="aig-agent-d">' + esc(a.desc) + "</div>" +
+      '<div class="aig-bots">' + lk(a.gpt, "GPT", "gpt") + lk(a.gemini, "Gemini", "gemini") + "</div></div>";
+  }
+  function renderAiGuideDetail() {
+    var g = AIGUIDE;
+    var builders = g.builders.map(function (b) {
+      return '<span class="aig-builder"><b>' + esc(b.platform) + "</b> · " + esc(b.maintainer) + "</span>";
+    }).join("");
+    var agents = g.agents.map(agentCard).join("");
+
+    var teamGroups = g.team.groups.map(function (gr) {
+      var reps = gr.reports.map(function (r) {
+        return '<a class="aig-report" ' + attrs(r.url) + '><span class="ttl">' + esc(r.text) + "</span>" + badge("pdf") + "</a>";
+      }).join("");
+      var mem = gr.members.map(function (m) { return "<li>" + esc(m) + "</li>"; }).join("");
+      return '<div class="aig-team-card"><div class="aig-team-nm">' + esc(gr.name) + "</div>" +
+        '<div class="aig-reports">' + reps + "</div>" +
+        '<ul class="aig-members">' + mem + "</ul></div>";
+    }).join("");
+
+    var html =
+      '<div class="aig">' +
+      '<div class="aig-hero"><div class="aig-kick">✦ 南區宣牧聖工 AI 策略小組</div>' +
+      '<h1 class="aig-title">' + esc(g.title) + "</h1>" +
+      '<div class="aig-copy">' + esc(g.copyright) + "</div>" +
+      '<div class="aig-builders">' + builders + "</div></div>" +
+
+      '<section class="aig-sec"><h2 class="aig-h2"><span class="n">壹</span>信仰型智能體</h2>' +
+      '<p class="aig-lead">點選下方智能體即可開啟對話；各平台同名智能體內容一致，請擇一使用。</p>' +
+      '<div class="aig-agents">' + agents + "</div></section>" +
+
+      '<section class="aig-sec"><h2 class="aig-h2"><span class="n">貳</span>' + esc(g.team.title) + "</h2>" +
+      '<div class="aig-teams">' + teamGroups + "</div>" +
+      '<p class="aig-secretary">' + esc(g.team.secretary) + "</p></section>" +
+
+      '<button class="aig-analysis-btn" data-aig-analysis="1">' +
+      '<span class="aig-ab-tx"><span class="aig-ab-t">真耶穌教會智能體分析</span>' +
+      '<span class="aig-ab-s">三款信仰型 AI 的定位、特色與互補比較</span></span>' +
+      '<svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></button>' +
+      "</div>";
+
+    showDetail("南區 AI 使用指引", html, function () {
+      var b = $("#detailBody").querySelector("[data-aig-analysis]");
+      if (b) b.addEventListener("click", function () { pushDetail(renderAiAnalysisDetail); });
+    });
+  }
+
+  function renderAiAnalysisDetail() {
+    var a = AIGUIDE.analysis, nm = a.names;
+    function tableHead(first, cols) {
+      return "<tr><th>" + esc(first) + "</th>" + cols.map(function (c) { return "<th>" + esc(c) + "</th>"; }).join("") + "</tr>";
+    }
+    // 定位比較
+    var posRows = a.positioning.rows.map(function (r) {
+      return "<tr><th>" + esc(r.label) + "</th>" + r.values.map(function (v) { return "<td>" + esc(v) + "</td>"; }).join("") + "</tr>";
+    }).join("");
+    var posTable = '<div class="aig-tablewrap"><table class="aig-table"><thead>' +
+      tableHead("面向", nm) + "</thead><tbody>" + posRows + "</tbody></table></div>";
+
+    // profile cards
+    var profiles = a.profiles.cards.map(function (c) {
+      var secs = c.sections.map(function (s) {
+        var items = s.items.map(function (it) { return "<li>" + esc(it) + "</li>"; }).join("");
+        return '<div class="aig-pf-sec"><div class="aig-pf-lab">' + esc(s.label) + "</div><ol>" + items + "</ol></div>";
+      }).join("");
+      return '<div class="aig-profile"><div class="aig-pf-nm">《' + esc(c.name) + "》</div>" +
+        '<p class="aig-pf-lead">' + esc(c.lead) + "</p>" + secs + "</div>";
+    }).join("");
+
+    // overall layers + combo
+    var ov = a.overall;
+    var layers = ov.layers.items.map(function (t, i) {
+      return '<div class="aig-layer"><span class="aig-layer-n">' + (i + 1) + "</span><span>" + esc(t) + "</span></div>";
+    }).join("");
+    var combo = ov.combo.items.map(function (t) { return "<li>" + esc(t) + "</li>"; }).join("");
+
+    // summary table
+    var sumRows = ov.summary.rows.map(function (r) {
+      return "<tr><th>" + esc(r[0]) + "</th>" + r.slice(1).map(function (v) { return "<td>" + esc(v) + "</td>"; }).join("") + "</tr>";
+    }).join("");
+    var sumTable = '<div class="aig-tablewrap"><table class="aig-table"><thead>' +
+      tableHead(ov.summary.head[0], ov.summary.head.slice(1)) + "</thead><tbody>" + sumRows + "</tbody></table></div>";
+
+    var html =
+      '<div class="aig">' +
+      '<div class="aig-hero alt"><div class="aig-kick">✦ 智能體分析</div>' +
+      '<h1 class="aig-title">' + esc(a.title) + "</h1>" +
+      a.intro.map(function (p) { return '<p class="aig-intro">' + esc(p) + "</p>"; }).join("") + "</div>" +
+
+      '<section class="aig-sec"><h2 class="aig-h2"><span class="n">一</span>定位比較</h2>' + posTable + "</section>" +
+
+      '<section class="aig-sec"><h2 class="aig-h2"><span class="n">二</span>各智能體的特色、優點、適合用途</h2>' +
+      '<div class="aig-profiles">' + profiles + "</div></section>" +
+
+      '<section class="aig-sec"><h2 class="aig-h2"><span class="n">三</span>整體比較</h2>' +
+      '<div class="aig-card"><div class="aig-card-t">' + esc(ov.layers.title) + "</div>" +
+      '<div class="aig-layers">' + layers + "</div></div>" +
+      '<div class="aig-card"><div class="aig-card-t">' + esc(ov.combo.title) + "</div>" +
+      '<ol class="aig-combo">' + combo + "</ol></div>" +
+      '<div class="aig-card"><div class="aig-card-t">' + esc(ov.summary.title) + "</div>" + sumTable + "</div>" +
+      '<p class="aig-disclaimer"><b>備註：</b>' + esc(ov.note) + "</p></section>" +
+      "</div>";
+
+    showDetail("智能體分析", html);
   }
   function renderCategoryDetail(catId, targetGid) {
     var c = CATS[catId]; if (!c) return;
     var groups = groupsOf(catId);
     var html = groups.map(function (g) {
+      if (g.id === AI_GUIDE_GID && AIGUIDE) {
+        return '<button class="dgroup aig-promo" data-aig-open="1">' +
+          '<span class="aig-promo-ic">✦</span>' +
+          '<span class="aig-promo-tx"><b>南區 AI 使用指引</b>' +
+          '<span>信仰型智能體、策略小組報告與智能體分析</span></span>' +
+          '<svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></button>';
+      }
       var head = '<div class="dgroup-h"><span class="gt">' + esc(g.title) + '</span><span class="gc">' +
         gsize(g) + (g.kind === "directory" ? " 間" : " 項") + "</span></div>";
       var inner;
@@ -394,6 +525,8 @@
       return '<div class="dgroup" data-gid="' + esc(g.id) + '">' + inner + "</div>";
     }).join("");
     showDetail(c.name + "（" + countOf(catId) + "）", html, function () {
+      var aigBtn = $("#detailBody").querySelector("[data-aig-open]");
+      if (aigBtn) aigBtn.addEventListener("click", function () { pushDetail(renderAiGuideDetail); });
       $("#detailBody").querySelectorAll("[data-group]").forEach(function (b) {
         b.addEventListener("click", function () { pushDetail(function () { renderGroupDetail(b.getAttribute("data-group")); }); });
       });

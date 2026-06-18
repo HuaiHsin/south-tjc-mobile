@@ -16,6 +16,9 @@ crawl/links-per-source.txt
 # gstack 工具本機狀態（含 token，絕不發布）
 .gstack/
 
+# Claude Code 本機設定 / 預覽伺服器設定（含本機狀態，不發布）
+.claude/
+
 # 同步備份與暫存
 data/.backup/
 *.bak
