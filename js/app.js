@@ -31,15 +31,17 @@
     return (g.churches || g.links || []).length;
   }
 
-  var DATA = null, INDEX = null, CATS = {}, BULLETIN = null, AIGUIDE = null;
+  var DATA = null, INDEX = null, CATS = {}, BULLETIN = null, AIGUIDE = null, PMEDIA = null;
   var AI_GUIDE_GID = "spirit|南區AI指引";   // 開啟時顯示重製版「南區 AI 使用指引」整頁
+  var PMEDIA_GID = "spirit|傳道靈糧分享";    // 開啟時顯示重製版「傳道影音專區」整頁
 
   Promise.all([
     fetch("data/links.json").then(function (r) { return r.json(); }),
     fetch("data/announcements.json").then(function (r) { return r.json(); }).catch(function () { return null; }),
-    fetch("data/ai-guide.json").then(function (r) { return r.json(); }).catch(function () { return null; })
+    fetch("data/ai-guide.json").then(function (r) { return r.json(); }).catch(function () { return null; }),
+    fetch("data/preacher-media.json").then(function (r) { return r.json(); }).catch(function () { return null; })
   ]).then(function (res) {
-    DATA = res[0]; BULLETIN = res[1]; AIGUIDE = res[2];
+    DATA = res[0]; BULLETIN = res[1]; AIGUIDE = res[2]; PMEDIA = res[3];
     (DATA.categories || []).forEach(function (c) { CATS[c.id] = c; });
     INDEX = window.TJCSearch.buildIndex(DATA);
     renderTopnav();
@@ -363,6 +365,7 @@
 
   function openGroup(catId, gid) {
     if (gid === AI_GUIDE_GID && AIGUIDE) { openAiGuide(); return; }
+    if (gid === PMEDIA_GID && PMEDIA) { openPreacherMedia(); return; }
     openCategoryDetail(catId, gid);
   }
   function openCategoryDetail(catId, targetGid) {
@@ -370,6 +373,79 @@
     pushDetail(function () { renderCategoryDetail(catId, targetGid); });
   }
   function openAiGuide() { detailStack = []; pushDetail(renderAiGuideDetail); }
+  function openPreacherMedia() { detailStack = []; pushDetail(renderPreacherMediaDetail); }
+
+  /* ---------- 傳道影音專區（重製 13/index.htm） ---------- */
+  function pmSermonEntry(e) {
+    var langs = e.langs.map(function (l) {
+      var cls = l.lang === "台語" ? "tai" : "guo";
+      return '<a class="pm-lang ' + cls + '" ' + attrs(l.url) + ">" +
+        '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M10 9l5 3-5 3z" fill="currentColor" stroke="none"/></svg>' +
+        (l.lang || "影片") + "</a>";
+    }).join("");
+    return '<div class="pm-card">' +
+      '<div class="pm-card-top">' + (e.date ? '<span class="pm-date">' + esc(e.date) + "</span>" : "") +
+      (e.no ? '<span class="pm-no">' + esc(e.no) + "</span>" : "") + "</div>" +
+      '<div class="pm-ref">' + esc(e.ref) + "</div>" +
+      '<div class="pm-langs">' + langs + "</div></div>";
+  }
+  function pmDevotionEntry(e) {
+    return '<a class="pm-dev" ' + attrs(e.url) + ">" +
+      (e.date ? '<span class="pm-dev-date">' + esc(e.date) + "</span>" : "") +
+      '<span class="pm-dev-title">' + esc(e.title) + "</span>" + badge(e.kind === "youtube" ? "youtube" : e.kind) + "</a>";
+  }
+  function pmPreacher(p) {
+    var series = p.series.map(function (s) {
+      var parts = s.parts.map(function (pt) {
+        return '<a class="chip" ' + attrs(pt.url) + ">" + esc(pt.label) + "</a>";
+      }).join("");
+      return '<div class="pm-series"><div class="pm-series-t">' + esc(s.title) + "</div>" +
+        '<div class="pm-parts">' + parts + "</div></div>";
+    }).join("");
+    var lang = p.lang ? '<span class="pm-plang">' + esc(p.lang) + "</span>" : "";
+    return '<div class="pm-preacher"><div class="pm-pname">' + esc(p.name) + lang + "</div>" + series + "</div>";
+  }
+  function pmSection(s) {
+    var inner;
+    if (s.type === "lecture") {
+      inner = '<div class="pm-preachers">' + s.preachers.map(pmPreacher).join("") + "</div>";
+    } else if (s.type === "devotion") {
+      inner = '<div class="pm-dev-list">' + s.entries.map(pmDevotionEntry).join("") + "</div>";
+    } else {
+      inner = '<div class="pm-grid">' + s.entries.map(pmSermonEntry).join("") + "</div>";
+    }
+    var count = s.type === "lecture" ? s.preachers.length + " 位傳道" : s.entries.length + " 則";
+    var sub = s.note ? '<span class="pm-sec-sub">（' + esc(s.note) + "）</span>" : "";
+    return '<section class="pm-sec" id="pm-sec-' + esc(s.no) + '">' +
+      '<h2 class="pm-sec-h"><span class="n">' + esc(s.no) + "</span>" +
+      '<span class="pm-sec-t">' + esc(s.title) + sub + "</span>" +
+      '<span class="pm-sec-n">' + count + "</span></h2>" + inner + "</section>";
+  }
+  function renderPreacherMediaDetail() {
+    var d = PMEDIA;
+    var nav = d.sections.map(function (s) {
+      return '<a class="pm-jump" data-jump="pm-sec-' + esc(s.no) + '">' + esc(s.no) + "</a>";
+    }).join("");
+    var channel = d.channel
+      ? '<a class="pm-channel" ' + attrs(d.channel.url) + '>' +
+        '<svg viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="3"/><path d="M10 9l5 3-5 3z" fill="currentColor" stroke="none"/></svg>' +
+        esc(d.channel.text) + "　›</a>"
+      : "";
+    var html = '<div class="pm">' +
+      '<div class="pm-hero"><div class="pm-kick">✦ 南區傳道影音</div>' +
+      '<h1 class="pm-h1">傳道者靈糧分享・靈修小語・聖經講座</h1>' +
+      '<p class="pm-lead">歷年傳道講道、每週靈修小語與聖經講座影音彙整，影片開啟後導向 YouTube／原站檔案。</p>' +
+      channel + '<div class="pm-nav">' + nav + "</div></div>" +
+      d.sections.map(pmSection).join("") + "</div>";
+    showDetail("傳道影音專區", html, function () {
+      $("#detailBody").querySelectorAll("[data-jump]").forEach(function (a) {
+        a.addEventListener("click", function () {
+          var el = document.getElementById(a.getAttribute("data-jump"));
+          if (el) $("#detailBody").scrollTop = el.offsetTop - 12;
+        });
+      });
+    });
+  }
 
   /* ---------- 南區 AI 使用指引（重製 index.htm + index4.htm） ---------- */
   function agentCard(a) {
@@ -495,6 +571,13 @@
           '<span>信仰型智能體、策略小組報告與智能體分析</span></span>' +
           '<svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></button>';
       }
+      if (g.id === PMEDIA_GID && PMEDIA) {
+        return '<button class="dgroup aig-promo pm-promo" data-pm-open="1">' +
+          '<span class="aig-promo-ic">▶</span>' +
+          '<span class="aig-promo-tx"><b>傳道影音專區</b>' +
+          '<span>靈糧分享、靈修小語、傳道者聖經講座</span></span>' +
+          '<svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></button>';
+      }
       var head = '<div class="dgroup-h"><span class="gt">' + esc(g.title) + '</span><span class="gc">' +
         gsize(g) + (g.kind === "directory" ? " 間" : " 項") + "</span></div>";
       var inner;
@@ -527,6 +610,8 @@
     showDetail(c.name + "（" + countOf(catId) + "）", html, function () {
       var aigBtn = $("#detailBody").querySelector("[data-aig-open]");
       if (aigBtn) aigBtn.addEventListener("click", function () { pushDetail(renderAiGuideDetail); });
+      var pmBtn = $("#detailBody").querySelector("[data-pm-open]");
+      if (pmBtn) pmBtn.addEventListener("click", function () { pushDetail(renderPreacherMediaDetail); });
       $("#detailBody").querySelectorAll("[data-group]").forEach(function (b) {
         b.addEventListener("click", function () { pushDetail(function () { renderGroupDetail(b.getAttribute("data-group")); }); });
       });

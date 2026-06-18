@@ -1,0 +1,2305 @@
+{
+  "source": "http://south.tjc.org.tw/13/index.htm",
+  "title": "傳道影音專區",
+  "channel": {
+    "text": "南區頻道YouTube入口網站",
+    "url": "https://www.youtube.com/channel/UCLbOGF7nz_KA3S0BgDIWR1Q/videos"
+  },
+  "sections": [
+    {
+      "no": "一",
+      "title": "黃志傑傳道靈糧分享：阿傑傳道房",
+      "type": "sermon",
+      "entries": [
+        {
+          "date": "110.6.10",
+          "no": "1",
+          "ref": "路14:25-33",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "路14:25-33",
+              "url": "https://www.youtube.com/watch?v=vkM3en-MWr8&list=PLDoqLdXIY5gDHq4wMbsl74RGLbILkctfY&index=1",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "路14:25-33",
+              "url": "https://www.youtube.com/watch?v=4EOesPInmvc&list=PLDoqLdXIY5gDHq4wMbsl74RGLbILkctfY&index=2",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.6.18",
+          "no": "2",
+          "ref": "太13:24-30",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "太13:24-30",
+              "url": "https://www.youtube.com/watch?v=zD5qSzTgDHU&list=PLDoqLdXIY5gDHq4wMbsl74RGLbILkctfY&index=3",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "太13:24-30",
+              "url": "https://www.youtube.com/watch?v=l6Sh8uC4tb0&list=PLDoqLdXIY5gDHq4wMbsl74RGLbILkctfY&index=10",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.6.25",
+          "no": "3",
+          "ref": "路19:11-27",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "路19:11-27",
+              "url": "https://www.youtube.com/watch?v=_Wd3dTjy7VY&list=PLDoqLdXIY5gDHq4wMbsl74RGLbILkctfY&index=4",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "路19:11-27",
+              "url": "https://www.youtube.com/watch?v=H_iZY-seXnY",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.7.2",
+          "no": "4",
+          "ref": "太13:44-52",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "太13:44-52",
+              "url": "https://www.youtube.com/watch?v=8UUHLrns4_4&list=UUkdYIyMwAB6Rvg3RrRjqrew&index=24",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "太13:44-52",
+              "url": "https://www.youtube.com/watch?v=gFw3Zv6MWzc&list=UUkdYIyMwAB6Rvg3RrRjqrew&index=25",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.7.9",
+          "no": "5",
+          "ref": "太24:32-44",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "太24:32-44",
+              "url": "https://www.youtube.com/watch?v=cuH_2Ehm1K0",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "太24:32-44",
+              "url": "https://www.youtube.com/watch?v=p8_-TmJHtpM",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.7.16",
+          "no": "6",
+          "ref": "太24:45-51",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "太24:45-51",
+              "url": "https://www.youtube.com/watch?v=i5ZOsEsrqQo",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "太24:45-51",
+              "url": "https://www.youtube.com/watch?v=3-QfWvGOh_E",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.7.23",
+          "no": "7",
+          "ref": "太18:21-35",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "太18:21-35",
+              "url": "https://www.youtube.com/watch?v=gAz91NP-95A",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "太18:21-35",
+              "url": "https://www.youtube.com/watch?v=MUiSILuBpRA",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.7.30",
+          "no": "8",
+          "ref": "路14:7-11",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "路14:7-11",
+              "url": "https://www.youtube.com/watch?v=b4lShkGS-u4&list=UUkdYIyMwAB6Rvg3RrRjqrew&index=22",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "路14:7-11",
+              "url": "https://www.youtube.com/watch?v=eRu0McKv8cg&list=UUkdYIyMwAB6Rvg3RrRjqrew&index=20",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.9.14",
+          "no": "9",
+          "ref": "路14:12-14",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "路14:12-14",
+              "url": "https://www.youtube.com/watch?v=RJCTgGFYkyo&list=UUkdYIyMwAB6Rvg3RrRjqrew&index=21",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.10.5",
+          "no": "10",
+          "ref": "路14:15-24",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "路14:15-24",
+              "url": "https://www.youtube.com/watch?v=4U4CW9G5NhM&list=UUkdYIyMwAB6Rvg3RrRjqrew&index=27",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.11.5",
+          "no": "11",
+          "ref": "路4:1-13",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "路4:1-13",
+              "url": "https://www.youtube.com/watch?v=lkbeiarexmc&list=UUkdYIyMwAB6Rvg3RrRjqrew&index=28",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.11.15",
+          "no": "12",
+          "ref": "路4:16-30",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "路4:16-30",
+              "url": "https://www.youtube.com/watch?v=Icv886IfHjk&list=UUkdYIyMwAB6Rvg3RrRjqrew&index=29",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.11.15",
+          "no": "13",
+          "ref": "路5:1-11",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "路5:1-11",
+              "url": "https://www.youtube.com/watch?v=aYzOTyJE7dc&list=UUkdYIyMwAB6Rvg3RrRjqrew&index=26",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.11.23",
+          "no": "14",
+          "ref": "路5:27-39",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "路5:27-39",
+              "url": "https://www.youtube.com/watch?v=7wNG5cz-yI8&list=UUkdYIyMwAB6Rvg3RrRjqrew&index=23",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.11.30",
+          "no": "15",
+          "ref": "路6:1-11",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "路6:1-11",
+              "url": "https://www.youtube.com/watch?v=Sda3LFtSDfo&list=UUkdYIyMwAB6Rvg3RrRjqrew&index=19",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.12.7",
+          "no": "16",
+          "ref": "路6:20-26",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "路6:20-26",
+              "url": "https://www.youtube.com/watch?v=w1QlQ7a8Fk4&list=UUkdYIyMwAB6Rvg3RrRjqrew&index=18",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.12.14",
+          "no": "17",
+          "ref": "路6:27-36",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "路6:27-36",
+              "url": "https://www.youtube.com/watch?v=tAUBK6oMZyE&list=UUkdYIyMwAB6Rvg3RrRjqrew&index=17",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.12.21",
+          "no": "18",
+          "ref": "路6:37-42",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "路6:37-42",
+              "url": "https://www.youtube.com/watch?v=rZtbOkxSj8E&list=UUkdYIyMwAB6Rvg3RrRjqrew&index=16",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.12.28",
+          "no": "19",
+          "ref": "路6:43-45",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "路6:43-45",
+              "url": "https://www.youtube.com/watch?v=Dn_K9sxHGM8&list=UUkdYIyMwAB6Rvg3RrRjqrew&index=15",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "111.1.4",
+          "no": "20",
+          "ref": "路6:46-49",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "路6:46-49",
+              "url": "https://www.youtube.com/watch?v=o92k4qN1z1c&list=UUkdYIyMwAB6Rvg3RrRjqrew&index=14",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "111.1.4",
+          "no": "21",
+          "ref": "路9:18-27",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "路9:18-27",
+              "url": "https://www.youtube.com/watch?v=SsBA4lz38cA&list=UUkdYIyMwAB6Rvg3RrRjqrew&index=13",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "111.1.18",
+          "no": "22",
+          "ref": "路11:5-13",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "路11:5-13",
+              "url": "https://www.youtube.com/watch?v=_bBQIEsv-Eg&list=UUkdYIyMwAB6Rvg3RrRjqrew&index=12",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "111.1.25",
+          "no": "23",
+          "ref": "路11:14-23",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "路11:14-23",
+              "url": "https://www.youtube.com/watch?v=nQWSCgBiNuQ&list=UUkdYIyMwAB6Rvg3RrRjqrew&index=11",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "111.2.7",
+          "no": "24",
+          "ref": "路11:24-26",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "路11:24-26",
+              "url": "https://www.youtube.com/watch?v=zyNhuA9XGYs&list=UUkdYIyMwAB6Rvg3RrRjqrew&index=5",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "111.2.15",
+          "no": "25",
+          "ref": "路11:29-32",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "路11:29-32",
+              "url": "https://www.youtube.com/watch?v=N5qcVi2Lqgs&list=UUkdYIyMwAB6Rvg3RrRjqrew&index=4",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "111.2.22",
+          "no": "26",
+          "ref": "路12:1-12",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "路12:1-12",
+              "url": "https://www.youtube.com/watch?v=7Egc_auOIKs&list=UUkdYIyMwAB6Rvg3RrRjqrew&index=3",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "111.3.1",
+          "no": "27",
+          "ref": "路13:1-9",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "路13:1-9",
+              "url": "https://www.youtube.com/watch?v=D8T_h5w2kkc&list=UUkdYIyMwAB6Rvg3RrRjqrew&index=2",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "111.3.8",
+          "no": "28",
+          "ref": "路13:22-30",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "路13:22-30",
+              "url": "https://www.youtube.com/watch?v=6bh069KtNM4&list=UUkdYIyMwAB6Rvg3RrRjqrew&index=1",
+              "kind": "youtube"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": "二",
+      "title": "黃志傑傳道靈修小語",
+      "type": "devotion",
+      "entries": [
+        {
+          "date": "110.5.21",
+          "title": "神言僕語(1)",
+          "url": "http://south.tjc.org.tw/13/阿傑傳道房/神言僕語/神言僕語-1.pdf",
+          "kind": "pdf"
+        },
+        {
+          "date": "110.5.27",
+          "title": "神言僕語(2)",
+          "url": "http://south.tjc.org.tw/13/阿傑傳道房/神言僕語/神言僕語-2.pdf",
+          "kind": "pdf"
+        },
+        {
+          "date": "110.6.3",
+          "title": "神言僕語(3)",
+          "url": "http://south.tjc.org.tw/13/阿傑傳道房/神言僕語/神言僕語-3.pdf",
+          "kind": "pdf"
+        },
+        {
+          "date": "110.6.11",
+          "title": "神言僕語(4)",
+          "url": "http://south.tjc.org.tw/13/阿傑傳道房/神言僕語/神言僕語-4.pdf",
+          "kind": "pdf"
+        },
+        {
+          "date": "110.6.17",
+          "title": "神言僕語(5)",
+          "url": "http://south.tjc.org.tw/13/阿傑傳道房/神言僕語/神言僕語-5.pdf",
+          "kind": "pdf"
+        },
+        {
+          "date": "110.6.24",
+          "title": "神言僕語(6)",
+          "url": "http://south.tjc.org.tw/13/阿傑傳道房/神言僕語/神言僕語-6.pdf",
+          "kind": "pdf"
+        },
+        {
+          "date": "110.7.6",
+          "title": "神言僕語(7)",
+          "url": "http://south.tjc.org.tw/13/阿傑傳道房/神言僕語/神言僕語-7.pdf",
+          "kind": "pdf"
+        },
+        {
+          "date": "110.7.8",
+          "title": "神言僕語(8)",
+          "url": "http://south.tjc.org.tw/13/阿傑傳道房/神言僕語/神言僕語-8.pdf",
+          "kind": "pdf"
+        },
+        {
+          "date": "110.7.15",
+          "title": "神言僕語(9)",
+          "url": "http://south.tjc.org.tw/13/阿傑傳道房/神言僕語/神言僕語-9.pdf",
+          "kind": "pdf"
+        },
+        {
+          "date": "110.7.22",
+          "title": "神言僕語(10)",
+          "url": "http://south.tjc.org.tw/13/阿傑傳道房/神言僕語/神言僕語-10.pdf",
+          "kind": "pdf"
+        },
+        {
+          "date": "110.7.30",
+          "title": "神言僕語(11)",
+          "url": "http://south.tjc.org.tw/13/阿傑傳道房/神言僕語/神言僕語-11.pdf",
+          "kind": "pdf"
+        },
+        {
+          "date": "111.1.31",
+          "title": "除夕聊聊(彌7:18)",
+          "url": "https://www.youtube.com/watch?v=ToLm5RoZdQs&list=UUkdYIyMwAB6Rvg3RrRjqrew&index=6",
+          "kind": "youtube"
+        }
+      ]
+    },
+    {
+      "no": "三",
+      "title": "翁正晃傳道靈糧分享",
+      "type": "sermon",
+      "entries": [
+        {
+          "date": "110.6.9",
+          "no": "",
+          "ref": "出2:23-25",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "出2:23-25",
+              "url": "https://www.youtube.com/watch?v=GpRTXmqkVbA&list=PLDoqLdXIY5gAPnloUXlcpI5ZNLCRWDUd5&index=1&t=1s",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.6.10",
+          "no": "",
+          "ref": "太6:33-34",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "太6:33-34",
+              "url": "https://www.youtube.com/watch?v=z0dF-rATL10&list=PLDoqLdXIY5gAPnloUXlcpI5ZNLCRWDUd5&index=2",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.6.11",
+          "no": "",
+          "ref": "路5:1-11",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "路5:1-11",
+              "url": "https://www.youtube.com/watch?v=RaENKEWhz6s&list=PLDoqLdXIY5gAPnloUXlcpI5ZNLCRWDUd5&index=18",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.6.12",
+          "no": "",
+          "ref": "太6:9-13",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "太6:9-13",
+              "url": "https://www.youtube.com/watch?v=tHq87V_Kq8c&list=PLDoqLdXIY5gAPnloUXlcpI5ZNLCRWDUd5&index=4",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.6.13",
+          "no": "",
+          "ref": "賽41:9-10",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "賽41:9-10",
+              "url": "https://www.youtube.com/watch?v=AccwBADjCBQ&list=PLDoqLdXIY5gAPnloUXlcpI5ZNLCRWDUd5&index=17",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.6.14",
+          "no": "",
+          "ref": "詩1:3",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩1:3",
+              "url": "https://www.youtube.com/watch?v=ofZ-VramX4M&list=PLDoqLdXIY5gAPnloUXlcpI5ZNLCRWDUd5&index=16",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.6.15",
+          "no": "",
+          "ref": "詩2:11",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩2:11",
+              "url": "https://www.youtube.com/watch?v=KQkola0FbQ8&list=PLDoqLdXIY5gAPnloUXlcpI5ZNLCRWDUd5&index=19",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.6.16",
+          "no": "",
+          "ref": "詩3:3-5",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩3:3-5",
+              "url": "https://www.youtube.com/watch?v=pgY3rygUBtU&list=PLDoqLdXIY5gAPnloUXlcpI5ZNLCRWDUd5&index=20",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.6.17",
+          "no": "",
+          "ref": "詩4:7-8",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩4:7-8",
+              "url": "https://www.youtube.com/watch?v=qqtlOFnWczA&list=PLDoqLdXIY5gAPnloUXlcpI5ZNLCRWDUd5&index=21",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.6.18",
+          "no": "",
+          "ref": "詩5:1-2",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩5:1-2",
+              "url": "https://www.youtube.com/watch?v=8hATphfwbMw",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "詩5:3-6",
+              "url": "https://www.youtube.com/watch?v=2BkL3SZX1A4",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.6.19",
+          "no": "",
+          "ref": "詩6:4-5",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩6:4-5",
+              "url": "https://www.youtube.com/watch?v=IEY0E-TZB5w&list=PLDoqLdXIY5gAPnloUXlcpI5ZNLCRWDUd5&index=74",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "詩6:1-2.9",
+              "url": "https://www.youtube.com/watch?v=H3Wy1O2rZZ8",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.6.20",
+          "no": "",
+          "ref": "詩7:9-12",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩7:9-12",
+              "url": "https://www.youtube.com/watch?v=y031dI_eads&t=9s",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "詩7:9-12",
+              "url": "https://www.youtube.com/watch?v=-vPxiCuM70g&t=83s",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.6.21",
+          "no": "",
+          "ref": "詩8:3-9",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩8:3-9",
+              "url": "https://www.youtube.com/watch?v=sH37fKx-3Yk",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "詩8:3-9",
+              "url": "https://www.youtube.com/watch?v=gnhMSnVhTSw&t=9s",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.6.22",
+          "no": "",
+          "ref": "詩9:8-10",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩9:8-10",
+              "url": "https://www.youtube.com/watch?v=rGHzQ-B63ms",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "詩9:8-10",
+              "url": "https://www.youtube.com/watch?v=RL6LWOXPyqc",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.6.23",
+          "no": "",
+          "ref": "詩10:12-18",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩10:12-18",
+              "url": "https://www.youtube.com/watch?v=yuQ_SIQ4RYE",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "詩10:12-18",
+              "url": "https://www.youtube.com/watch?v=gXcKQFiYUOI&t=26s",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.6.24",
+          "no": "",
+          "ref": "詩11:3-7",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩11:3-7",
+              "url": "https://www.youtube.com/watch?v=WpDzAuaTkAw",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "詩11:3-7",
+              "url": "https://www.youtube.com/watch?v=bHMlAlakMlc",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.6.25",
+          "no": "",
+          "ref": "詩12:6-7",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩12:6-7",
+              "url": "https://www.youtube.com/watch?v=bodCLi0yqpc",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "詩12:6-7",
+              "url": "https://www.youtube.com/watch?v=J1oT6t6yZeM",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.6.26",
+          "no": "",
+          "ref": "詩13",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩13",
+              "url": "https://www.youtube.com/watch?v=U6z7OdT5BoY&list=PLDoqLdXIY5gAPnloUXlcpI5ZNLCRWDUd5&index=26",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "詩13",
+              "url": "https://www.youtube.com/watch?v=L9mTbZqFEXQ&list=PLDoqLdXIY5gAPnloUXlcpI5ZNLCRWDUd5&index=29",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.6.27",
+          "no": "",
+          "ref": "詩14",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩14",
+              "url": "https://www.youtube.com/watch?v=Ni7y3YHM_4A&list=PLDoqLdXIY5gAPnloUXlcpI5ZNLCRWDUd5&index=28",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "詩14",
+              "url": "https://www.youtube.com/watch?v=GAgPhXX6-XU&list=PLDoqLdXIY5gAPnloUXlcpI5ZNLCRWDUd5&index=27",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.6.28",
+          "no": "",
+          "ref": "詩15",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩15",
+              "url": "https://www.youtube.com/watch?v=Ni7y3YHM_4A&list=PLDoqLdXIY5gAPnloUXlcpI5ZNLCRWDUd5&index=28",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "詩15",
+              "url": "https://www.youtube.com/watch?v=GAgPhXX6-XU&list=PLDoqLdXIY5gAPnloUXlcpI5ZNLCRWDUd5&index=27",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.6.29",
+          "no": "",
+          "ref": "詩16:9-11",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩16:9-11",
+              "url": "https://www.youtube.com/watch?v=LeIhfjJ8kcw&list=PLDoqLdXIY5gAPnloUXlcpI5ZNLCRWDUd5&index=32&t=1s",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "詩16:9-11",
+              "url": "https://www.youtube.com/watch?v=IN2Ee8n4V0Q&list=PLDoqLdXIY5gAPnloUXlcpI5ZNLCRWDUd5&index=33",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.6.30",
+          "no": "",
+          "ref": "詩17:7-13",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩17:7-13",
+              "url": "https://www.youtube.com/watch?v=4blec931YA0",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "詩17:7-13",
+              "url": "https://www.youtube.com/watch?v=_B5UDzpgDaw",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.7.1",
+          "no": "",
+          "ref": "詩18:23-28",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩18:23-28",
+              "url": "https://www.youtube.com/watch?v=53OITEYtPG0",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "詩18:23-28",
+              "url": "https://www.youtube.com/watch?v=-xPfwXAmAdg",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.7.2",
+          "no": "",
+          "ref": "詩19:7-10",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩19:7-10",
+              "url": "https://www.youtube.com/watch?v=AjgjNht-4F8",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "詩19:7-10",
+              "url": "https://www.youtube.com/watch?v=8BCFWu7DtFg",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.7.3",
+          "no": "",
+          "ref": "詩20:6-9",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩20:6-9",
+              "url": "https://www.youtube.com/watch?v=tujYx25xc1E",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "詩20:6-9",
+              "url": "https://www.youtube.com/watch?v=m2yGWhet7w0",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.7.4",
+          "no": "",
+          "ref": "詩21:3-6",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩21:3-6",
+              "url": "https://www.youtube.com/watch?v=oB2pFYfGpvg&t=30s",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "詩21:3-6",
+              "url": "https://www.youtube.com/watch?v=fCXeKeGt77s",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.7.5",
+          "no": "",
+          "ref": "詩22:1、8-9",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩22:1、8-9",
+              "url": "https://www.youtube.com/watch?v=VYUG3Bcegng&t=81s",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "詩22:1、8-9",
+              "url": "https://www.youtube.com/watch?v=p24AV3IR9g8&t=12s",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.7.6",
+          "no": "",
+          "ref": "詩23",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩23",
+              "url": "https://www.youtube.com/watch?v=oFVlAav5sGM",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "詩23",
+              "url": "https://www.youtube.com/watch?v=BeS8bGYMK1M",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.7.7",
+          "no": "",
+          "ref": "詩24",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩24",
+              "url": "https://www.youtube.com/watch?v=Ae678UM2eBI",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "詩24",
+              "url": "https://www.youtube.com/watch?v=CqfAfJGS0ik",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.7.8",
+          "no": "",
+          "ref": "詩25:1-10",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩25:1-10",
+              "url": "https://www.youtube.com/watch?v=cIBnJI2ON4g",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "詩25:1-10",
+              "url": "https://www.youtube.com/watch?v=zUD0TdMX7e8",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.7.9",
+          "no": "",
+          "ref": "詩26:1-4",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩26:1-4",
+              "url": "https://www.youtube.com/watch?v=xBCQZ9oxdXw",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "詩26:1-4",
+              "url": "https://www.youtube.com/watch?v=-A_FqwihYUA",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.7.10",
+          "no": "",
+          "ref": "詩27:4-10",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩27:4-10",
+              "url": "https://www.youtube.com/watch?v=4gJmGBGXLNM&t=20s",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "詩27:4-10",
+              "url": "https://www.youtube.com/watch?v=cpmhvG2guEY&t=7s",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.7.11",
+          "no": "",
+          "ref": "詩28:1-9",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩28:1-9",
+              "url": "https://www.youtube.com/watch?v=T0Ks9j87VQs",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "詩28:1-9",
+              "url": "https://www.youtube.com/watch?v=P1w3EQs_PBI",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.7.12",
+          "no": "",
+          "ref": "詩29:1-11",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩29:1-11",
+              "url": "https://www.youtube.com/watch?v=Ze--LAdtwCA&list=PLDoqLdXIY5gAPnloUXlcpI5ZNLCRWDUd5&index=57",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "詩29:1-11",
+              "url": "https://www.youtube.com/watch?v=jhLXdYRPZ6c&list=PLDoqLdXIY5gAPnloUXlcpI5ZNLCRWDUd5&index=58",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.7.13",
+          "no": "",
+          "ref": "詩30:1-12",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩30:1-12",
+              "url": "https://www.youtube.com/watch?v=z8rvnZV2nB0&list=PLDoqLdXIY5gAPnloUXlcpI5ZNLCRWDUd5&index=59",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "詩30:1-12",
+              "url": "https://www.youtube.com/watch?v=jYrbt1cdjqc&list=PLDoqLdXIY5gAPnloUXlcpI5ZNLCRWDUd5&index=60",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.7.14",
+          "no": "",
+          "ref": "詩31:4-8",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩31:4-8",
+              "url": "https://www.youtube.com/watch?v=ibFUOteVp4c",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "詩31:14-21",
+              "url": "https://www.youtube.com/watch?v=Phj5EIuR4U4",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.7.15",
+          "no": "",
+          "ref": "詩32:1-7",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩32:1-7",
+              "url": "https://www.youtube.com/watch?v=DsNrqGvZ_fE",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "詩32:8-11",
+              "url": "https://www.youtube.com/watch?v=IKhQqmmxmYI",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.7.16",
+          "no": "",
+          "ref": "詩33:1,13",
+          "langs": [
+            {
+              "lang": "台語",
+              "ref": "詩33:1,13",
+              "url": "https://www.youtube.com/watch?v=JulVNiisH_8",
+              "kind": "youtube"
+            },
+            {
+              "lang": "國語",
+              "ref": "詩33:8-11",
+              "url": "https://www.youtube.com/watch?v=DxIabPRrYBE",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.7.17",
+          "no": "",
+          "ref": "詩34:8、5",
+          "langs": [
+            {
+              "lang": "台語",
+              "ref": "詩34:8、5",
+              "url": "https://www.youtube.com/watch?v=n-bQugLeUsA&t=137s",
+              "kind": "youtube"
+            },
+            {
+              "lang": "國語",
+              "ref": "詩34:12-19",
+              "url": "https://www.youtube.com/watch?v=HoyiC26dyWU&t=3s",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.7.18",
+          "no": "",
+          "ref": "詩35:1-10",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩35:1-10",
+              "url": "https://www.youtube.com/watch?v=jc_tmXAhE9U",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "詩35:17-21",
+              "url": "https://www.youtube.com/watch?v=CjVmrG6hJ8Y",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.7.19",
+          "no": "",
+          "ref": "詩36:1-6",
+          "langs": [
+            {
+              "lang": "台語",
+              "ref": "詩36:1-6",
+              "url": "https://www.youtube.com/watch?v=Hd_km0aCcjk",
+              "kind": "youtube"
+            },
+            {
+              "lang": "國語",
+              "ref": "詩36:7-12",
+              "url": "https://www.youtube.com/watch?v=5NhjwbsSYIw",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.7.20",
+          "no": "",
+          "ref": "詩37:1-7",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩37:1-7",
+              "url": "https://www.youtube.com/watch?v=GpCEbio4CWg",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "詩37:8-23",
+              "url": "https://www.youtube.com/watch?v=0vJ0kzBWkuw",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.7.21",
+          "no": "",
+          "ref": "詩37:34-40",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩37:34-40",
+              "url": "https://www.youtube.com/watch?v=S0USMIV1emg",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "詩37:34-40",
+              "url": "https://www.youtube.com/watch?v=-oCVftx5xoM",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.7.22",
+          "no": "",
+          "ref": "詩38:1-10",
+          "langs": [
+            {
+              "lang": "台語",
+              "ref": "詩38:1-10",
+              "url": "https://www.youtube.com/watch?v=LFL1VHAOtLo",
+              "kind": "youtube"
+            },
+            {
+              "lang": "國語",
+              "ref": "詩38:13-22",
+              "url": "https://www.youtube.com/watch?v=R8dWRvgyMho",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.7.23",
+          "no": "",
+          "ref": "詩39:1-13",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩39:1-13",
+              "url": "https://www.youtube.com/watch?v=kY3te1Ak-Ho",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "詩39:1-13",
+              "url": "https://www.youtube.com/watch?v=CjdJrDLNYco",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.7.24",
+          "no": "",
+          "ref": "詩40:12",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩40:12",
+              "url": "https://www.youtube.com/watch?v=hREawjGZUI4",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "詩40:4-17",
+              "url": "https://www.youtube.com/watch?v=quIF_Ed1pks",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.7.25",
+          "no": "",
+          "ref": "詩41:1-13",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩41:1-13",
+              "url": "https://www.youtube.com/watch?v=sh50rVqrXFc",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "詩41:1-13",
+              "url": "https://www.youtube.com/watch?v=8XxV0fIEWZ0",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.7.26",
+          "no": "",
+          "ref": "詩42:1-3",
+          "langs": [
+            {
+              "lang": "台語",
+              "ref": "詩42:1-3",
+              "url": "https://www.youtube.com/watch?v=0BvZh0M3208",
+              "kind": "youtube"
+            },
+            {
+              "lang": "國語",
+              "ref": "詩42:4-8",
+              "url": "https://www.youtube.com/watch?v=E-JAqmeVgBU",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.7.27",
+          "no": "",
+          "ref": "詩43:1-5",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩43:1-5",
+              "url": "https://www.youtube.com/watch?v=8fWH6-0DcXM",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "詩43:1-5",
+              "url": "https://www.youtube.com/watch?v=23hOwttUXV8",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.7.28",
+          "no": "",
+          "ref": "詩44:1-8",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩44:1-8",
+              "url": "https://www.youtube.com/watch?v=M6aDjFfAWnc",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "詩44:12-26",
+              "url": "https://www.youtube.com/watch?v=noiGYIlfMxU",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.7.29",
+          "no": "",
+          "ref": "詩45:1-8",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩45:1-8",
+              "url": "https://www.youtube.com/watch?v=H_3PMa1fWfg",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "詩45:9-17",
+              "url": "https://www.youtube.com/watch?v=ptR7LYSpX0o",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.7.30",
+          "no": "",
+          "ref": "詩46:1-11",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩46:1-11",
+              "url": "https://www.youtube.com/watch?v=9RAmOLF82zY",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "詩46:1-11",
+              "url": "https://www.youtube.com/watch?v=oSVmvPEMmPY",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.7.31",
+          "no": "",
+          "ref": "詩47:1-9",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩47:1-9",
+              "url": "https://www.youtube.com/watch?v=EC2WYhawOHo&t=38s",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "詩47:1-9",
+              "url": "https://www.youtube.com/watch?v=8ggblfM--s4",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.8.1",
+          "no": "",
+          "ref": "詩48:9-10",
+          "langs": [
+            {
+              "lang": "台語",
+              "ref": "詩48:9-10",
+              "url": "https://www.youtube.com/watch?v=07jvK9Anqp8",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.8.5",
+          "no": "",
+          "ref": "詩48:9-14",
+          "langs": [
+            {
+              "lang": "台語",
+              "ref": "詩48:9-14",
+              "url": "https://www.youtube.com/watch?v=QCpHmLSmsys&t=8s",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.8.11",
+          "no": "",
+          "ref": "詩49:1-20",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩49:1-20",
+              "url": "https://www.youtube.com/watch?v=sAI9BaiaH4Q",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "詩49:1-20",
+              "url": "https://www.youtube.com/watch?v=1jALm4TpdvA",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.8.15",
+          "no": "",
+          "ref": "詩50:1-23",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩50:1-23",
+              "url": "https://www.youtube.com/watch?v=Mwh9bGJcQ0g&t=5s",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "詩50:1-23",
+              "url": "https://www.youtube.com/watch?v=_mfgOHM4HqY&t=1s",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.8.23",
+          "no": "",
+          "ref": "詩51:1-19",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩51:1-19",
+              "url": "https://www.youtube.com/watch?v=grNkewc39hw",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "詩51:1-19",
+              "url": "https://www.youtube.com/watch?v=whOjmV5ntzE",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.8.31",
+          "no": "",
+          "ref": "詩52:1-9",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩52:1-9",
+              "url": "https://www.youtube.com/watch?v=z5FBBYgp0XM&t=8s",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "詩52:1-9",
+              "url": "https://www.youtube.com/watch?v=7bE1x3-WFhA&t=7s",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.9.5",
+          "no": "",
+          "ref": "詩53:1-6",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩53:1-6",
+              "url": "https://www.youtube.com/watch?v=H3S1Cz05bgw",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "詩53:1-6",
+              "url": "https://www.youtube.com/watch?v=eBJl0NPRv0M",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.9.11",
+          "no": "",
+          "ref": "詩54:1-7",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩54:1-7",
+              "url": "https://www.youtube.com/watch?v=VFkjA62n0j8&t=2s",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "詩54:1-7",
+              "url": "https://www.youtube.com/watch?v=0c9UMp7JNwM",
+              "kind": "youtube"
+            }
+          ]
+        },
+        {
+          "date": "110.10.6",
+          "no": "",
+          "ref": "詩55:1-23",
+          "langs": [
+            {
+              "lang": "國語",
+              "ref": "詩55:1-23",
+              "url": "https://www.youtube.com/watch?v=yxnmGUSNobM&list=PLDoqLdXIY5gAPnloUXlcpI5ZNLCRWDUd5&index=2",
+              "kind": "youtube"
+            },
+            {
+              "lang": "台語",
+              "ref": "詩55:1-23",
+              "url": "https://www.youtube.com/watch?v=x3BKAD9xZ-Q&list=PLDoqLdXIY5gAPnloUXlcpI5ZNLCRWDUd5&index=1",
+              "kind": "youtube"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": "四",
+      "title": "翁正晃傳道靈修小語",
+      "type": "devotion",
+      "entries": [
+        {
+          "date": "110.6.10",
+          "title": "賺世界、喪生命-何益？",
+          "url": "http://south.tjc.org.tw/13/每週靈修小語/賺世界、喪生命-何益？.pdf",
+          "kind": "pdf"
+        },
+        {
+          "date": "110.6.15",
+          "title": "敬神愛人-談防疫",
+          "url": "http://south.tjc.org.tw/13/每週靈修小語/敬神愛人-談防疫.pdf",
+          "kind": "pdf"
+        },
+        {
+          "date": "110.6.21",
+          "title": "看見幸福",
+          "url": "http://south.tjc.org.tw/13/每週靈修小語/看見幸福.pdf",
+          "kind": "pdf"
+        },
+        {
+          "date": "110.6.28",
+          "title": "獨排眾議的勇氣",
+          "url": "http://south.tjc.org.tw/13/每週靈修小語/獨排眾議的勇氣.pdf",
+          "kind": "pdf"
+        },
+        {
+          "date": "110.7.6",
+          "title": "如水晶的玻璃海",
+          "url": "http://south.tjc.org.tw/13/每週靈修小語/如水晶的玻璃海.pdf",
+          "kind": "pdf"
+        },
+        {
+          "date": "110.7.12",
+          "title": "亞伯雖死，仍舊說話！",
+          "url": "http://south.tjc.org.tw/13/每週靈修小語/亞伯雖死，仍舊說話！.pdf",
+          "kind": "pdf"
+        },
+        {
+          "date": "110.7.19",
+          "title": "勇於面對慾、誘、怨",
+          "url": "http://south.tjc.org.tw/13/每週靈修小語/勇於面對慾、誘、怨.pdf",
+          "kind": "pdf"
+        },
+        {
+          "date": "110.7.27",
+          "title": "誠實的面對自己",
+          "url": "http://south.tjc.org.tw/13/每週靈修小語/誠實的面對自己.pdf",
+          "kind": "pdf"
+        },
+        {
+          "date": "110.8.3",
+          "title": "觀察",
+          "url": "http://south.tjc.org.tw/13/每週靈修小語/觀察.pdf",
+          "kind": "pdf"
+        },
+        {
+          "date": "110.8.10",
+          "title": "面對生命的挑戰",
+          "url": "http://south.tjc.org.tw/13/每週靈修小語/面對生命的挑戰.pdf",
+          "kind": "pdf"
+        },
+        {
+          "date": "110.8.16",
+          "title": "醒了吧！",
+          "url": "http://south.tjc.org.tw/13/每週靈修小語/醒了吧.pdf",
+          "kind": "pdf"
+        },
+        {
+          "date": "110.8.24",
+          "title": "無懼的生命",
+          "url": "http://south.tjc.org.tw/13/每週靈修小語/無懼的生命.pdf",
+          "kind": "pdf"
+        },
+        {
+          "date": "110.8.29",
+          "title": "揀選生命",
+          "url": "http://south.tjc.org.tw/13/每週靈修小語/揀選生命.pdf",
+          "kind": "pdf"
+        },
+        {
+          "date": "110.9.7",
+          "title": "因神而喜的信仰",
+          "url": "http://south.tjc.org.tw/13/每週靈修小語/因神而喜的信仰.pdf",
+          "kind": "pdf"
+        },
+        {
+          "date": "110.9.15",
+          "title": "犧牲",
+          "url": "http://south.tjc.org.tw/13/每週靈修小語/犧牲.pdf",
+          "kind": "pdf"
+        },
+        {
+          "date": "110.9.29",
+          "title": "緊握心思意念",
+          "url": "http://south.tjc.org.tw/13/每週靈修小語/緊握心思意念.pdf",
+          "kind": "pdf"
+        }
+      ]
+    },
+    {
+      "no": "五",
+      "title": "傳道者聖經講座",
+      "type": "lecture",
+      "note": "以下影片均已附上字幕",
+      "preachers": [
+        {
+          "name": "翁正晃傳道",
+          "lang": "台語",
+          "series": [
+            {
+              "title": "從腓立比書看僕人的事奉",
+              "parts": [
+                {
+                  "label": "第一講",
+                  "url": "https://www.youtube.com/watch?v=lPnvchZ8hPo&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=1",
+                  "kind": "youtube"
+                },
+                {
+                  "label": "第二講",
+                  "url": "https://www.youtube.com/watch?v=_GI5RrqfJMg&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=2",
+                  "kind": "youtube"
+                },
+                {
+                  "label": "第三講",
+                  "url": "https://www.youtube.com/watch?v=YuIxIb-tUyI&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=3",
+                  "kind": "youtube"
+                },
+                {
+                  "label": "第四講",
+                  "url": "https://www.youtube.com/watch?v=aSue_KEaQEo&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=4",
+                  "kind": "youtube"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "何緒理傳道",
+          "lang": "國語",
+          "series": [
+            {
+              "title": "俄巴底亞書",
+              "parts": [
+                {
+                  "label": "全一講",
+                  "url": "https://www.youtube.com/watch?v=l-huW03v_bU&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=5",
+                  "kind": "youtube"
+                }
+              ]
+            },
+            {
+              "title": "哈該書",
+              "parts": [
+                {
+                  "label": "第一講",
+                  "url": "https://www.youtube.com/watch?v=TiCFDuKyXp8&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=6",
+                  "kind": "youtube"
+                },
+                {
+                  "label": "第二講",
+                  "url": "https://www.youtube.com/watch?v=TIbqLPRS7rw&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=7",
+                  "kind": "youtube"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "陳嘉弘傳道",
+          "lang": "國語",
+          "series": [
+            {
+              "title": "走過人生的乾旱(亞伯拉罕)",
+              "parts": [
+                {
+                  "label": "全一講",
+                  "url": "https://www.youtube.com/watch?v=Ig2nCgYs5z0&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=8",
+                  "kind": "youtube"
+                }
+              ]
+            },
+            {
+              "title": "神一路引領(雅各)",
+              "parts": [
+                {
+                  "label": "全一講",
+                  "url": "https://www.youtube.com/watch?v=WqjXV0D_X2c&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=9",
+                  "kind": "youtube"
+                }
+              ]
+            },
+            {
+              "title": "敬神愛人的約瑟",
+              "parts": [
+                {
+                  "label": "全一講",
+                  "url": "https://www.youtube.com/watch?v=EEeEkPpOdnM&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=10",
+                  "kind": "youtube"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "黃志傑傳道",
+          "lang": "國語",
+          "series": [
+            {
+              "title": "監獄書信概論",
+              "parts": [
+                {
+                  "label": "監獄書信和腓利門書概論",
+                  "url": "https://www.youtube.com/watch?v=7HF_o3xIbSA&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=11",
+                  "kind": "youtube"
+                },
+                {
+                  "label": "歌羅西書概論",
+                  "url": "https://www.youtube.com/watch?v=GtsjpEcvPmM&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=12",
+                  "kind": "youtube"
+                },
+                {
+                  "label": "腓立比書概論",
+                  "url": "https://www.youtube.com/watch?v=GbMLSSyzl0k&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=13",
+                  "kind": "youtube"
+                },
+                {
+                  "label": "以弗所書概論",
+                  "url": "https://www.youtube.com/watch?v=8s8MVp8gAyc&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=14",
+                  "kind": "youtube"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "林宜哲傳道",
+          "lang": "國語",
+          "series": [
+            {
+              "title": "以斯拉記",
+              "parts": [
+                {
+                  "label": "第一講",
+                  "url": "https://www.youtube.com/watch?v=GQ11wDLT9dQ&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=15",
+                  "kind": "youtube"
+                },
+                {
+                  "label": "第二講",
+                  "url": "https://www.youtube.com/watch?v=IMkPE7YFh74&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=16",
+                  "kind": "youtube"
+                },
+                {
+                  "label": "第三講",
+                  "url": "https://www.youtube.com/watch?v=wMkL-eqAztg&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=17",
+                  "kind": "youtube"
+                }
+              ]
+            },
+            {
+              "title": "投影片",
+              "parts": [
+                {
+                  "label": "以斯拉記",
+                  "url": "http://south.tjc.org.tw/13/投影片/以斯拉記.pptx",
+                  "kind": "ppt"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "李迦南傳道",
+          "lang": "國語",
+          "series": [
+            {
+              "title": "家庭祭壇的重要與意義",
+              "parts": [
+                {
+                  "label": "第一講",
+                  "url": "https://www.youtube.com/watch?v=_TQSjESKtQw&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=18",
+                  "kind": "youtube"
+                },
+                {
+                  "label": "第二講",
+                  "url": "https://www.youtube.com/watch?v=KkEukoQVJ-g&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=19",
+                  "kind": "youtube"
+                },
+                {
+                  "label": "第三講",
+                  "url": "https://www.youtube.com/watch?v=nbkl3uFa6QU&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=20",
+                  "kind": "youtube"
+                }
+              ]
+            },
+            {
+              "title": "建立家庭祭壇",
+              "parts": [
+                {
+                  "label": "全一講",
+                  "url": "https://www.youtube.com/watch?v=FeCyvhWJWGQ&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=21",
+                  "kind": "youtube"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "林英奎傳道",
+          "lang": "國語",
+          "series": [
+            {
+              "title": "金牛犢事件的省思",
+              "parts": [
+                {
+                  "label": "第一講",
+                  "url": "https://www.youtube.com/watch?v=Mm0WemyCFnI&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=22",
+                  "kind": "youtube"
+                },
+                {
+                  "label": "第二講",
+                  "url": "https://www.youtube.com/watch?v=AWSvRe-c6ek&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=23",
+                  "kind": "youtube"
+                },
+                {
+                  "label": "第三講",
+                  "url": "https://www.youtube.com/watch?v=Uwa1CLPwYk8&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=24",
+                  "kind": "youtube"
+                },
+                {
+                  "label": "第四講",
+                  "url": "https://www.youtube.com/watch?v=7KlpQQ2StEs&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=25",
+                  "kind": "youtube"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "黃基甸傳道",
+          "lang": "國語",
+          "series": [
+            {
+              "title": "神蹟中的輔導",
+              "parts": [
+                {
+                  "label": "第一講",
+                  "url": "https://www.youtube.com/watch?v=JD4Zroa_Xd0&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=26",
+                  "kind": "youtube"
+                },
+                {
+                  "label": "第二講",
+                  "url": "https://www.youtube.com/watch?v=xzZEEqvK4dU&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=27",
+                  "kind": "youtube"
+                },
+                {
+                  "label": "第三講",
+                  "url": "https://www.youtube.com/watch?v=KAn-NKxhXUA&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=28",
+                  "kind": "youtube"
+                }
+              ]
+            },
+            {
+              "title": "關於「趕鬼」這事",
+              "parts": [
+                {
+                  "label": "第一講",
+                  "url": "https://www.youtube.com/watch?v=Vf3blH5gNXE&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=29",
+                  "kind": "youtube"
+                },
+                {
+                  "label": "第二講",
+                  "url": "https://www.youtube.com/watch?v=BuSBzSo-SCc&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=30",
+                  "kind": "youtube"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "柏明智傳道",
+          "lang": "國語",
+          "series": [
+            {
+              "title": "上行之詩",
+              "parts": [
+                {
+                  "label": "第一講",
+                  "url": "https://www.youtube.com/watch?v=HYMFrkYO3JM&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=31",
+                  "kind": "youtube"
+                },
+                {
+                  "label": "第二講",
+                  "url": "https://www.youtube.com/watch?v=PcTwGOdzhYI&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=32",
+                  "kind": "youtube"
+                },
+                {
+                  "label": "第三講",
+                  "url": "https://www.youtube.com/watch?v=2eSAeWDiu5E&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=33",
+                  "kind": "youtube"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "江有謙傳道",
+          "lang": "國語",
+          "series": [
+            {
+              "title": "腓利門書",
+              "parts": [
+                {
+                  "label": "第一講",
+                  "url": "https://www.youtube.com/watch?v=5KuBY-ov7pw&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=34",
+                  "kind": "youtube"
+                },
+                {
+                  "label": "第二講",
+                  "url": "https://www.youtube.com/watch?v=ScT5bHhs1FI&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=35",
+                  "kind": "youtube"
+                },
+                {
+                  "label": "第三講",
+                  "url": "https://www.youtube.com/watch?v=BNBD2TU-d08&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=36",
+                  "kind": "youtube"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "顏嘉冠傳道",
+          "lang": "台語",
+          "series": [
+            {
+              "title": "瑪拉基書",
+              "parts": [
+                {
+                  "label": "第一講",
+                  "url": "https://www.youtube.com/watch?v=YFP42_lgOsY&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=37",
+                  "kind": "youtube"
+                },
+                {
+                  "label": "第二講",
+                  "url": "https://www.youtube.com/watch?v=woitYq4oIjo&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=38",
+                  "kind": "youtube"
+                },
+                {
+                  "label": "第三講",
+                  "url": "https://www.youtube.com/watch?v=389LXZDCm-0&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=39",
+                  "kind": "youtube"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "蔡佩秀傳道",
+          "lang": "國語",
+          "series": [
+            {
+              "title": "那鴻書",
+              "parts": [
+                {
+                  "label": "第一講",
+                  "url": "https://www.youtube.com/watch?v=QYjoe_Vrylo&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=40",
+                  "kind": "youtube"
+                },
+                {
+                  "label": "第二講",
+                  "url": "https://www.youtube.com/watch?v=tGaz544JWvA&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=41",
+                  "kind": "youtube"
+                },
+                {
+                  "label": "第三講",
+                  "url": "https://www.youtube.com/watch?v=i09z1LgV6Ho&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=42",
+                  "kind": "youtube"
+                },
+                {
+                  "label": "第四講",
+                  "url": "https://www.youtube.com/watch?v=OUCbFKZX88Q&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=43",
+                  "kind": "youtube"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "陳正亮執事",
+          "lang": "國語",
+          "series": [
+            {
+              "title": "先知以利亞的事蹟",
+              "parts": [
+                {
+                  "label": "第一講",
+                  "url": "https://www.youtube.com/watch?v=KsmxLP0B7EM&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=44",
+                  "kind": "youtube"
+                },
+                {
+                  "label": "第二講",
+                  "url": "https://www.youtube.com/watch?v=VfIRNKkfh6I&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=45",
+                  "kind": "youtube"
+                },
+                {
+                  "label": "第三講",
+                  "url": "https://www.youtube.com/watch?v=2aqvy3mORlw&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=46",
+                  "kind": "youtube"
+                },
+                {
+                  "label": "第四講",
+                  "url": "https://www.youtube.com/watch?v=Vn-ii16-5kQ&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=47",
+                  "kind": "youtube"
+                }
+              ]
+            },
+            {
+              "title": "投影片",
+              "parts": [
+                {
+                  "label": "1.藏在基立溪旁",
+                  "url": "http://south.tjc.org.tw/13/投影片/1.藏在基立溪旁.ppt",
+                  "kind": "ppt"
+                },
+                {
+                  "label": "2.一把麵一點油",
+                  "url": "http://south.tjc.org.tw/13/投影片/2.一把麵一點油.ppt",
+                  "kind": "ppt"
+                },
+                {
+                  "label": "3.迦密山風雲",
+                  "url": "http://south.tjc.org.tw/13/投影片/3.迦密山風雲.ppt",
+                  "kind": "ppt"
+                },
+                {
+                  "label": "4.在羅騰樹下睡著了",
+                  "url": "http://south.tjc.org.tw/13/投影片/4.在羅騰樹下睡著了.ppt",
+                  "kind": "ppt"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "王義安傳道",
+          "lang": "國語",
+          "series": [
+            {
+              "title": "約拿書",
+              "parts": [
+                {
+                  "label": "第一講",
+                  "url": "https://www.youtube.com/watch?v=L3XkcnFBLd4&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=48",
+                  "kind": "youtube"
+                },
+                {
+                  "label": "第二講",
+                  "url": "https://www.youtube.com/watch?v=S_n2J7P0zZ4&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=49",
+                  "kind": "youtube"
+                },
+                {
+                  "label": "第三講",
+                  "url": "https://www.youtube.com/watch?v=IR5UTTqxEus&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=50",
+                  "kind": "youtube"
+                },
+                {
+                  "label": "第四講",
+                  "url": "https://www.youtube.com/watch?v=acmvrFHfk8A&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=51",
+                  "kind": "youtube"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "林家恩傳道",
+          "lang": "國語",
+          "series": [
+            {
+              "title": "先知的分辨＆小先知書(哈俄)",
+              "parts": [
+                {
+                  "label": "第一講",
+                  "url": "https://www.youtube.com/watch?v=IidWCb13sfY&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=52",
+                  "kind": "youtube"
+                },
+                {
+                  "label": "第二講",
+                  "url": "https://www.youtube.com/watch?v=9lD13CrpRLw&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=53",
+                  "kind": "youtube"
+                },
+                {
+                  "label": "第三講",
+                  "url": "https://www.youtube.com/watch?v=46ARc-Mlkl0&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=54",
+                  "kind": "youtube"
+                },
+                {
+                  "label": "第四講",
+                  "url": "https://www.youtube.com/watch?v=hkCAl8LYe8w&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=55",
+                  "kind": "youtube"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "嚴仁生傳道",
+          "lang": "台語",
+          "series": [
+            {
+              "title": "寶貴的回憶",
+              "parts": [
+                {
+                  "label": "第一講",
+                  "url": "https://www.youtube.com/watch?v=vgW-_0VJkVw&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=56",
+                  "kind": "youtube"
+                },
+                {
+                  "label": "第二講",
+                  "url": "https://www.youtube.com/watch?v=IcKbCaadiZ8&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=57",
+                  "kind": "youtube"
+                },
+                {
+                  "label": "第三講",
+                  "url": "https://www.youtube.com/watch?v=gmCEgt0O0rw&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=58",
+                  "kind": "youtube"
+                }
+              ]
+            },
+            {
+              "title": "異夢與異象",
+              "parts": [
+                {
+                  "label": "全一講",
+                  "url": "https://www.youtube.com/watch?v=-dvygaSK5R4&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=59",
+                  "kind": "youtube"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "蘇立平傳道",
+          "lang": "國語",
+          "series": [
+            {
+              "title": "重建榮耀聖殿",
+              "parts": [
+                {
+                  "label": "第一講",
+                  "url": "https://www.youtube.com/watch?v=Xc7wCh22-aU&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=60",
+                  "kind": "youtube"
+                },
+                {
+                  "label": "第二講",
+                  "url": "https://www.youtube.com/watch?v=-ORNXHyuKhY&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=61",
+                  "kind": "youtube"
+                },
+                {
+                  "label": "第三講",
+                  "url": "https://www.youtube.com/watch?v=euT4SZ5Tchg&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=62",
+                  "kind": "youtube"
+                },
+                {
+                  "label": "第四講",
+                  "url": "https://www.youtube.com/watch?v=4m7ESI8-wOA&list=PLDoqLdXIY5gCFAFNcFbmvkiF4c99O61R4&index=63",
+                  "kind": "youtube"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -376,6 +376,70 @@ a.bline:hover .ttl{color:var(--color-primary)}
   .aig-profiles{grid-template-columns:repeat(3,1fr)}
 }
 
+/* ===== 傳道影音專區 (in detail overlay) ===== */
+.pm-promo .aig-promo-ic{background:linear-gradient(145deg,#d6262a,#b01419);font-size:16px}
+.pm{max-width:900px;margin:0 auto}
+.pm-hero{position:relative;overflow:hidden;background:linear-gradient(150deg,#fff1f1 0%,#fff 64%);border:1px solid #f6d4d4;border-radius:20px;padding:24px 24px;box-shadow:var(--shadow);margin-bottom:8px}
+.pm-hero::before{content:"";position:absolute;top:-40px;right:-30px;width:160px;height:160px;border-radius:50%;background:radial-gradient(circle,rgba(214,38,42,.10),transparent 70%)}
+.pm-kick{display:inline-flex;align-items:center;gap:6px;color:#c0392b;font-weight:800;font-size:12.5px;letter-spacing:1px}
+.pm-h1{font-size:21px;line-height:1.4;font-weight:800;color:var(--color-ink);margin:10px 0 6px;letter-spacing:.3px}
+.pm-lead{font-size:13.5px;color:#5b6573;line-height:1.7;margin:0 0 14px}
+.pm-channel{display:inline-flex;align-items:center;gap:8px;min-height:42px;padding:9px 16px;border-radius:11px;background:#d6262a;color:#fff;font-weight:700;font-size:14px;box-shadow:0 2px 8px rgba(214,38,42,.25);transition:transform var(--ease),box-shadow var(--ease),background var(--ease)}
+.pm-channel:hover{background:#b01419;transform:translateY(-1px);box-shadow:0 4px 14px rgba(214,38,42,.32)}
+.pm-channel svg{width:22px;height:22px}
+.pm-nav{display:flex;gap:8px;margin-top:16px}
+.pm-jump{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:10px;background:#fff;border:1px solid var(--color-border);color:var(--color-ink);font-weight:800;font-size:15px;cursor:pointer;transition:background var(--ease),border-color var(--ease),color var(--ease)}
+.pm-jump:hover{background:var(--color-soft);border-color:#c5d3f5;color:var(--color-primary)}
+
+.pm-sec{margin-top:26px;scroll-margin-top:12px}
+.pm-sec-h{display:flex;align-items:center;gap:10px;font-size:17px;font-weight:800;color:var(--color-ink);margin:0 0 14px;letter-spacing:.3px}
+.pm-sec-h .n{display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;border-radius:9px;background:linear-gradient(145deg,#d6262a,#b01419);color:#fff;font-size:15px;font-weight:800;flex:none}
+.pm-sec-t{flex:1;min-width:0}
+.pm-sec-sub{font-size:12.5px;font-weight:600;color:var(--color-muted)}
+.pm-sec-n{font-size:12px;font-weight:700;color:var(--color-muted);background:var(--color-soft);padding:3px 11px;border-radius:20px;flex:none}
+
+/* 靈糧分享：日期格卡 */
+.pm-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.pm-card{background:#fff;border:1px solid var(--color-border);border-radius:13px;padding:12px 13px;box-shadow:var(--shadow-sm);display:flex;flex-direction:column;gap:8px}
+.pm-card-top{display:flex;align-items:center;gap:7px}
+.pm-date{font-size:12px;font-weight:700;color:var(--color-accent-d);background:var(--color-accent-tint);padding:2px 9px;border-radius:20px;letter-spacing:.3px}
+.pm-no{font-size:11.5px;font-weight:800;color:var(--color-muted);margin-left:auto}
+.pm-no::before{content:"#"}
+.pm-ref{font-size:15px;font-weight:700;color:var(--color-ink);line-height:1.4}
+.pm-langs{display:flex;gap:7px;margin-top:auto}
+.pm-lang{flex:1;display:inline-flex;align-items:center;justify-content:center;gap:5px;min-height:38px;border-radius:9px;font-size:13.5px;font-weight:700;border:1px solid var(--color-border);transition:transform var(--ease),background var(--ease)}
+.pm-lang svg{width:16px;height:16px}
+.pm-lang.guo{background:var(--color-tint);color:var(--color-primary);border-color:#c5d3f5}
+.pm-lang.guo:hover{background:#dde8ff;transform:translateY(-1px)}
+.pm-lang.tai{background:#fff4e0;color:#b7791f;border-color:#f3e2c0}
+.pm-lang.tai:hover{background:#ffedcc;transform:translateY(-1px)}
+
+/* 靈修小語：日期 + 標題列 */
+.pm-dev-list{background:#fff;border:1px solid var(--color-border);border-radius:14px;box-shadow:var(--shadow);overflow:hidden}
+.pm-dev{display:flex;align-items:center;gap:11px;padding:12px 16px;border-top:1px solid #f2f4f9;color:var(--color-text);transition:background var(--ease)}
+.pm-dev:first-child{border-top:0}
+.pm-dev:hover{background:var(--color-soft)}
+.pm-dev-date{font-size:12px;font-weight:700;color:var(--color-muted);flex:none;min-width:62px}
+.pm-dev-title{flex:1;font-size:14.5px;line-height:1.45}
+.pm-dev:hover .pm-dev-title{color:var(--color-primary)}
+
+/* 聖經講座：傳道分組 */
+.pm-preachers{display:grid;grid-template-columns:1fr;gap:12px}
+.pm-preacher{background:#fff;border:1px solid var(--color-border);border-radius:14px;padding:14px 16px;box-shadow:var(--shadow)}
+.pm-pname{display:flex;align-items:center;gap:9px;font-size:15.5px;font-weight:800;color:var(--color-ink);margin-bottom:10px}
+.pm-plang{font-size:11.5px;font-weight:700;color:var(--color-accent-d);background:var(--color-accent-tint);padding:2px 10px;border-radius:20px}
+.pm-series{padding:9px 0;border-top:1px dashed var(--color-border)}
+.pm-series:first-of-type{border-top:0;padding-top:0}
+.pm-series-t{font-size:14px;font-weight:700;color:#3a4658;margin-bottom:8px}
+.pm-parts{display:flex;flex-wrap:wrap;gap:7px}
+
+@media(min-width:560px){.pm-grid{grid-template-columns:repeat(3,1fr)}}
+@media(min-width:760px){
+  .pm-grid{grid-template-columns:repeat(4,1fr)}
+  .pm-preachers{grid-template-columns:1fr 1fr}
+}
+@media(min-width:1080px){.pm-grid{grid-template-columns:repeat(5,1fr)}}
+
 /* ===== Search overlay ===== */
 .search-overlay{position:fixed;inset:0;z-index:60;background:var(--color-soft);display:flex;flex-direction:column}
 .search-bar{display:flex;align-items:center;gap:8px;padding:8px 12px;background:var(--color-primary);height:var(--topbar-h)}
