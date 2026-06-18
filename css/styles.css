@@ -488,6 +488,30 @@ a.bline:hover .ttl{color:var(--color-primary)}
   .cf-church{justify-self:start;align-self:start}
 }
 
+/* ===== 信徒服務（同靈商家通訊錄） ===== */
+.sv-promo .aig-promo-ic{background:linear-gradient(145deg,#b7791f,#9c6516);font-size:17px}
+.sv-intro{font-size:13.5px;color:#5b6573;line-height:1.7;margin:0 0 14px;background:#fff;border:1px solid var(--color-border);border-radius:12px;padding:12px 14px}
+.sv-sec{margin-top:24px;scroll-margin-top:12px}
+.sv-n{margin-left:10px;font-size:12px;font-weight:700;color:var(--color-muted);background:var(--color-soft);padding:2px 11px;border-radius:20px;vertical-align:middle}
+.sv-grid{display:grid;grid-template-columns:1fr;gap:12px}
+.sv-card{background:#fff;border:1px solid var(--color-border);border-radius:14px;padding:15px 16px;box-shadow:var(--shadow);display:flex;flex-direction:column}
+.sv-card-h{display:flex;align-items:flex-start;gap:8px;margin-bottom:4px}
+.sv-type{flex:1;font-size:16px;font-weight:800;color:var(--color-ink);line-height:1.35}
+.sv-church{flex:none;font-size:12px;font-weight:700;color:var(--color-accent-d);background:var(--color-accent-tint);border:1px solid #bfe9e4;border-radius:20px;padding:2px 10px}
+.sv-contact{font-size:13px;font-weight:700;color:var(--color-primary);margin-bottom:8px}
+.sv-desc{font-size:13.5px;color:#3a4658;line-height:1.65;margin:0 0 12px}
+.sv-web{font-weight:700;color:var(--color-primary);word-break:break-all}
+.sv-web:hover{text-decoration:underline}
+.sv-lines{margin-top:auto;display:flex;flex-direction:column;gap:6px;padding-top:10px;border-top:1px solid #f2f4f9}
+.sv-line{display:flex;align-items:center;gap:8px;font-size:13.5px;color:#3a4658}
+.sv-ic{flex:none;width:18px;text-align:center;opacity:.8}
+.sv-tels{display:flex;flex-wrap:wrap;gap:4px 10px}
+.sv-tel{color:var(--color-primary);font-variant-numeric:tabular-nums;font-weight:600}
+.sv-tel:hover{text-decoration:underline}
+.sv-fax{color:var(--color-muted)}
+@media(min-width:680px){.sv-grid{grid-template-columns:1fr 1fr}}
+@media(min-width:1040px){.sv-grid{grid-template-columns:1fr 1fr 1fr}}
+
 /* ===== Search overlay ===== */
 .search-overlay{position:fixed;inset:0;z-index:60;background:var(--color-soft);display:flex;flex-direction:column}
 .search-bar{display:flex;align-items:center;gap:8px;padding:8px 12px;background:var(--color-primary);height:var(--topbar-h)}

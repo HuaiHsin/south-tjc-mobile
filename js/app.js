@@ -31,19 +31,21 @@
     return (g.churches || g.links || []).length;
   }
 
-  var DATA = null, INDEX = null, CATS = {}, BULLETIN = null, AIGUIDE = null, PMEDIA = null, CAMPUS = null;
+  var DATA = null, INDEX = null, CATS = {}, BULLETIN = null, AIGUIDE = null, PMEDIA = null, CAMPUS = null, SERVICES = null;
   var AI_GUIDE_GID = "spirit|南區AI指引";   // 開啟時顯示重製版「南區 AI 使用指引」整頁
   var PMEDIA_GID = "spirit|傳道靈糧分享";    // 開啟時顯示重製版「傳道影音專區」整頁
   var CAMPUS_GID = "activity|校園團契";      // 開啟時顯示重製版「校園團契」整頁
+  var SERVICES_GID = "other|信徒服務";       // 開啟時顯示重製版「信徒服務（同靈商家通訊錄）」整頁
 
   Promise.all([
     fetch("data/links.json").then(function (r) { return r.json(); }),
     fetch("data/announcements.json").then(function (r) { return r.json(); }).catch(function () { return null; }),
     fetch("data/ai-guide.json").then(function (r) { return r.json(); }).catch(function () { return null; }),
     fetch("data/preacher-media.json").then(function (r) { return r.json(); }).catch(function () { return null; }),
-    fetch("data/campus-fellowship.json").then(function (r) { return r.json(); }).catch(function () { return null; })
+    fetch("data/campus-fellowship.json").then(function (r) { return r.json(); }).catch(function () { return null; }),
+    fetch("data/believer-services.json").then(function (r) { return r.json(); }).catch(function () { return null; })
   ]).then(function (res) {
-    DATA = res[0]; BULLETIN = res[1]; AIGUIDE = res[2]; PMEDIA = res[3]; CAMPUS = res[4];
+    DATA = res[0]; BULLETIN = res[1]; AIGUIDE = res[2]; PMEDIA = res[3]; CAMPUS = res[4]; SERVICES = res[5];
     (DATA.categories || []).forEach(function (c) { CATS[c.id] = c; });
     INDEX = window.TJCSearch.buildIndex(DATA);
     renderTopnav();
@@ -369,6 +371,7 @@
     if (gid === AI_GUIDE_GID && AIGUIDE) { openAiGuide(); return; }
     if (gid === PMEDIA_GID && PMEDIA) { openPreacherMedia(); return; }
     if (gid === CAMPUS_GID && CAMPUS) { openCampus(); return; }
+    if (gid === SERVICES_GID && SERVICES) { openServices(); return; }
     openCategoryDetail(catId, gid);
   }
   function openCategoryDetail(catId, targetGid) {
@@ -378,6 +381,59 @@
   function openAiGuide() { detailStack = []; pushDetail(renderAiGuideDetail); }
   function openPreacherMedia() { detailStack = []; pushDetail(renderPreacherMediaDetail); }
   function openCampus() { detailStack = []; pushDetail(renderCampusDetail); }
+  function openServices() { detailStack = []; pushDetail(renderServicesDetail); }
+
+  /* ---------- 信徒服務（重製 10/index.htm） ---------- */
+  function telLinks(s) {
+    if (!s) return "";
+    return s.split(/\s+/).filter(Boolean).map(function (n) {
+      var digits = n.replace(/[^0-9+]/g, "");
+      return '<a class="sv-tel" href="tel:' + digits + '">' + esc(n) + "</a>";
+    }).join("");
+  }
+  function serviceCard(e) {
+    var rows = "";
+    if (e.phone) rows += '<div class="sv-line"><span class="sv-ic">☎</span><span class="sv-tels">' + telLinks(e.phone) + "</span></div>";
+    if (e.mobile) rows += '<div class="sv-line"><span class="sv-ic">📱</span><span class="sv-tels">' + telLinks(e.mobile) + "</span></div>";
+    if (e.fax) rows += '<div class="sv-line sv-fax"><span class="sv-ic">📠</span><span>' + esc(e.fax) + "</span></div>";
+    var desc = esc(e.desc);
+    if (e.link) desc += ' <a class="sv-web" ' + attrs(e.link.url) + ">" + esc(e.link.label) + " ↗</a>";
+    return '<div class="sv-card">' +
+      '<div class="sv-card-h"><span class="sv-type">' + esc(e.type) + "</span>" +
+      '<span class="sv-church">' + esc(e.church) + "</span></div>" +
+      '<div class="sv-contact">聯絡人　' + esc(e.contact) + "</div>" +
+      '<p class="sv-desc">' + desc + "</p>" +
+      '<div class="sv-lines">' + rows + "</div></div>";
+  }
+  function renderServicesDetail() {
+    var d = SERVICES;
+    var nav = d.categories.map(function (c) {
+      return '<a class="pm-jump" data-jump="sv-cat-' + esc(c.name) + '">' + esc(c.name.charAt(0)) + "</a>";
+    }).join("");
+    var secs = d.categories.map(function (c) {
+      return '<section class="sv-sec" id="sv-cat-' + esc(c.name) + '">' +
+        '<h2 class="cf-h2">' + esc(c.name) + '<span class="sv-n">' + c.entries.length + " 家</span></h2>" +
+        '<div class="sv-grid">' + c.entries.map(serviceCard).join("") + "</div></section>";
+    }).join("");
+    var form = d.form ? '<a class="cf-fg" ' + attrs(d.form.url) +
+      '><svg viewBox="0 0 24 24"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>下載登錄表　›</a>' : "";
+    var html = '<div class="cf">' +
+      '<div class="cf-hero"><div class="cf-kick">✦ 南區信徒服務</div>' +
+      '<h1 class="cf-h1">' + esc(d.title) + "</h1>" +
+      '<p class="cf-sub">' + esc(d.subtitle) + "</p>" +
+      (d.intro ? '<p class="sv-intro">' + esc(d.intro) + "</p>" : "") +
+      '<div class="cf-cta">' + form + "</div>" +
+      '<div class="pm-nav">' + nav + "</div></div>" +
+      secs + "</div>";
+    showDetail("信徒服務", html, function () {
+      $("#detailBody").querySelectorAll("[data-jump]").forEach(function (a) {
+        a.addEventListener("click", function () {
+          var el = document.getElementById(a.getAttribute("data-jump"));
+          if (el) $("#detailBody").scrollTop = el.offsetTop - 12;
+        });
+      });
+    });
+  }
 
   /* ---------- 校園團契（重製 04/index-1.htm） ---------- */
   function linkifyUrls(s) {
@@ -632,6 +688,13 @@
           '<span>南區大專團契所屬院校、牧養教會與查詢系統</span></span>' +
           '<svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></button>';
       }
+      if (g.id === SERVICES_GID && SERVICES) {
+        return '<button class="dgroup aig-promo sv-promo" data-sv-open="1">' +
+          '<span class="aig-promo-ic">🏷️</span>' +
+          '<span class="aig-promo-tx"><b>信徒服務</b>' +
+          '<span>南區同靈商家・服務通訊錄（產品／技術／服務類）</span></span>' +
+          '<svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></button>';
+      }
       var head = '<div class="dgroup-h"><span class="gt">' + esc(g.title) + '</span><span class="gc">' +
         gsize(g) + (g.kind === "directory" ? " 間" : " 項") + "</span></div>";
       var inner;
@@ -668,6 +731,8 @@
       if (pmBtn) pmBtn.addEventListener("click", function () { pushDetail(renderPreacherMediaDetail); });
       var cfBtn = $("#detailBody").querySelector("[data-cf-open]");
       if (cfBtn) cfBtn.addEventListener("click", function () { pushDetail(renderCampusDetail); });
+      var svBtn = $("#detailBody").querySelector("[data-sv-open]");
+      if (svBtn) svBtn.addEventListener("click", function () { pushDetail(renderServicesDetail); });
       $("#detailBody").querySelectorAll("[data-group]").forEach(function (b) {
         b.addEventListener("click", function () { pushDetail(function () { renderGroupDetail(b.getAttribute("data-group")); }); });
       });
