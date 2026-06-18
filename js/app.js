@@ -37,6 +37,12 @@
   var CAMPUS_GID = "activity|校園團契";      // 開啟時顯示重製版「校園團契」整頁
   var SERVICES_GID = "other|信徒服務";       // 開啟時顯示重製版「信徒服務（同靈商家通訊錄）」整頁
 
+  // 表格型頁面（共用 renderDocTable）：原站整頁是欄位表格，逐頁解析成結構化 JSON
+  var DOC_DEFS = [
+    { gid: "official|南區公文", file: "data/doc-south-gongwen.json", icon: "📑", sub: "發文日期、字號、收送對象一覽" }
+  ];
+  var DOCS = {};
+
   Promise.all([
     fetch("data/links.json").then(function (r) { return r.json(); }),
     fetch("data/announcements.json").then(function (r) { return r.json(); }).catch(function () { return null; }),
@@ -44,8 +50,11 @@
     fetch("data/preacher-media.json").then(function (r) { return r.json(); }).catch(function () { return null; }),
     fetch("data/campus-fellowship.json").then(function (r) { return r.json(); }).catch(function () { return null; }),
     fetch("data/believer-services.json").then(function (r) { return r.json(); }).catch(function () { return null; })
-  ]).then(function (res) {
+  ].concat(DOC_DEFS.map(function (d) {
+    return fetch(d.file).then(function (r) { return r.json(); }).catch(function () { return null; });
+  }))).then(function (res) {
     DATA = res[0]; BULLETIN = res[1]; AIGUIDE = res[2]; PMEDIA = res[3]; CAMPUS = res[4]; SERVICES = res[5];
+    DOC_DEFS.forEach(function (d, i) { if (res[6 + i]) DOCS[d.gid] = res[6 + i]; });
     (DATA.categories || []).forEach(function (c) { CATS[c.id] = c; });
     INDEX = window.TJCSearch.buildIndex(DATA);
     renderTopnav();
@@ -372,6 +381,7 @@
     if (gid === PMEDIA_GID && PMEDIA) { openPreacherMedia(); return; }
     if (gid === CAMPUS_GID && CAMPUS) { openCampus(); return; }
     if (gid === SERVICES_GID && SERVICES) { openServices(); return; }
+    if (DOCS[gid]) { openDocPage(gid); return; }
     openCategoryDetail(catId, gid);
   }
   function openCategoryDetail(catId, targetGid) {
@@ -382,6 +392,43 @@
   function openPreacherMedia() { detailStack = []; pushDetail(renderPreacherMediaDetail); }
   function openCampus() { detailStack = []; pushDetail(renderCampusDetail); }
   function openServices() { detailStack = []; pushDetail(renderServicesDetail); }
+  function openDocPage(gid) { detailStack = []; pushDetail(function () { renderDocPageDetail(gid); }); }
+  function docDef(gid) { return DOC_DEFS.filter(function (x) { return x.gid === gid; })[0]; }
+
+  /* ---------- 表格型頁面（共用：南區公文、高屏公文、講義彙編…） ---------- */
+  function dtCell(c) {
+    if (c == null) return "";
+    if (typeof c === "string") c = { t: c };
+    var t = esc(c.t || "");
+    if (c.u) return '<a class="dt-link" ' + attrs(c.u) + ">" + t + (c.k ? badge(c.k) : "") + "</a>";
+    return t || '<span class="dt-empty">／</span>';
+  }
+  function renderDocTable(d) {
+    var secs = d.sections.map(function (s) {
+      var pri = (s.primary != null) ? s.primary : 0;
+      var thead = "<tr>" + s.columns.map(function (c) { return "<th>" + esc(c) + "</th>"; }).join("") + "</tr>";
+      var body = s.rows.map(function (r) {
+        return "<tr>" + r.map(function (c, i) {
+          return '<td data-label="' + esc(s.columns[i] || "") + '"' + (i === pri ? ' class="dt-pri"' : "") + ">" + dtCell(c) + "</td>";
+        }).join("") + "</tr>";
+      }).join("");
+      return '<section class="dt-sec">' +
+        (s.name ? '<h2 class="cf-h2">' + esc(s.name) + '<span class="sv-n">' + s.rows.length + " 則</span></h2>" : "") +
+        '<div class="dt-wrap"><table class="dt-table"><thead>' + thead + "</thead><tbody>" + body + "</tbody></table></div></section>";
+    }).join("");
+    var intro = (d.intro || []).map(function (p) { return '<p class="cf-sub" style="display:block">' + esc(p) + "</p>"; }).join("");
+    return '<div class="cf dt">' +
+      '<div class="cf-hero"><div class="cf-kick">✦ ' + esc(d.kicker || "南區辦事處") + "</div>" +
+      '<h1 class="cf-h1">' + esc(d.title) + "</h1>" +
+      (d.subtitle ? '<p class="cf-sub">' + esc(d.subtitle) +
+        (d.updated ? '<span class="cf-upd">' + esc(d.updated) + " 更新</span>" : "") + "</p>" : "") +
+      intro + "</div>" + secs +
+      (d.note ? '<p class="cf-foot-note">' + esc(d.note) + "</p>" : "") + "</div>";
+  }
+  function renderDocPageDetail(gid) {
+    var d = DOCS[gid]; if (!d) return;
+    showDetail(d.title, renderDocTable(d));
+  }
 
   /* ---------- 信徒服務（重製 10/index.htm） ---------- */
   function telLinks(s) {
@@ -695,6 +742,14 @@
           '<span>南區同靈商家・服務通訊錄（產品／技術／服務類）</span></span>' +
           '<svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></button>';
       }
+      if (DOCS[g.id]) {
+        var dd = DOCS[g.id], def = docDef(g.id);
+        return '<button class="dgroup aig-promo dt-promo" data-doc-open="' + esc(g.id) + '">' +
+          '<span class="aig-promo-ic">' + (def && def.icon ? def.icon : "📑") + "</span>" +
+          '<span class="aig-promo-tx"><b>' + esc(dd.title) + "</b>" +
+          "<span>" + esc((def && def.sub) || dd.subtitle || "") + "</span></span>" +
+          '<svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></button>';
+      }
       var head = '<div class="dgroup-h"><span class="gt">' + esc(g.title) + '</span><span class="gc">' +
         gsize(g) + (g.kind === "directory" ? " 間" : " 項") + "</span></div>";
       var inner;
@@ -733,6 +788,11 @@
       if (cfBtn) cfBtn.addEventListener("click", function () { pushDetail(renderCampusDetail); });
       var svBtn = $("#detailBody").querySelector("[data-sv-open]");
       if (svBtn) svBtn.addEventListener("click", function () { pushDetail(renderServicesDetail); });
+      var docBtn = $("#detailBody").querySelector("[data-doc-open]");
+      if (docBtn) docBtn.addEventListener("click", function () {
+        var gid = docBtn.getAttribute("data-doc-open");
+        pushDetail(function () { renderDocPageDetail(gid); });
+      });
       $("#detailBody").querySelectorAll("[data-group]").forEach(function (b) {
         b.addEventListener("click", function () { pushDetail(function () { renderGroupDetail(b.getAttribute("data-group")); }); });
       });
