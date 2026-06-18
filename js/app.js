@@ -41,6 +41,7 @@
     (DATA.categories || []).forEach(function (c) { CATS[c.id] = c; });
     INDEX = window.TJCSearch.buildIndex(DATA);
     renderTopnav();
+    renderAiBots();
     renderHero();
     renderActivityStrip();
     renderBulletin();
@@ -51,7 +52,10 @@
     $("#catList").innerHTML = '<p style="padding:16px;color:#c0392b">資料載入失敗：' + esc(String(e)) + "</p>";
   });
 
-  function groupsOf(catId) { return (DATA.groups || []).filter(function (g) { return g.category === catId; }); }
+  var AI_GID = "spirit|AI 靈修智能體";  // 置頂專區，不在分類內重複出現
+  function groupsOf(catId) {
+    return (DATA.groups || []).filter(function (g) { return g.category === catId && g.id !== AI_GID; });
+  }
   function countOf(catId) { return groupsOf(catId).reduce(function (n, g) { return n + gsize(g); }, 0); }
   function bsec(id) { return BULLETIN ? (BULLETIN.sections || []).filter(function (s) { return s.id === id; })[0] : null; }
 
@@ -97,6 +101,31 @@
         e.preventDefault(); closeAllDrops(); openCategoryDetail(a.getAttribute("data-cat"));
       });
     });
+  }
+
+  /* ---------- AI 靈修智能體 (top block) ---------- */
+  function renderAiBots() {
+    var host = $("#aiBots");
+    if (!host) return;
+    var g = (DATA.groups || []).filter(function (x) { return x.id === AI_GID; })[0];
+    if (!g || !g.links.length) { host.hidden = true; return; }
+    var rows = [
+      { name: "GPT", test: function (u) { return u.indexOf("chatgpt") >= 0; } },
+      { name: "Gemini", test: function (u) { return u.indexOf("gemini") >= 0; } }
+    ];
+    function wrapTitle(t) { return /^《/.test(t) ? t : "《" + t + "》"; }
+    var body = rows.map(function (r) {
+      var links = g.links.filter(function (l) { return r.test(l.url); });
+      if (!links.length) return "";
+      return '<div class="ab-row"><span class="ab-label"><b>' + r.name + "</b> 智能體</span>" +
+        '<div class="ab-links">' + links.map(function (l) {
+          return '<a ' + attrs(l.url) + ">" + esc(wrapTitle(l.text)) + "</a>";
+        }).join("") + "</div></div>";
+    }).join("");
+    if (!body) { host.hidden = true; return; }
+    host.innerHTML = '<div class="aibots-inner">' +
+      '<div class="ab-kicker">✦ AI 靈修智能體</div>' + body + "</div>";
+    host.hidden = false;
   }
 
   /* ---------- Hero (特別公告 + 尋人啟示) ---------- */

@@ -108,6 +108,18 @@ svg{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:2;stroke-l
 .container > .block{padding-left:0;padding-right:0}
 .block-sub{font-size:13.5px;font-weight:500;color:var(--color-muted)}
 
+/* ===== AI 靈修智能體 (top block) ===== */
+.aibots{margin-top:22px}
+.aibots-inner{background:#fff;border:1px solid var(--color-border);border-radius:16px;box-shadow:var(--shadow);overflow:hidden}
+.ab-kicker{padding:11px 18px;background:linear-gradient(var(--color-soft),#fff);border-bottom:1px solid var(--color-border);font-size:13px;font-weight:800;color:var(--color-accent-d);letter-spacing:.6px}
+.ab-row{display:flex;align-items:baseline;gap:14px;padding:13px 18px;border-top:1px solid #f2f4f9;flex-wrap:wrap}
+.ab-row:first-of-type{border-top:0}
+.ab-label{flex:none;min-width:96px;font-weight:700;color:var(--color-ink);font-size:14.5px}
+.ab-label b{color:var(--color-primary);font-weight:800}
+.ab-links{display:flex;flex-wrap:wrap;gap:8px}
+.ab-links a{display:inline-flex;align-items:center;min-height:34px;padding:6px 13px;border-radius:9px;background:var(--color-soft);border:1px solid var(--color-border);color:var(--color-primary);font-size:14px;font-weight:600;transition:background var(--ease),border-color var(--ease),transform var(--ease)}
+.ab-links a:hover{background:var(--color-tint);border-color:#c5d3f5;transform:translateY(-1px)}
+
 /* ===== HERO ===== */
 .hero{margin-top:26px;display:grid;grid-template-columns:1fr;gap:16px}
 .hero-main{
