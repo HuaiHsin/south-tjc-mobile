@@ -43,7 +43,6 @@
     { gid: "official|高屏小區公文", file: "data/doc-gaoping-gongwen.json", icon: "📋", sub: "高屏小區聚會、活動通知一覽" },
     { gid: "spirit|講義彙編", file: "data/doc-handout.json", icon: "📚", sub: "歷年進修會、講座講義與簡報（事工／生活／查經／靈修類）" },
     { gid: "activity|教牧資源分享", file: "data/doc-pastoral.json", icon: "🗂️", sub: "各股室主題資源、簡報與表格（依股別分區）" },
-    { gid: "other|健康醫訊", file: "data/doc-health.json", icon: "🩺", sub: "歷期健康・醫療專欄文章" },
     { gid: "other|真光園區", file: "data/doc-zhenguang.json", icon: "🌳", sub: "園區公告、申請文件與相片集" },
     { gid: "activity|聖樂活動影音", file: "data/doc-music.json", icon: "🎵", sub: "歷屆音樂營、研習會成果影音與相片" },
     { gid: "activity|宗教教育週海報", file: "data/doc-reposters.json", icon: "🖼️", sub: "各教會歷年宗教教育週海報" },
