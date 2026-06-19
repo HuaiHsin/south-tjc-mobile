@@ -50,7 +50,8 @@
     { gid: "activity|宗教教育週海報", file: "data/doc-reposters.json", icon: "🖼️", sub: "各教會歷年宗教教育週海報" },
     { gid: "spirit|線上靈糧", file: "data/doc-online.json", icon: "📡", sub: "各地教會線上直播・聚會頻道" },
     { gid: "other|好站連結", file: "data/doc-links.json", icon: "🔗", sub: "聯總、台總、教區及各地教會實用網站" },
-    { gid: "spirit|讀經教材", file: "data/doc-reading.json", icon: "📖", sub: "各卷讀經合併檔、讀經小挑戰與聽道筆記" }
+    { gid: "spirit|讀經教材", file: "data/doc-reading.json", icon: "📖", sub: "各卷讀經合併檔、讀經小挑戰與聽道筆記" },
+    { gid: "activity|人力資源", file: "data/doc-hr.json", icon: "🧑‍🏫", sub: "宗教教育週邀請講員、專題與信仰生活週課程" }
   ];
   var DOCS = {};
 
