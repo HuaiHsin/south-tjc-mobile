@@ -1,0 +1,311 @@
+{
+  "source": "http://south.tjc.org.tw/11/index.htm",
+  "kicker": "好站連結",
+  "title": "好站連結",
+  "subtitle": "聯總、台總、教區及各地教會實用網站",
+  "sections": [
+    {
+      "name": "各國網站",
+      "columns": [
+        "網站",
+        "說明"
+      ],
+      "primary": 0,
+      "rows": [
+        [
+          {
+            "t": "聯總宣道網站",
+            "u": "https://tjc.org/",
+            "k": "external"
+          },
+          "目前共支援十種語言，可與人分享文字及影音格式的信仰簡介、福音見證、聖經課程等"
+        ],
+        [
+          {
+            "t": "聯總信徒網站",
+            "u": "http://members.tjc.org/",
+            "k": "external"
+          },
+          "可閱讀中英文兩版本的真理短文連載與各國教會消息報導"
+        ],
+        [
+          {
+            "t": "聯總電子圖書館",
+            "u": "http://ia.tjc.org/elibrary",
+            "k": "external"
+          },
+          "可依主題或關鍵字搜尋、讀取所需要的講道影音、文章書籍、電子期刊，使饑渴慕義的心得到飽足與指引"
+        ],
+        [
+          {
+            "t": "聯總瑞馬研經工具",
+            "u": "http://bible.tjc.org/",
+            "k": "external"
+          },
+          "讀經、查經時，可利用中英與兩希共十種重要聖經譯本互相參照，並可逐節進行原文字詞分析、經文串珠，甚至可連結至本會電子圖書館，讀取與該段經文相關之文章與講道影音"
+        ],
+        [
+          {
+            "t": "聯總瑞馬研經工具操作示範",
+            "u": "https://www.youtube.com/watch?v=jKWPfzTdRNE&list=PLx55e0xTxpKtOdLT8gfLa1gl4lhNcRiJE",
+            "k": "youtube"
+          },
+          "7段影片"
+        ],
+        [
+          {
+            "t": "聯總Facebook",
+            "u": "https://www.facebook.com/tjcia100",
+            "k": "external"
+          },
+          "可隨時掌握各國事工最新消息與代禱事項，時常觀看神在全地的作為，堅固信心"
+        ],
+        [
+          {
+            "t": "聯總Instagram",
+            "u": "https://www.instagram.com/tjc.ia",
+            "k": "external"
+          },
+          "可隨時下載本會製作英文經文精美圖檔，存為桌面，滋潤心靈、提醒步履"
+        ],
+        [
+          {
+            "t": "聯總嗎哪雜誌",
+            "u": "http://mannamagazine.com/",
+            "k": "external"
+          },
+          "本會英文季刊。此處可完整下載各期嗎哪雜誌，或自聯總電子圖書館查閱網頁版單篇文章"
+        ],
+        [
+          {
+            "t": "美總官方網站",
+            "u": "https://tjc.org/usa",
+            "k": "external"
+          },
+          "可查詢全美各地教會網站及網路直播聚會連結，參與跨國聚會零時差"
+        ],
+        [
+          {
+            "t": "美總聖經查經指引",
+            "u": "https://bsg.tjc.org/",
+            "k": "external"
+          },
+          "目前提供英文與西班牙文的新約經卷查經指引，有助個人系統性地進行英文或西文查經"
+        ],
+        [
+          {
+            "t": "美總英文靈修小品網誌─五餅二魚",
+            "u": "http://blog.tjc.org/",
+            "k": "external"
+          },
+          "每日閱讀一小品，如鹿啜飲清溪，學習在日常小事中反思自己的信仰"
+        ],
+        [
+          {
+            "t": "美總網路書店",
+            "u": "http://order.tjc.org/",
+            "k": "external"
+          },
+          "可線上訂購本會英文出版品"
+        ],
+        [
+          {
+            "t": "新加坡聯絡處宣道網站",
+            "u": "http://www.truejesuschurch.sg/",
+            "k": "external"
+          },
+          "可閱讀英文基本信仰的短文、短片與見證，並獲得新加坡各地教會的聚會資訊"
+        ],
+        [
+          {
+            "t": "英國總會",
+            "u": "http://members.tjc.org/sites/en/uk/default.aspx",
+            "k": "external"
+          },
+          ""
+        ],
+        [
+          {
+            "t": "英國教會論壇",
+            "u": "http://www.tjc.org.uk/",
+            "k": "external"
+          },
+          ""
+        ],
+        [
+          {
+            "t": "馬來西亞總會",
+            "u": "http://www.tjc.org.my/",
+            "k": "external"
+          },
+          ""
+        ],
+        [
+          {
+            "t": "聖荷西教會",
+            "u": "http://tjcsj.org/",
+            "k": "external"
+          },
+          ""
+        ],
+        [
+          {
+            "t": "東京教會",
+            "u": "http://members.ja.tjc.org/sites/ja/jp/tokyo/default.aspx",
+            "k": "external"
+          },
+          ""
+        ],
+        [
+          {
+            "t": "墨田教會",
+            "u": "http://members.ja.tjc.org/sites/ja/jp/sumida/default.aspx",
+            "k": "external"
+          },
+          ""
+        ],
+        [
+          {
+            "t": "橫濱祈禱所",
+            "u": "http://members.ja.tjc.org/sites/ja/jp/yokohama/default.aspx",
+            "k": "external"
+          },
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "台總網站",
+      "columns": [
+        "網站",
+        "說明"
+      ],
+      "primary": 0,
+      "rows": [
+        [
+          {
+            "t": "臺總官方網站",
+            "u": "http://www.tjc.org.tw/",
+            "k": "external"
+          },
+          "可持續關心臺灣總會與各地事工消息、查詢各地教會網站連結，使自己與神的家有緊密連結"
+        ],
+        [
+          {
+            "t": "臺總喜信網路家庭",
+            "u": "https://joy.org.tw/",
+            "k": "external"
+          },
+          "每日可在豐盛的福音資源中堅固信心，並可與人分享活潑的生命之道"
+        ],
+        [
+          {
+            "t": "臺總羊圈圈隨行網",
+            "u": "http://lf.joy.org.tw/sheep",
+            "k": "external"
+          },
+          "兒童與青少年可在特定主題上獲得適齡且互動性的真理引導，並可下載具創意的學習資源"
+        ],
+        [
+          {
+            "t": "臺總教牧資源網",
+            "u": "http://edu.tjc.org.tw/",
+            "k": "external"
+          },
+          "可下載各種教牧教材與講義以進行自我訓練，並獲得教牧相關講習會之消息"
+        ],
+        [
+          {
+            "t": "臺總腓利門網路書房",
+            "u": "https://www.pbooks.com.tw/index.php",
+            "k": "external"
+          },
+          "可線上訂購本會出版品及其他基督教派中英文出版品、禮品"
+        ],
+        [
+          {
+            "t": "聖靈月刊",
+            "u": "https://tjc.org/zh/home/sermon/%E8%81%96%E9%9D%88%E6%9C%88%E5%88%8A/",
+            "k": "external"
+          },
+          ""
+        ],
+        [
+          {
+            "t": "喜信生命教育網",
+            "u": "http://life.joy.org.tw/",
+            "k": "external"
+          },
+          ""
+        ],
+        [
+          {
+            "t": "利河伯社會服務基金會",
+            "u": "http://www.rehoboth-welfare.org.tw/",
+            "k": "external"
+          },
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "教區網站",
+      "columns": [
+        "網站",
+        "說明"
+      ],
+      "primary": 0,
+      "rows": [
+        [
+          {
+            "t": "北區辦事處",
+            "u": "http://north.tjchurch.org.tw/",
+            "k": "external"
+          },
+          ""
+        ],
+        [
+          {
+            "t": "中區辦事處",
+            "u": "http://central.tjc.org.tw/",
+            "k": "external"
+          },
+          ""
+        ],
+        [
+          {
+            "t": "中南區辦事處",
+            "u": "http://mid-south.tjc.org.tw/",
+            "k": "external"
+          },
+          ""
+        ],
+        [
+          {
+            "t": "東北區辦事處",
+            "u": "http://northeast.tjc.org.tw/",
+            "k": "external"
+          },
+          ""
+        ],
+        [
+          {
+            "t": "東南區辦事處",
+            "u": "http://southeast.tjc.org.tw/",
+            "k": "external"
+          },
+          ""
+        ],
+        [
+          {
+            "t": "西區辦事處",
+            "u": "https://sites.google.com/site/tjcwest/",
+            "k": "external"
+          },
+          ""
+        ]
+      ]
+    }
+  ],
+  "note": "點網站名稱於新分頁開啟；說明摘自原站。"
+}

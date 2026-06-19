@@ -48,7 +48,8 @@
     { gid: "official|最新公告", file: "data/doc-life.json", icon: "📰", sub: "生活、健康類實用文章（原站選單為「最新公告」）" },
     { gid: "activity|聖樂活動影音", file: "data/doc-music.json", icon: "🎵", sub: "歷屆音樂營、研習會成果影音與相片" },
     { gid: "activity|宗教教育週海報", file: "data/doc-reposters.json", icon: "🖼️", sub: "各教會歷年宗教教育週海報" },
-    { gid: "spirit|線上靈糧", file: "data/doc-online.json", icon: "📡", sub: "各地教會線上直播・聚會頻道" }
+    { gid: "spirit|線上靈糧", file: "data/doc-online.json", icon: "📡", sub: "各地教會線上直播・聚會頻道" },
+    { gid: "other|好站連結", file: "data/doc-links.json", icon: "🔗", sub: "聯總、台總、教區及各地教會實用網站" }
   ];
   var DOCS = {};
 
@@ -782,7 +783,7 @@
           return '<div class="sched-m' + (has ? "" : " empty") + '"><div class="sched-mon">' +
             esc(m.label) + '</div><div class="sched-files">' + files + "</div></div>";
         }).join("") + "</div>";
-        inner = shead + sbody;
+        inner = shead + (g.verse ? '<blockquote class="dgroup-verse">' + esc(g.verse) + "</blockquote>" : "") + sbody;
       } else if (g.kind === "directory") {
         var btns = (g.districts || []).map(function (d, i) {
           return '<button class="viewall dir-btn" data-dir="' + esc(g.id) + '" data-di="' + i +
@@ -795,6 +796,7 @@
       } else {
         inner = head + '<ul class="links">' + g.links.map(linkRow).join("") + "</ul>";
       }
+      if (g.note) inner += '<p class="dgroup-note">' + esc(g.note) + "</p>";
       return '<div class="dgroup" data-gid="' + esc(g.id) + '">' + inner + "</div>";
     }).join("");
     showDetail(c.name + "（" + countOf(catId) + "）", html, function () {
