@@ -1,0 +1,1683 @@
+{
+  "source": "http://south.tjc.org.tw/12/index.htm",
+  "kicker": "教牧資源分享",
+  "title": "教牧資源分享",
+  "subtitle": "各股室主題資源、簡報與表格彙整",
+  "sections": [
+    {
+      "name": "教牧股",
+      "columns": [
+        "主題",
+        "內容",
+        "提供教會"
+      ],
+      "primary": 1,
+      "rows": [
+        [
+          "教會歷史",
+          {
+            "t": "麻豆教會史",
+            "u": "http://south.tjc.org.tw/12/教牧股/麻豆/麻豆教會史完整版.doc",
+            "k": "doc"
+          },
+          "麻豆"
+        ],
+        [
+          "教會歷史",
+          {
+            "t": "",
+            "parts": [
+              {
+                "label": "台南教會簡報",
+                "url": "http://south.tjc.org.tw/12/教牧股/台南/台南教會簡報.ppt",
+                "kind": "ppt"
+              },
+              {
+                "label": "台南教會簡介",
+                "url": "http://south.tjc.org.tw/12/教牧股/台南/台南教會簡介.doc",
+                "kind": "doc"
+              }
+            ]
+          },
+          "台南"
+        ],
+        [
+          "跳蚤市場",
+          {
+            "t": "義賣活動計劃",
+            "u": "http://south.tjc.org.tw/12/教牧股/麻豆/跳蚤市場(麻豆).doc",
+            "k": "doc"
+          },
+          "麻豆"
+        ],
+        [
+          "跳蚤市場",
+          {
+            "t": "",
+            "parts": [
+              {
+                "label": "前置作業",
+                "url": "http://south.tjc.org.tw/12/教牧股/台南/跳蚤市場前置作業(台南).doc",
+                "kind": "doc"
+              },
+              {
+                "label": "注意事項",
+                "url": "http://south.tjc.org.tw/12/教牧股/台南/跳蚤市場活動注意事項(台南).doc",
+                "kind": "doc"
+              },
+              {
+                "label": "使用表格",
+                "url": "http://south.tjc.org.tw/12/教牧股/台南/表單附件(台南).doc",
+                "kind": "doc"
+              }
+            ]
+          },
+          "台南"
+        ],
+        [
+          "訪問旅遊",
+          {
+            "t": "實施計劃",
+            "u": "http://south.tjc.org.tw/12/教牧股/麻豆/訪問旅遊計劃(麻豆).doc",
+            "k": "doc"
+          },
+          "麻豆"
+        ],
+        [
+          "接待工作",
+          {
+            "t": "北台中教會來訪簡報",
+            "u": "http://south.tjc.org.tw/12/教牧股/台南/北台中教會來訪簡報(台南).ppt",
+            "k": "ppt"
+          },
+          "台南"
+        ],
+        [
+          "社青團契",
+          {
+            "t": "團契聚會聖經導讀簡報",
+            "u": "http://south.tjc.org.tw/12/教牧股/麻豆/社青聚會聖經導讀簡報(麻豆).PPT",
+            "k": "ppt"
+          },
+          "麻豆"
+        ],
+        [
+          "青年團契",
+          {
+            "t": "夏季旅遊行程",
+            "u": "http://south.tjc.org.tw/12/教牧股/台南/青年團契夏季旅遊行程.doc",
+            "k": "doc"
+          },
+          "台南"
+        ],
+        [
+          "聚會集點贈獎活動",
+          {
+            "t": "",
+            "parts": [
+              {
+                "label": "活動辦法",
+                "url": "http://south.tjc.org.tw/12/教牧股/台南/聚會集點贈獎活動辦法.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "活動海報",
+                "url": "http://south.tjc.org.tw/12/教牧股/台南/聚會集點贈獎海報.jpg",
+                "kind": "page"
+              }
+            ]
+          },
+          "台南"
+        ],
+        [
+          "事工實務操作研習",
+          {
+            "t": "訪問事工講習",
+            "u": "http://south.tjc.org.tw/12/教牧股/其他/內壢教會訪問事工講習(簡).doc",
+            "k": "doc"
+          },
+          "內壢"
+        ],
+        [
+          "事工實務操作研習",
+          {
+            "t": "",
+            "parts": [
+              {
+                "label": "實施計劃",
+                "url": "http://south.tjc.org.tw/12/教牧股/麻豆/事工實務操作計劃(麻豆).doc",
+                "kind": "doc"
+              },
+              {
+                "label": "接待工作",
+                "url": "http://south.tjc.org.tw/12/教牧股/麻豆/接待工作(麻豆).doc",
+                "kind": "doc"
+              }
+            ]
+          },
+          "麻豆"
+        ],
+        [
+          "事工實務操作研習",
+          {
+            "t": "",
+            "parts": [
+              {
+                "label": "陪談準備與運用",
+                "url": "http://south.tjc.org.tw/12/教牧股/麻豆/陪談準備與運用(麻豆).doc",
+                "kind": "doc"
+              },
+              {
+                "label": "翻譯指導參考",
+                "url": "http://south.tjc.org.tw/12/教牧股/麻豆/翻譯指導參考(麻豆).doc",
+                "kind": "doc"
+              }
+            ]
+          },
+          "麻豆"
+        ],
+        [
+          "聚會事工注意事項",
+          {
+            "t": "",
+            "parts": [
+              {
+                "label": "接待工作",
+                "url": "http://south.tjc.org.tw/12/教牧股/開元/接待工作注意事項(開元).doc",
+                "kind": "doc"
+              },
+              {
+                "label": "車管、電管工作",
+                "url": "http://south.tjc.org.tw/12/教牧股/開元/車管電管人員(開元).doc",
+                "kind": "doc"
+              }
+            ]
+          },
+          "開元"
+        ],
+        [
+          "聚會事工注意事項",
+          {
+            "t": "翻譯、領詩、記錄工作",
+            "u": "http://south.tjc.org.tw/12/教牧股/開元/翻譯領詩記錄人員(開元).doc",
+            "k": "doc"
+          },
+          "開元"
+        ],
+        [
+          "歷任負責人聯席會",
+          {
+            "t": "組織章程",
+            "u": "http://south.tjc.org.tw/12/教牧股/南門/歷任教會負責人聯席會章程(南門).doc",
+            "k": "doc"
+          },
+          "南門"
+        ],
+        [
+          "同靈關懷及陪同成長跟進計畫",
+          {
+            "t": "",
+            "parts": [
+              {
+                "label": "跟進計劃",
+                "url": "http://south.tjc.org.tw/12/教牧股/南門/同靈關懷及陪同成長跟進計畫(南門).doc",
+                "kind": "doc"
+              },
+              {
+                "label": "關懷與跟進人員輔導課程表",
+                "url": "http://south.tjc.org.tw/12/教牧股/南門/關懷及跟進人員輔導課程表(南門).doc",
+                "kind": "doc"
+              }
+            ]
+          },
+          "南門"
+        ]
+      ]
+    },
+    {
+      "name": "宣道股",
+      "columns": [
+        "主題",
+        "內容",
+        "提供教會"
+      ],
+      "primary": 1,
+      "rows": [
+        [
+          "小區福音茶會",
+          {
+            "t": "實施計劃",
+            "u": "http://south.tjc.org.tw/12/宣道股/麻豆/福音茶會實施計劃案(麻豆).doc",
+            "k": "doc"
+          },
+          "麻豆"
+        ],
+        [
+          "真理造就班工作安排表",
+          {
+            "t": "",
+            "parts": [
+              {
+                "label": "100年7月",
+                "url": "http://south.tjc.org.tw/12/宣道股/南門/南門教會真理造就班聚會工作安排表-100年7月.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "100年8月",
+                "url": "http://south.tjc.org.tw/12/宣道股/南門/南門教會真理造就班聚會工作安排表-100年8月.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "100年9月",
+                "url": "http://south.tjc.org.tw/12/宣道股/南門/南門教會真理造就班聚會工作安排表-100年9月.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "100年10月",
+                "url": "http://south.tjc.org.tw/12/宣道股/南門/南門教會真理造就班聚會工作安排表-100年10月.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "100年12月",
+                "url": "http://south.tjc.org.tw/12/宣道股/南門/南門教會真理造就班聚會工作安排表-100年12月.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "101年1月",
+                "url": "http://south.tjc.org.tw/12/宣道股/南門/南門教會真理造就班聚會工作安排表-101年01月.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "101年2月",
+                "url": "http://south.tjc.org.tw/12/宣道股/南門/南門教會真理造就班聚會工作安排表-101年02月.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "101年3月",
+                "url": "http://south.tjc.org.tw/12/宣道股/南門/南門教會真理造就班聚會工作安排表-101年03月.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "101年4月",
+                "url": "http://south.tjc.org.tw/12/宣道股/南門/南門教會真理造就班聚會工作安排表-101年04月.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "101年5月",
+                "url": "http://south.tjc.org.tw/12/宣道股/南門/南門教會真理造就班聚會工作安排表-101年05月.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "101年6月",
+                "url": "http://south.tjc.org.tw/12/宣道股/南門/南門教會真理造就班聚會工作安排表-101年06月.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "101年7月",
+                "url": "http://south.tjc.org.tw/12/宣道股/南門/南門教會真理造就班聚會工作安排表-101年07月.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "101年8月",
+                "url": "http://south.tjc.org.tw/12/宣道股/南門/南門教會真理造就班聚會工作安排表-101年08月.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "101年9月",
+                "url": "http://south.tjc.org.tw/12/宣道股/南門/南門教會真理造就班聚會工作安排表-101年09月.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "101年10月",
+                "url": "http://south.tjc.org.tw/12/宣道股/南門/南門教會真理造就班聚會工作安排表-101年10月.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "101年11月",
+                "url": "http://south.tjc.org.tw/12/宣道股/南門/南門教會真理造就班聚會工作安排表-101年11月.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "101年12月",
+                "url": "http://south.tjc.org.tw/12/宣道股/南門/南門教會真理造就班聚會工作安排表-101年12月.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "102年1月",
+                "url": "http://south.tjc.org.tw/12/宣道股/南門/南門教會真理造就班聚會工作安排表-102年01月.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "102年2月",
+                "url": "http://south.tjc.org.tw/12/宣道股/南門/南門教會真理造就班聚會工作安排表-102年02月.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "102年3月",
+                "url": "http://south.tjc.org.tw/12/宣道股/南門/南門教會真理造就班聚會工作安排表-102年03月.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "102年4月",
+                "url": "http://south.tjc.org.tw/12/宣道股/南門/南門教會真理造就班聚會工作安排表-102年04月.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "102年5月",
+                "url": "http://south.tjc.org.tw/12/宣道股/南門/南門教會真理造就班聚會工作安排表-102年05月.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "102年6月",
+                "url": "http://south.tjc.org.tw/12/宣道股/南門/南門教會真理造就班聚會工作安排表-102年06月.doc",
+                "kind": "doc"
+              }
+            ]
+          },
+          "南門"
+        ],
+        [
+          "慕道者登記表",
+          {
+            "t": "外賓/慕道朋友資料表",
+            "u": "http://south.tjc.org.tw/12/宣道股/南門/南門教會慕道資料表1.doc",
+            "k": "doc"
+          },
+          "南門"
+        ],
+        [
+          "慕道者登記表",
+          {
+            "t": "留名卡",
+            "u": "http://south.tjc.org.tw/12/宣道股/南門/真耶穌教會_南門教會_留名卡-修改.doc",
+            "k": "doc"
+          },
+          "南門"
+        ],
+        [
+          "福音茶會",
+          {
+            "t": "福音茶會問卷",
+            "u": "http://south.tjc.org.tw/12/宣道股/南門/福音茶會意見表blank__NEW__.xls",
+            "k": "excel"
+          },
+          "南門"
+        ],
+        [
+          "陪談跟進關懷工作",
+          {
+            "t": "關懷與跟進人員輔導課程表",
+            "u": "http://south.tjc.org.tw/12/宣道股/南門/關懷及跟進輔導課程--南門.doc",
+            "k": "doc"
+          },
+          "南門"
+        ],
+        [
+          "陪談跟進關懷工作",
+          {
+            "t": "陪談跟進關懷工作之內容與注意事項",
+            "u": "http://south.tjc.org.tw/12/宣道股/南門/陪談跟進關懷工作之內容與注意事項.doc",
+            "k": "doc"
+          },
+          "南門"
+        ]
+      ]
+    },
+    {
+      "name": "教育股",
+      "columns": [
+        "主題",
+        "內容",
+        "提供教會"
+      ],
+      "primary": 1,
+      "rows": [
+        [
+          "青教組課程表",
+          {
+            "t": "",
+            "parts": [
+              {
+                "label": "初級班102學年第1季",
+                "url": "http://south.tjc.org.tw/12/教育股/開元/102學年青教組課表/初級班課表102-1.pdf",
+                "kind": "pdf"
+              },
+              {
+                "label": "第2季",
+                "url": "http://south.tjc.org.tw/12/教育股/開元/102學年青教組課表/初級班課表102-2.pdf",
+                "kind": "pdf"
+              },
+              {
+                "label": "第3季課表",
+                "url": "http://south.tjc.org.tw/12/教育股/開元/102學年青教組課表/初級班課表102-3.pdf",
+                "kind": "pdf"
+              },
+              {
+                "label": "中級班102學年第1季",
+                "url": "http://south.tjc.org.tw/12/教育股/開元/102學年青教組課表/中級班課表102-第一季.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "第2季",
+                "url": "http://south.tjc.org.tw/12/教育股/開元/102學年青教組課表/中級班課表102-第二季.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "第3季課表",
+                "url": "http://south.tjc.org.tw/12/教育股/開元/102學年青教組課表/中級班課表102-第三季.doc",
+                "kind": "doc"
+              }
+            ]
+          },
+          "開元"
+        ],
+        [
+          "青教組課程表",
+          {
+            "t": "",
+            "parts": [
+              {
+                "label": "初級班102學年第1季",
+                "url": "http://south.tjc.org.tw/12/教育股/莒光/102學年青教組課表/初級班課表102-Season1.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "第2季",
+                "url": "http://south.tjc.org.tw/12/教育股/莒光/102學年青教組課表/初級班課表102-Season2.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "第3季課表",
+                "url": "http://south.tjc.org.tw/12/教育股/莒光/102學年青教組課表/初級班課表102-Season3.docx",
+                "kind": "doc"
+              },
+              {
+                "label": "中級班102學年第1季",
+                "url": "http://south.tjc.org.tw/12/教育股/莒光/102學年青教組課表/中級班102學年度第一季課表.docx",
+                "kind": "doc"
+              },
+              {
+                "label": "第2季",
+                "url": "http://south.tjc.org.tw/12/教育股/莒光/102學年青教組課表/中級班102學年度第二季課表.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "第3季課表",
+                "url": "http://south.tjc.org.tw/12/教育股/莒光/102學年青教組課表/中級班102學年度第三季課表.docx",
+                "kind": "doc"
+              }
+            ]
+          },
+          "莒光"
+        ],
+        [
+          "青教組課程表",
+          {
+            "t": "",
+            "parts": [
+              {
+                "label": "初級班102學年第1季",
+                "url": "http://south.tjc.org.tw/12/教育股/五甲/102學年青教組課表/初級班第三學年第一季.docx",
+                "kind": "doc"
+              },
+              {
+                "label": "第2季",
+                "url": "http://south.tjc.org.tw/12/教育股/五甲/102學年青教組課表/初級班第三學年第二季.docx",
+                "kind": "doc"
+              },
+              {
+                "label": "第3季課表",
+                "url": "http://south.tjc.org.tw/12/教育股/五甲/102學年青教組課表/初級班第三學年第三季.docx",
+                "kind": "doc"
+              },
+              {
+                "label": "中級班102學年第1季",
+                "url": "http://south.tjc.org.tw/12/教育股/五甲/102學年青教組課表/中級班第三學年第一季.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "第2季",
+                "url": "http://south.tjc.org.tw/12/教育股/五甲/102學年青教組課表/中級班第三學年第二季1.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "第3季課表",
+                "url": "http://south.tjc.org.tw/12/教育股/五甲/102學年青教組課表/中級班第三學年第三季.doc",
+                "kind": "doc"
+              }
+            ]
+          },
+          "五甲"
+        ],
+        [
+          "青教組課程表",
+          {
+            "t": "中級班102學年第1季至",
+            "parts": [
+              {
+                "label": "初級班102學年第1季",
+                "url": "http://south.tjc.org.tw/12/教育股/屏東/102學年青教組課表/屏東教會初級班102學年第一季安排表.xls",
+                "kind": "excel"
+              },
+              {
+                "label": "第2季",
+                "url": "http://south.tjc.org.tw/12/教育股/屏東/102學年青教組課表/屏東教會初級班102學年第二季安排表.xls",
+                "kind": "excel"
+              },
+              {
+                "label": "第3季課表",
+                "url": "http://south.tjc.org.tw/12/教育股/屏東/102學年青教組課表/屏東教會初級班102學年第三季安排表.xls",
+                "kind": "excel"
+              },
+              {
+                "label": "中級班102學年第1季至第3季課表",
+                "url": "http://south.tjc.org.tw/12/教育股/屏東/102學年青教組課表/屏東教會中級班102學年(1-3)季課表.xls",
+                "kind": "excel"
+              }
+            ]
+          },
+          "屏東"
+        ],
+        [
+          "青教組課程表",
+          {
+            "t": "",
+            "parts": [
+              {
+                "label": "青年班102學年第1季",
+                "url": "http://south.tjc.org.tw/12/教育股/和順/102學年青教組課表/102學年第1季.jpg",
+                "kind": "page"
+              },
+              {
+                "label": "第2季",
+                "url": "http://south.tjc.org.tw/12/教育股/和順/102學年青教組課表/102學年第2季.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "第3季課表",
+                "url": "http://south.tjc.org.tw/12/教育股/和順/102學年青教組課表/102學年第3季.doc",
+                "kind": "doc"
+              }
+            ]
+          },
+          "和順"
+        ],
+        [
+          "青教組課程表",
+          {
+            "t": "",
+            "parts": [
+              {
+                "label": "初中級班102學年第1季",
+                "url": "http://south.tjc.org.tw/12/教育股/歸仁/102學年青教組課表/102年%20第3學年%20第一季.docx",
+                "kind": "doc"
+              },
+              {
+                "label": "第2季",
+                "url": "http://south.tjc.org.tw/12/教育股/歸仁/102學年青教組課表/102年%20第3學年%20第二季.docx",
+                "kind": "doc"
+              },
+              {
+                "label": "第3季課表",
+                "url": "http://south.tjc.org.tw/12/教育股/歸仁/102學年青教組課表/102年%20第3學年%20第三季.docx",
+                "kind": "doc"
+              }
+            ]
+          },
+          "歸仁"
+        ],
+        [
+          "聯絡簿(幼年班99學年第1季)",
+          {
+            "t": "",
+            "parts": [
+              {
+                "label": "我的檔案",
+                "url": "http://south.tjc.org.tw/12/教育股/十全/99年幼年班第1季聯絡簿/1.我的檔案.pdf",
+                "kind": "pdf"
+              },
+              {
+                "label": "祈禱文",
+                "url": "http://south.tjc.org.tw/12/教育股/十全/99年幼年班第1季聯絡簿/2.祈禱文.pdf",
+                "kind": "pdf"
+              },
+              {
+                "label": "通訊錄",
+                "url": "http://south.tjc.org.tw/12/教育股/十全/99年幼年班第1季聯絡簿/3.通訊錄.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "聖句卡",
+                "url": "http://south.tjc.org.tw/12/教育股/十全/99年幼年班第1季聯絡簿/4.聖句卡.pdf",
+                "kind": "pdf"
+              },
+              {
+                "label": "我是好小孩評分表",
+                "url": "http://south.tjc.org.tw/12/教育股/十全/99年幼年班第1季聯絡簿/5.我是好小孩評分表.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "課表",
+                "url": "http://south.tjc.org.tw/12/教育股/十全/99年幼年班第1季聯絡簿/6.99年第1季課表.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "內頁",
+                "url": "http://south.tjc.org.tw/12/教育股/十全/99年幼年班第1季聯絡簿/99學年年幼年班第1季.doc",
+                "kind": "doc"
+              }
+            ]
+          },
+          "十全"
+        ],
+        [
+          "聯絡簿(幼年班99學年第2季)",
+          {
+            "t": "卡",
+            "parts": [
+              {
+                "label": "聖句",
+                "url": "http://south.tjc.org.tw/12/教育股/十全/99年幼年班第2季聯絡簿/聖句.txt",
+                "kind": "page"
+              },
+              {
+                "label": "我的檔案",
+                "url": "http://south.tjc.org.tw/12/教育股/十全/99年幼年班第2季聯絡簿/1.我的檔案.pdf",
+                "kind": "pdf"
+              },
+              {
+                "label": "祈禱文",
+                "url": "http://south.tjc.org.tw/12/教育股/十全/99年幼年班第2季聯絡簿/2.祈禱文.pdf",
+                "kind": "pdf"
+              },
+              {
+                "label": "通訊錄",
+                "url": "http://south.tjc.org.tw/12/教育股/十全/99年幼年班第2季聯絡簿/3.通訊錄.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "聖句卡",
+                "url": "http://south.tjc.org.tw/12/教育股/十全/99年幼年班第2季聯絡簿/4.聖句卡.pdf",
+                "kind": "pdf"
+              },
+              {
+                "label": "我是好小孩評分表",
+                "url": "http://south.tjc.org.tw/12/教育股/十全/99年幼年班第2季聯絡簿/5.我是好小孩評分表.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "課表",
+                "url": "http://south.tjc.org.tw/12/教育股/十全/99年幼年班第2季聯絡簿/6.99年第2季課表.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "內頁",
+                "url": "http://south.tjc.org.tw/12/教育股/十全/99年幼年班第2季聯絡簿/7.99學年年幼年班第2季.doc",
+                "kind": "doc"
+              }
+            ]
+          },
+          "十全"
+        ],
+        [
+          "聯絡簿(幼年班99學年第3季)",
+          {
+            "t": "卡",
+            "parts": [
+              {
+                "label": "聖句",
+                "url": "http://south.tjc.org.tw/12/教育股/十全/99年幼年班第3季聯絡簿/聖句.txt",
+                "kind": "page"
+              },
+              {
+                "label": "我的檔案",
+                "url": "http://south.tjc.org.tw/12/教育股/十全/99年幼年班第3季聯絡簿/1.我的檔案.pdf",
+                "kind": "pdf"
+              },
+              {
+                "label": "祈禱文",
+                "url": "http://south.tjc.org.tw/12/教育股/十全/99年幼年班第3季聯絡簿/2.祈禱文.pdf",
+                "kind": "pdf"
+              },
+              {
+                "label": "通訊錄",
+                "url": "http://south.tjc.org.tw/12/教育股/十全/99年幼年班第3季聯絡簿/3.通訊錄.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "聖句卡",
+                "url": "http://south.tjc.org.tw/12/教育股/十全/99年幼年班第3季聯絡簿/4.聖句卡.pdf",
+                "kind": "pdf"
+              },
+              {
+                "label": "我是好小孩評分表",
+                "url": "http://south.tjc.org.tw/12/教育股/十全/99年幼年班第3季聯絡簿/5.我是好小孩評分表.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "課表",
+                "url": "http://south.tjc.org.tw/12/教育股/十全/99年幼年班第3季聯絡簿/6.99學年第3季課表.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "內頁",
+                "url": "http://south.tjc.org.tw/12/教育股/十全/99年幼年班第3季聯絡簿/7.99學年年幼年班第3季.doc",
+                "kind": "doc"
+              }
+            ]
+          },
+          "十全"
+        ],
+        [
+          "聯絡簿(幼年班99學年第4季)",
+          {
+            "t": "卡",
+            "parts": [
+              {
+                "label": "聖句",
+                "url": "http://south.tjc.org.tw/12/教育股/十全/99年幼年班第4季聯絡簿/聖句.txt",
+                "kind": "page"
+              },
+              {
+                "label": "我的檔案",
+                "url": "http://south.tjc.org.tw/12/教育股/十全/99年幼年班第4季聯絡簿/1.我的檔案.pdf",
+                "kind": "pdf"
+              },
+              {
+                "label": "祈禱文",
+                "url": "http://south.tjc.org.tw/12/教育股/十全/99年幼年班第4季聯絡簿/2.祈禱文.pdf",
+                "kind": "pdf"
+              },
+              {
+                "label": "通訊錄",
+                "url": "http://south.tjc.org.tw/12/教育股/十全/99年幼年班第4季聯絡簿/3.通訊錄.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "聖句卡",
+                "url": "http://south.tjc.org.tw/12/教育股/十全/99年幼年班第4季聯絡簿/4.聖句卡.pdf",
+                "kind": "pdf"
+              },
+              {
+                "label": "我是好小孩評分表",
+                "url": "http://south.tjc.org.tw/12/教育股/十全/99年幼年班第4季聯絡簿/5.我是好小孩評分表.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "課表",
+                "url": "http://south.tjc.org.tw/12/教育股/十全/99年幼年班第4季聯絡簿/6.99學年第4季課表.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "內頁",
+                "url": "http://south.tjc.org.tw/12/教育股/十全/99年幼年班第4季聯絡簿/7.99學年年幼年班第4季.doc",
+                "kind": "doc"
+              }
+            ]
+          },
+          "十全"
+        ],
+        [
+          "教員培訓",
+          {
+            "t": "",
+            "parts": [
+              {
+                "label": "兒教組教員培訓委員會章程",
+                "url": "http://south.tjc.org.tw/12/教育股/五甲/兒教組教員培訓委員會章程.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "章程目錄",
+                "url": "http://south.tjc.org.tw/12/教育股/五甲/教員培訓計劃目錄_-1.doc",
+                "kind": "doc"
+              }
+            ]
+          },
+          "五甲"
+        ],
+        [
+          "教員培訓",
+          {
+            "t": "95學年培訓課表",
+            "u": "http://south.tjc.org.tw/12/教育股/五甲/95學年培訓課表.doc",
+            "k": "doc"
+          },
+          "五甲"
+        ],
+        [
+          "文書表格",
+          {
+            "t": "",
+            "parts": [
+              {
+                "label": "SARS叮嚀單",
+                "url": "http://south.tjc.org.tw/12/教育股/台南/SARS叮嚀單.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "靈恩會小叮嚀",
+                "url": "http://south.tjc.org.tw/12/教育股/台南/靈恩會小叮嚀.doc",
+                "kind": "doc"
+              }
+            ]
+          },
+          "台南"
+        ],
+        [
+          "文書表格",
+          {
+            "t": "懇親會邀請函",
+            "u": "http://south.tjc.org.tw/12/教育股/台南/懇親會邀請函.doc",
+            "k": "doc"
+          },
+          "台南"
+        ],
+        [
+          "文書表格",
+          {
+            "t": "獎助學金申請辦法",
+            "u": "http://south.tjc.org.tw/12/教育股/莒光/莒光教會獎助學金申請辦法.doc",
+            "k": "doc"
+          },
+          "莒光"
+        ],
+        [
+          "文書表格",
+          {
+            "t": "",
+            "parts": [
+              {
+                "label": "94學年行事曆(94年9月~95年2月)",
+                "url": "http://south.tjc.org.tw/12/教育股/莒光/94學年行事曆九-二月.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "(95年3~8月)",
+                "url": "http://south.tjc.org.tw/12/教育股/莒光/94學年行事曆三-八月.doc",
+                "kind": "doc"
+              }
+            ]
+          },
+          "莒光"
+        ],
+        [
+          "學生中心",
+          {
+            "t": "",
+            "parts": [
+              {
+                "label": "住宿申請表",
+                "url": "http://south.tjc.org.tw/12/教育股/莒光/學生中心住宿申請表.docx",
+                "kind": "doc"
+              },
+              {
+                "label": "住宿推薦表",
+                "url": "http://south.tjc.org.tw/12/教育股/莒光/學生中心住宿推薦表.docx",
+                "kind": "doc"
+              },
+              {
+                "label": "住宿審查意見表",
+                "url": "http://south.tjc.org.tw/12/教育股/莒光/學生中心住宿審查意見表.docx",
+                "kind": "doc"
+              }
+            ]
+          },
+          "莒光"
+        ],
+        [
+          "教員進修會",
+          {
+            "t": "",
+            "parts": [
+              {
+                "label": "91年",
+                "url": "http://south.tjc.org.tw/12/教育股/麻豆/91下教員進修會程序表(麻豆).doc",
+                "kind": "doc"
+              },
+              {
+                "label": "92年",
+                "url": "http://south.tjc.org.tw/12/教育股/麻豆/92年教員進修會計劃(麻豆).doc",
+                "kind": "doc"
+              },
+              {
+                "label": "93年",
+                "url": "http://south.tjc.org.tw/12/教育股/麻豆/93上教員進修會計劃案(麻豆).doc",
+                "kind": "doc"
+              },
+              {
+                "label": "94年",
+                "url": "http://south.tjc.org.tw/12/教育股/麻豆/94上教員進修會程序表(麻豆).doc",
+                "kind": "doc"
+              }
+            ]
+          },
+          "麻豆"
+        ],
+        [
+          "教員進修會",
+          {
+            "t": "簡報",
+            "u": "http://south.tjc.org.tw/12/教育股/高雄/教員進修會.ppt",
+            "k": "ppt"
+          },
+          "高雄"
+        ],
+        [
+          "教員靈修會",
+          {
+            "t": "",
+            "parts": [
+              {
+                "label": "92學年第1次",
+                "url": "http://south.tjc.org.tw/12/教育股/南門/92學年第一次教員靈修會(南門).doc",
+                "kind": "doc"
+              },
+              {
+                "label": "第2次",
+                "url": "http://south.tjc.org.tw/12/教育股/南門/92學年第二次教員靈修會(南門).doc",
+                "kind": "doc"
+              },
+              {
+                "label": "93學年第1,2次",
+                "url": "http://south.tjc.org.tw/12/教育股/南門/93年一、二次教員靈修會(南門).doc",
+                "kind": "doc"
+              }
+            ]
+          },
+          "南門"
+        ],
+        [
+          "宗教教會週",
+          {
+            "t": "計劃草案、實施辦法、工作安排",
+            "u": "http://south.tjc.org.tw/12/教育股/南門/93學年度宗教教育週(南門).doc",
+            "k": "doc"
+          },
+          "南門"
+        ],
+        [
+          "宗教教會週",
+          {
+            "t": "",
+            "parts": [
+              {
+                "label": "主題概述",
+                "url": "http://south.tjc.org.tw/12/教育股/十全/93年宗教教育週主題概述(十全).doc",
+                "kind": "doc"
+              },
+              {
+                "label": "節目表",
+                "url": "http://south.tjc.org.tw/12/教育股/十全/93年宗教教育週節目安排(十全).doc",
+                "kind": "doc"
+              }
+            ]
+          },
+          "十全"
+        ],
+        [
+          "家長座談會",
+          {
+            "t": "簡報",
+            "u": "http://south.tjc.org.tw/12/教育股/高雄/家長座談會.ppt",
+            "k": "ppt"
+          },
+          "高雄"
+        ],
+        [
+          "年末特別聚會",
+          {
+            "t": "",
+            "parts": [
+              {
+                "label": "91年度",
+                "url": "http://south.tjc.org.tw/12/教育股/麻豆/91年末特別聚會程序表(麻豆).doc",
+                "kind": "doc"
+              },
+              {
+                "label": "92年度",
+                "url": "http://south.tjc.org.tw/12/教育股/麻豆/92年末特別聚會程序表(麻豆).doc",
+                "kind": "doc"
+              },
+              {
+                "label": "94年",
+                "url": "http://south.tjc.org.tw/12/教育股/麻豆/94年末特聚程序表(麻豆).doc",
+                "kind": "doc"
+              }
+            ]
+          },
+          "麻豆"
+        ],
+        [
+          "年末特別聚會",
+          {
+            "t": "94年工作計劃",
+            "u": "http://south.tjc.org.tw/12/教育股/十全/94年年末特聚工作計劃(十全).doc",
+            "k": "doc"
+          },
+          "十全"
+        ],
+        [
+          "青教組成長營",
+          {
+            "t": "",
+            "parts": [
+              {
+                "label": "邀請函",
+                "url": "http://south.tjc.org.tw/12/教育股/台南/成長營邀請函.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "課務組工作安排",
+                "url": "http://south.tjc.org.tw/12/教育股/台南/成長營課務組工作安排.doc",
+                "kind": "doc"
+              }
+            ]
+          },
+          "台南"
+        ],
+        [
+          "青教組成長營",
+          {
+            "t": "",
+            "parts": [
+              {
+                "label": "課程計劃表",
+                "url": "http://south.tjc.org.tw/12/教育股/台南/青教組成長營課程計劃表.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "值日工作表",
+                "url": "http://south.tjc.org.tw/12/教育股/台南/成長營值日工作表.doc",
+                "kind": "doc"
+              }
+            ]
+          },
+          "台南"
+        ],
+        [
+          "少年班特別聚會",
+          {
+            "t": "",
+            "parts": [
+              {
+                "label": "戶外活動規劃",
+                "url": "http://south.tjc.org.tw/12/教育股/台南/90年少年班特別聚會戶外活動規劃.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "注意事項",
+                "url": "http://south.tjc.org.tw/12/教育股/台南/90年少年班特別聚會注意事項.doc",
+                "kind": "doc"
+              }
+            ]
+          },
+          "台南"
+        ],
+        [
+          "少年班特別聚會",
+          {
+            "t": "",
+            "parts": [
+              {
+                "label": "計分卡",
+                "url": "http://south.tjc.org.tw/12/教育股/台南/90年少特班戶外活動計分卡.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "測驗卷",
+                "url": "http://south.tjc.org.tw/12/教育股/台南/少特班測驗卷.doc",
+                "kind": "doc"
+              }
+            ]
+          },
+          "台南"
+        ],
+        [
+          "少年班特別聚會",
+          {
+            "t": "",
+            "parts": [
+              {
+                "label": "93年課表",
+                "url": "http://south.tjc.org.tw/12/教育股/莒光/少特班93年課表.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "學員報到表",
+                "url": "http://south.tjc.org.tw/12/教育股/莒光/少特班93年學員報到表.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "秩序表",
+                "url": "http://south.tjc.org.tw/12/教育股/莒光/少特班93秩序表.doc",
+                "kind": "doc"
+              }
+            ]
+          },
+          "莒光"
+        ],
+        [
+          "宗教教育成長營",
+          {
+            "t": "活動計劃",
+            "u": "http://south.tjc.org.tw/12/教育股/麻豆/94年成長營活動計畫(麻豆).doc",
+            "k": "doc"
+          },
+          "麻豆"
+        ],
+        [
+          "宗教教育成長營",
+          {
+            "t": "94年課程表",
+            "u": "http://south.tjc.org.tw/12/教育股/五甲/94年成長營課程表.doc",
+            "k": "doc"
+          },
+          "五甲"
+        ],
+        [
+          "暑期快樂兒童營",
+          {
+            "t": "",
+            "parts": [
+              {
+                "label": "計劃書",
+                "url": "http://south.tjc.org.tw/12/教育股/十全/92年暑期兒童營計劃書(十全).doc",
+                "kind": "doc"
+              },
+              {
+                "label": "課程表",
+                "url": "http://south.tjc.org.tw/12/教育股/十全/92年暑期兒童營課程表(十全).xls",
+                "kind": "excel"
+              }
+            ]
+          },
+          "十全"
+        ],
+        [
+          "兒教組福音茶會",
+          {
+            "t": "",
+            "parts": [
+              {
+                "label": "93年",
+                "url": "http://south.tjc.org.tw/12/教育股/麻豆/93年兒教組福音茶會(麻豆).doc",
+                "kind": "doc"
+              },
+              {
+                "label": "94年",
+                "url": "http://south.tjc.org.tw/12/教育股/麻豆/94年兒教組福音茶會(麻豆).doc",
+                "kind": "doc"
+              }
+            ]
+          },
+          "麻豆"
+        ],
+        [
+          "兒教組福音茶會",
+          {
+            "t": "94年節目儀節表",
+            "u": "http://south.tjc.org.tw/12/教育股/五甲/94年兒教福音茶會節目儀節表.doc",
+            "k": "doc"
+          },
+          "五甲"
+        ],
+        [
+          "兒教組福音茶會",
+          {
+            "t": "",
+            "parts": [
+              {
+                "label": "94年籌備會：第一次",
+                "url": "http://south.tjc.org.tw/12/教育股/十全/94年兒教組福音茶會/第一次籌備會.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "第二次",
+                "url": "http://south.tjc.org.tw/12/教育股/十全/94年兒教組福音茶會/第二次籌備會.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "第三次",
+                "url": "http://south.tjc.org.tw/12/教育股/十全/94年兒教組福音茶會/第三次籌備會.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "第四次",
+                "url": "http://south.tjc.org.tw/12/教育股/十全/94年兒教組福音茶會/第四次籌備會.doc",
+                "kind": "doc"
+              }
+            ]
+          },
+          "十全"
+        ],
+        [
+          "兒教組福音茶會",
+          {
+            "t": "",
+            "parts": [
+              {
+                "label": "提案",
+                "url": "http://south.tjc.org.tw/12/教育股/十全/94年兒教組福音茶會/提案.xls",
+                "kind": "excel"
+              },
+              {
+                "label": "意見調查表",
+                "url": "http://south.tjc.org.tw/12/教育股/十全/94年兒教組福音茶會/意見調查表.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "檢討會記錄",
+                "url": "http://south.tjc.org.tw/12/教育股/十全/94年兒教組福音茶會/檢討會.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "主持人講稿",
+                "url": "http://south.tjc.org.tw/12/教育股/十全/94年兒教組福音茶會/主持人講稿-快樂小天使.doc",
+                "kind": "doc"
+              }
+            ]
+          },
+          "十全"
+        ],
+        [
+          "青教組福音茶會",
+          {
+            "t": "經驗分享",
+            "u": "http://south.tjc.org.tw/12/教育股/十全/福音茶會經驗分享.ppt",
+            "k": "ppt"
+          },
+          "十全"
+        ],
+        [
+          "母親節特別聚會",
+          {
+            "t": "92年實施計劃",
+            "u": "http://south.tjc.org.tw/12/教育股/麻豆/92年母親節特別聚會計劃(麻豆).doc",
+            "k": "doc"
+          },
+          "麻豆"
+        ],
+        [
+          "父親節特別聚會",
+          {
+            "t": "簡報：向偉大的父親致敬",
+            "u": "http://south.tjc.org.tw/12/教育股/台南/向偉大的父親致敬(台南).ppt",
+            "k": "ppt"
+          },
+          "台南"
+        ],
+        [
+          "溫韾守望情",
+          {
+            "t": "說明書及報名表",
+            "u": "http://south.tjc.org.tw/12/教育股/十全/溫馨守望情和報名表(十全).doc",
+            "k": "doc"
+          },
+          "十全"
+        ],
+        [
+          "95年兒童生活營",
+          {
+            "t": "規劃內容",
+            "parts": [
+              {
+                "label": "課程表",
+                "url": "http://south.tjc.org.tw/12/教育股/開元/95年兒童生活營/課程表.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "課程表規劃內容",
+                "url": "http://south.tjc.org.tw/12/教育股/開元/95年兒童生活營/課程表規劃內容.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "口號",
+                "url": "http://south.tjc.org.tw/12/教育股/開元/95年兒童生活營/口號.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "教會生活",
+                "url": "http://south.tjc.org.tw/12/教育股/開元/95年兒童生活營/教會生活.doc",
+                "kind": "doc"
+              }
+            ]
+          },
+          "開元"
+        ],
+        [
+          "95年兒童生活營",
+          {
+            "t": "",
+            "parts": [
+              {
+                "label": "讀經生活",
+                "url": "http://south.tjc.org.tw/12/教育股/開元/95年兒童生活營/讀經生活.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "聖經猜謎",
+                "url": "http://south.tjc.org.tw/12/教育股/開元/95年兒童生活營/聖經猜謎.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "聖經遊戲",
+                "url": "http://south.tjc.org.tw/12/教育股/開元/95年兒童生活營/聖經遊戲.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "我愛神的家",
+                "url": "http://south.tjc.org.tw/12/教育股/開元/95年兒童生活營/我愛神的家.doc",
+                "kind": "doc"
+              }
+            ]
+          },
+          "開元"
+        ],
+        [
+          "95年兒童生活營",
+          {
+            "t": "",
+            "parts": [
+              {
+                "label": "把愛傳出去",
+                "url": "http://south.tjc.org.tw/12/教育股/開元/95年兒童生活營/把愛傳出去.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "學員注意事項",
+                "url": "http://south.tjc.org.tw/12/教育股/開元/95年兒童生活營/學員注意事項.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "輔導員注意事項",
+                "url": "http://south.tjc.org.tw/12/教育股/開元/95年兒童生活營/輔導員注意事項.doc",
+                "kind": "doc"
+              }
+            ]
+          },
+          "開元"
+        ],
+        [
+          "96年兒童生活營",
+          {
+            "t": "",
+            "parts": [
+              {
+                "label": "課程表",
+                "url": "http://south.tjc.org.tw/12/教育股/開元/96年兒童生活營/課程表.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "報名表",
+                "url": "http://south.tjc.org.tw/12/教育股/開元/96年兒童生活營/報名表.doc",
+                "kind": "doc"
+              }
+            ]
+          },
+          "開元"
+        ]
+      ]
+    },
+    {
+      "name": "總務股",
+      "columns": [
+        "主題",
+        "內容",
+        "提供教會"
+      ],
+      "primary": 1,
+      "rows": [
+        [
+          "會堂管理員",
+          {
+            "t": "",
+            "parts": [
+              {
+                "label": "聘任管理辦法",
+                "url": "http://south.tjc.org.tw/12/總務股/南門/會堂管理員聘任管理辦法(南門).doc",
+                "kind": "doc"
+              },
+              {
+                "label": "聘任契約書",
+                "url": "http://south.tjc.org.tw/12/總務股/南門/管理及清潔人員聘任契約書(南門).doc",
+                "kind": "doc"
+              },
+              {
+                "label": "工作職掌",
+                "url": "http://south.tjc.org.tw/12/總務股/南門/管理員工作職掌(南門).doc",
+                "kind": "doc"
+              }
+            ]
+          },
+          "南門"
+        ],
+        [
+          "會堂管理員",
+          {
+            "t": "",
+            "parts": [
+              {
+                "label": "工作細則",
+                "url": "http://south.tjc.org.tw/12/總務股/南門/會堂管理員工作細則(南門).doc",
+                "kind": "doc"
+              },
+              {
+                "label": "考核表",
+                "url": "http://south.tjc.org.tw/12/總務股/南門/考核表(南門).doc",
+                "kind": "doc"
+              },
+              {
+                "label": "每月休假表",
+                "url": "http://south.tjc.org.tw/12/總務股/南門/每月休假表(南門).doc",
+                "kind": "doc"
+              }
+            ]
+          },
+          "南門"
+        ],
+        [
+          "會堂管理員",
+          {
+            "t": "事病假請假卡",
+            "u": "http://south.tjc.org.tw/12/總務股/南門/事病假請假卡(南門).doc",
+            "k": "doc"
+          },
+          "南門"
+        ],
+        [
+          "教會清潔工作",
+          {
+            "t": "自願表",
+            "u": "http://south.tjc.org.tw/12/總務股/台南/教會清潔報名表(台南).xls",
+            "k": "excel"
+          },
+          "台南"
+        ],
+        [
+          "文書表格",
+          {
+            "t": "除偶像切結書",
+            "u": "http://south.tjc.org.tw/12/總務股/台南/除偶像切結書(台南).doc",
+            "k": "doc"
+          },
+          "台南"
+        ],
+        [
+          "文書表格",
+          {
+            "t": "訂結",
+            "parts": [
+              {
+                "label": "婚禮儀節表",
+                "url": "http://south.tjc.org.tw/12/教牧股/高雄/婚禮儀節表.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "訂結婚禮儀節表",
+                "url": "http://south.tjc.org.tw/12/教牧股/高雄/訂、結婚禮儀節表.doc",
+                "kind": "doc"
+              }
+            ]
+          },
+          "高雄"
+        ],
+        [
+          "文書表格",
+          {
+            "t": "未信者",
+            "parts": [
+              {
+                "label": "喪禮儀節表",
+                "url": "http://south.tjc.org.tw/12/教牧股/高雄/喪禮儀節表.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "未信者喪禮儀節表",
+                "url": "http://south.tjc.org.tw/12/教牧股/高雄/未信者喪禮儀節表.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "訃文(父親)",
+                "url": "http://south.tjc.org.tw/12/教牧股/高雄/訃文(父親）.doc",
+                "kind": "doc"
+              }
+            ]
+          },
+          "高雄"
+        ],
+        [
+          "文書表格",
+          {
+            "t": "",
+            "parts": [
+              {
+                "label": "訃文(母親)",
+                "url": "http://south.tjc.org.tw/12/教牧股/高雄/訃文(母親）.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "訃文(丈夫)",
+                "url": "http://south.tjc.org.tw/12/教牧股/高雄/訃文(丈夫）.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "訃文(妻子)",
+                "url": "http://south.tjc.org.tw/12/教牧股/高雄/訃文(妻子）.doc",
+                "kind": "doc"
+              }
+            ]
+          },
+          "高雄"
+        ],
+        [
+          "文書表格",
+          {
+            "t": "",
+            "parts": [
+              {
+                "label": "車輛使用管理辦法",
+                "url": "http://south.tjc.org.tw/12/總務股/其他教會/車輛使用管理辦法.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "車輛使用申請書",
+                "url": "http://south.tjc.org.tw/12/總務股/其他教會/車輛使用申請書.doc",
+                "kind": "doc"
+              }
+            ]
+          },
+          "其他 教會"
+        ],
+        [
+          "文書表格",
+          {
+            "t": "",
+            "parts": [
+              {
+                "label": "訂婚典禮申請書",
+                "url": "http://south.tjc.org.tw/12/總務股/其他教會/訂婚典禮申請書.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "結婚典禮申請書",
+                "url": "http://south.tjc.org.tw/12/總務股/其他教會/結婚典禮申請書.doc",
+                "kind": "doc"
+              }
+            ]
+          },
+          "其他 教會"
+        ],
+        [
+          "文書表格",
+          {
+            "t": "",
+            "parts": [
+              {
+                "label": "喪事須知一",
+                "url": "http://south.tjc.org.tw/12/總務股/其他教會/喪事須知一.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "喪事須知二",
+                "url": "http://south.tjc.org.tw/12/總務股/其他教會/喪事須知二.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "喪禮申請書",
+                "url": "http://south.tjc.org.tw/12/總務股/其他教會/喪禮申請書.doc",
+                "kind": "doc"
+              }
+            ]
+          },
+          "其他 教會"
+        ],
+        [
+          "文書表格",
+          {
+            "t": "",
+            "parts": [
+              {
+                "label": "喪禮禮節表一",
+                "url": "http://south.tjc.org.tw/12/總務股/其他教會/喪禮儀節表一.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "喪禮禮節表二",
+                "url": "http://south.tjc.org.tw/12/總務股/其他教會/喪禮儀節表二.doc",
+                "kind": "doc"
+              },
+              {
+                "label": "勸慰詞",
+                "url": "http://south.tjc.org.tw/12/總務股/其他教會/勸慰詞.doc",
+                "kind": "doc"
+              }
+            ]
+          },
+          "其他 教會"
+        ]
+      ]
+    },
+    {
+      "name": "資訊股",
+      "columns": [
+        "主題",
+        "內容",
+        "提供教會"
+      ],
+      "primary": 1,
+      "rows": [
+        [
+          "桌球聯誼賽",
+          {
+            "t": "手冊",
+            "u": "http://south.tjc.org.tw/12/總務股/開元/開元桌球聯誼賽手冊.doc",
+            "k": "doc"
+          },
+          "開元"
+        ]
+      ]
+    }
+  ],
+  "note": "點「內容」開啟資源檔（簡報／文件／表格）；資料由各提供教會分享。"
+}

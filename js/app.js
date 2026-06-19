@@ -41,7 +41,8 @@
   var DOC_DEFS = [
     { gid: "official|南區公文", file: "data/doc-south-gongwen.json", icon: "📑", sub: "發文日期、字號、收送對象一覽" },
     { gid: "official|高屏小區公文", file: "data/doc-gaoping-gongwen.json", icon: "📋", sub: "高屏小區聚會、活動通知一覽" },
-    { gid: "spirit|講義彙編", file: "data/doc-handout.json", icon: "📚", sub: "歷年進修會、講座講義與簡報（事工／生活／查經／靈修類）" }
+    { gid: "spirit|講義彙編", file: "data/doc-handout.json", icon: "📚", sub: "歷年進修會、講座講義與簡報（事工／生活／查經／靈修類）" },
+    { gid: "activity|教牧資源分享", file: "data/doc-pastoral.json", icon: "🗂️", sub: "各股室主題資源、簡報與表格（依股別分區）" }
   ];
   var DOCS = {};
 
