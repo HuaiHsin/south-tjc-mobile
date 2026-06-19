@@ -49,7 +49,8 @@
     { gid: "activity|聖樂活動影音", file: "data/doc-music.json", icon: "🎵", sub: "歷屆音樂營、研習會成果影音與相片" },
     { gid: "activity|宗教教育週海報", file: "data/doc-reposters.json", icon: "🖼️", sub: "各教會歷年宗教教育週海報" },
     { gid: "spirit|線上靈糧", file: "data/doc-online.json", icon: "📡", sub: "各地教會線上直播・聚會頻道" },
-    { gid: "other|好站連結", file: "data/doc-links.json", icon: "🔗", sub: "聯總、台總、教區及各地教會實用網站" }
+    { gid: "other|好站連結", file: "data/doc-links.json", icon: "🔗", sub: "聯總、台總、教區及各地教會實用網站" },
+    { gid: "spirit|讀經教材", file: "data/doc-reading.json", icon: "📖", sub: "各卷讀經合併檔、讀經小挑戰與聽道筆記" }
   ];
   var DOCS = {};
 

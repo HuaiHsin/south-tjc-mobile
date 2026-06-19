@@ -1,0 +1,257 @@
+{
+  "source": "http://south.tjc.org.tw/06/%E8%AE%80%E7%B6%93%E6%95%99%E6%9D%90.htm",
+  "kicker": "讀經教材",
+  "title": "讀經教材",
+  "subtitle": "各卷讀經合併檔、讀經小挑戰與聽道筆記",
+  "sections": [
+    {
+      "name": "讀經教材（各卷合併檔）",
+      "columns": [
+        "書卷"
+      ],
+      "primary": 0,
+      "rows": [
+        [
+          {
+            "t": "",
+            "parts": [
+              {
+                "label": "創世記",
+                "url": "http://south.tjc.org.tw/06/創世紀合併檔.pdf",
+                "kind": "pdf"
+              },
+              {
+                "label": "出埃及記",
+                "url": "http://south.tjc.org.tw/06/出埃及記合併檔.pdf",
+                "kind": "pdf"
+              },
+              {
+                "label": "民數記",
+                "url": "http://south.tjc.org.tw/06/民數記合併檔.pdf",
+                "kind": "pdf"
+              },
+              {
+                "label": "約書亞記",
+                "url": "http://south.tjc.org.tw/06/約書亞記合併檔.pdf",
+                "kind": "pdf"
+              },
+              {
+                "label": "士師記",
+                "url": "http://south.tjc.org.tw/06/士師記合併檔.pdf",
+                "kind": "pdf"
+              },
+              {
+                "label": "路得記",
+                "url": "http://south.tjc.org.tw/06/路得記合併檔.pdf",
+                "kind": "pdf"
+              },
+              {
+                "label": "撒母耳記上",
+                "url": "http://south.tjc.org.tw/06/撒母耳記上合併檔.pdf",
+                "kind": "pdf"
+              },
+              {
+                "label": "尼希米記",
+                "url": "http://south.tjc.org.tw/06/尼希米記合併檔.pdf",
+                "kind": "pdf"
+              },
+              {
+                "label": "以斯帖記",
+                "url": "http://south.tjc.org.tw/06/以斯帖記合併檔.pdf",
+                "kind": "pdf"
+              },
+              {
+                "label": "馬太福音",
+                "url": "http://south.tjc.org.tw/06/馬太福音合併檔.pdf",
+                "kind": "pdf"
+              },
+              {
+                "label": "馬可福音",
+                "url": "http://south.tjc.org.tw/06/馬可福音合併檔.pdf",
+                "kind": "pdf"
+              },
+              {
+                "label": "使徒行傳",
+                "url": "http://south.tjc.org.tw/06/使徒行傳合併檔.pdf",
+                "kind": "pdf"
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "name": "讀經小挑戰",
+      "columns": [
+        "上傳日期",
+        "內容"
+      ],
+      "primary": 1,
+      "rows": [
+        [
+          "108.7.31",
+          {
+            "t": "讀經小挑戰—民數記",
+            "u": "http://south.tjc.org.tw/06/民數記合併檔.pdf",
+            "k": "pdf"
+          }
+        ],
+        [
+          "107.4.13",
+          {
+            "t": "讀經小挑戰—撒母耳記上",
+            "u": "http://south.tjc.org.tw/06/撒母耳記上合併檔.pdf",
+            "k": "pdf"
+          }
+        ],
+        [
+          "106.3.8",
+          {
+            "t": "讀經小挑戰—士師記",
+            "u": "http://south.tjc.org.tw/06/士師記合併檔.pdf",
+            "k": "pdf"
+          }
+        ],
+        [
+          "106.3.8",
+          {
+            "t": "讀經小挑戰—尼希米記",
+            "u": "http://south.tjc.org.tw/06/尼希米記合併檔.pdf",
+            "k": "pdf"
+          }
+        ],
+        [
+          "106.3.8",
+          {
+            "t": "讀經小挑戰—以斯帖記",
+            "u": "http://south.tjc.org.tw/06/尼希米記合併檔.pdf",
+            "k": "pdf"
+          }
+        ],
+        [
+          "106.3.8",
+          {
+            "t": "讀經小挑戰—路得記",
+            "u": "http://south.tjc.org.tw/06/尼希米記合併檔.pdf",
+            "k": "pdf"
+          }
+        ],
+        [
+          "103.10.8",
+          {
+            "t": "讀經小挑戰使用說明—家長版",
+            "u": "http://south.tjc.org.tw/06/讀經小挑戰使用說明_家長版.pdf",
+            "k": "pdf"
+          }
+        ],
+        [
+          "103.10.8",
+          {
+            "t": "讀經小挑戰使用說明—教員版",
+            "u": "http://south.tjc.org.tw/06/讀經小挑戰使用說明_教員版.pdf",
+            "k": "pdf"
+          }
+        ],
+        [
+          "103.10.8",
+          {
+            "t": "讀經小挑戰使用說明—學員版",
+            "u": "http://south.tjc.org.tw/06/讀經小挑戰使用說明_學員版.pdf",
+            "k": "pdf"
+          }
+        ],
+        [
+          "103.10.8",
+          {
+            "t": "讀經小挑戰—約書亞記",
+            "u": "http://south.tjc.org.tw/06/約書亞記合併檔.pdf",
+            "k": "pdf"
+          }
+        ],
+        [
+          "103.4.2",
+          {
+            "t": "讀經小挑戰—創世記",
+            "u": "http://south.tjc.org.tw/06/創世紀合併檔.pdf",
+            "k": "pdf"
+          }
+        ],
+        [
+          "102.10.15",
+          {
+            "t": "讀經小挑戰—出埃及記",
+            "u": "http://south.tjc.org.tw/06/出埃及記合併檔.pdf",
+            "k": "pdf"
+          }
+        ],
+        [
+          "102.9.17",
+          {
+            "t": "讀經小挑戰—馬可福音",
+            "u": "http://south.tjc.org.tw/06/馬可福音合併檔.pdf",
+            "k": "pdf"
+          }
+        ],
+        [
+          "102.9.17",
+          {
+            "t": "讀經小挑戰—使徒行傳",
+            "u": "http://south.tjc.org.tw/06/使徒行傳合併檔.pdf",
+            "k": "pdf"
+          }
+        ],
+        [
+          "102.6.24",
+          {
+            "t": "讀經小挑戰—馬太福音",
+            "u": "http://south.tjc.org.tw/06/馬太福音合併檔.pdf",
+            "k": "pdf"
+          }
+        ],
+        [
+          "102.9.24",
+          {
+            "t": "讀經教材使用情形調查表",
+            "u": "https://docs.google.com/forms/d/10nV-8IES_RC2maF3N-BjIQjom7bc_CVI7VZTGo3s3Io/viewform",
+            "k": "page"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "聽道筆記",
+      "columns": [
+        "上傳日期",
+        "內容"
+      ],
+      "primary": 1,
+      "rows": [
+        [
+          "104.4.2",
+          {
+            "t": "幼少年班聽道筆記",
+            "u": "http://south.tjc.org.tw/06/聽道筆記/幼少年班聽道筆記.docx",
+            "k": "doc"
+          }
+        ],
+        [
+          "104.4.2",
+          {
+            "t": "青教組聽道筆記",
+            "u": "http://south.tjc.org.tw/06/聽道筆記/青教組聽道筆記.docx",
+            "k": "doc"
+          }
+        ],
+        [
+          "104.4.2",
+          {
+            "t": "聽道筆記簿",
+            "u": "http://south.tjc.org.tw/06/聽道筆記/聽道筆記簿.docx",
+            "k": "doc"
+          }
+        ]
+      ]
+    }
+  ],
+  "note": "點書卷或項目開啟 PDF；讀經小挑戰另附家長版／教員版使用說明。"
+}
