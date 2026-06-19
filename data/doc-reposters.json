@@ -1,0 +1,484 @@
+{
+  "source": "http://south.tjc.org.tw/09/index.htm",
+  "kicker": "宗教教育週海報",
+  "title": "宗教教育週海報",
+  "subtitle": "各教會歷年宗教教育週海報",
+  "updated": "114.9.5",
+  "sections": [
+    {
+      "name": "各年度海報",
+      "columns": [
+        "年度",
+        "各教會海報"
+      ],
+      "primary": 1,
+      "rows": [
+        [
+          "114年",
+          {
+            "parts": [
+              {
+                "label": "2025開元",
+                "url": "http://south.tjc.org.tw/09/114年/2025開元.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2025南門",
+                "url": "http://south.tjc.org.tw/09/114年/2025南門.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2025永康",
+                "url": "http://south.tjc.org.tw/09/114年/2025永康.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2025和順",
+                "url": "http://south.tjc.org.tw/09/114年/2025和順.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2025東昇",
+                "url": "http://south.tjc.org.tw/09/114年/2025東昇.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2025五甲",
+                "url": "http://south.tjc.org.tw/09/114年/2025五甲.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2025迦美",
+                "url": "http://south.tjc.org.tw/09/114年/2025迦美.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2025十全-1",
+                "url": "http://south.tjc.org.tw/09/114年/2025十全-1.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2025十全-2",
+                "url": "http://south.tjc.org.tw/09/114年/2025十全-2.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2025楠梓",
+                "url": "http://south.tjc.org.tw/09/114年/2025楠梓.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2025岡山",
+                "url": "http://south.tjc.org.tw/09/114年/2025岡山.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2025三多",
+                "url": "http://south.tjc.org.tw/09/114年/2025三多.png",
+                "kind": "image"
+              },
+              {
+                "label": "2025小港",
+                "url": "http://south.tjc.org.tw/09/114年/2025小港.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2025民生",
+                "url": "http://south.tjc.org.tw/09/114年/2025民生.jpg",
+                "kind": "image"
+              }
+            ]
+          }
+        ],
+        [
+          "113年",
+          {
+            "parts": [
+              {
+                "label": "2024開元",
+                "url": "http://south.tjc.org.tw/09/113年/開元.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2024麻豆",
+                "url": "http://south.tjc.org.tw/09/113年/麻豆.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2024南門",
+                "url": "http://south.tjc.org.tw/09/113年/南門.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2024歸仁",
+                "url": "http://south.tjc.org.tw/09/113年/歸仁.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2024永康",
+                "url": "http://south.tjc.org.tw/09/113年/永康.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2024和順",
+                "url": "http://south.tjc.org.tw/09/113年/和順.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2024五甲",
+                "url": "http://south.tjc.org.tw/09/113年/五甲.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2024迦美",
+                "url": "http://south.tjc.org.tw/09/113年/迦美.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2024十全",
+                "url": "http://south.tjc.org.tw/09/113年/十全.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2024楠梓",
+                "url": "http://south.tjc.org.tw/09/113年/楠梓.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2024岡山",
+                "url": "http://south.tjc.org.tw/09/113年/岡山.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2024三多",
+                "url": "http://south.tjc.org.tw/09/113年/三多.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2024小港",
+                "url": "http://south.tjc.org.tw/09/113年/小港.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2024民生",
+                "url": "http://south.tjc.org.tw/09/113年/民生.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2024民權",
+                "url": "http://south.tjc.org.tw/09/113年/民權.jpg",
+                "kind": "image"
+              }
+            ]
+          }
+        ],
+        [
+          "112年",
+          {
+            "parts": [
+              {
+                "label": "2023開元",
+                "url": "http://south.tjc.org.tw/09/112年/開元.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2023麻豆",
+                "url": "http://south.tjc.org.tw/09/112年/麻豆.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2023南門",
+                "url": "http://south.tjc.org.tw/09/112年/南門.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2023歸仁",
+                "url": "http://south.tjc.org.tw/09/112年/歸仁.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2023永康",
+                "url": "http://south.tjc.org.tw/09/112年/永康.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2023五甲",
+                "url": "http://south.tjc.org.tw/09/112年/五甲.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2023迦美",
+                "url": "http://south.tjc.org.tw/09/112年/迦美.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2023十全",
+                "url": "http://south.tjc.org.tw/09/112年/十全.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2023楠梓",
+                "url": "http://south.tjc.org.tw/09/112年/楠梓.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2023莒光",
+                "url": "http://south.tjc.org.tw/09/112年/莒光.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2023小港",
+                "url": "http://south.tjc.org.tw/09/112年/小港.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2023屏東",
+                "url": "http://south.tjc.org.tw/09/112年/小港.jpg",
+                "kind": "image"
+              }
+            ]
+          }
+        ],
+        [
+          "111年",
+          {
+            "parts": [
+              {
+                "label": "2022開元",
+                "url": "http://south.tjc.org.tw/09/111年/2022開元.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2022麻豆",
+                "url": "http://south.tjc.org.tw/09/111年/2022麻豆.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2022南門",
+                "url": "http://south.tjc.org.tw/09/111年/2022南門.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2022歸仁",
+                "url": "http://south.tjc.org.tw/09/111年/2022歸仁.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2022永康",
+                "url": "http://south.tjc.org.tw/09/111年/2022永康.png",
+                "kind": "image"
+              },
+              {
+                "label": "2022東昇",
+                "url": "http://south.tjc.org.tw/09/111年/2022東昇.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2022五甲",
+                "url": "http://south.tjc.org.tw/09/111年/2022五甲.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2022十全",
+                "url": "http://south.tjc.org.tw/09/111年/2022十全.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2022莒光",
+                "url": "http://south.tjc.org.tw/09/111年/2022莒光.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2022前鎮",
+                "url": "http://south.tjc.org.tw/09/111年/2022前鎮.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2022小港",
+                "url": "http://south.tjc.org.tw/09/111年/2022小港.png",
+                "kind": "image"
+              },
+              {
+                "label": "2022屏東",
+                "url": "http://south.tjc.org.tw/09/111年/2022屏東.jpg",
+                "kind": "image"
+              }
+            ]
+          }
+        ],
+        [
+          "109年",
+          {
+            "parts": [
+              {
+                "label": "2020南門",
+                "url": "http://south.tjc.org.tw/09/109年/2020南門.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2020開元",
+                "url": "http://south.tjc.org.tw/09/109年/2020開元.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2020台南",
+                "url": "http://south.tjc.org.tw/09/109年/2020台南.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2020十全",
+                "url": "http://south.tjc.org.tw/09/109年/2020十全.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2020迦美",
+                "url": "http://south.tjc.org.tw/09/109年/2020迦美.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2020莒光",
+                "url": "http://south.tjc.org.tw/09/109年/2020莒光.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2020小港",
+                "url": "http://south.tjc.org.tw/09/109年/2020小港.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2020屏東",
+                "url": "http://south.tjc.org.tw/09/109年/2020屏東.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2020三重",
+                "url": "http://south.tjc.org.tw/09/109年/2020三重.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2020中和",
+                "url": "http://south.tjc.org.tw/09/109年/2020中和.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2020八斗",
+                "url": "http://south.tjc.org.tw/09/109年/2020八斗.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2020內壢",
+                "url": "http://south.tjc.org.tw/09/109年/2020內壢.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2020關東橋",
+                "url": "http://south.tjc.org.tw/09/109年/2020關東橋.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2020南台中",
+                "url": "http://south.tjc.org.tw/09/109年/2020南台中.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2020塭仔",
+                "url": "http://south.tjc.org.tw/09/109年/2020塭仔.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2020彰化",
+                "url": "http://south.tjc.org.tw/09/109年/2020彰化.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2020太平",
+                "url": "http://south.tjc.org.tw/09/109年/2020太平.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2020北台中",
+                "url": "http://south.tjc.org.tw/09/109年/2020北台中.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2020台中",
+                "url": "http://south.tjc.org.tw/09/109年/2020台中.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2020自強",
+                "url": "http://south.tjc.org.tw/09/109年/2020自強.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2020嘉義",
+                "url": "http://south.tjc.org.tw/09/109年/2020嘉義.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2020朴子",
+                "url": "http://south.tjc.org.tw/09/109年/2020朴子.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2020宜蘭",
+                "url": "http://south.tjc.org.tw/09/109年/2020宜蘭.png",
+                "kind": "image"
+              },
+              {
+                "label": "2020台東",
+                "url": "http://south.tjc.org.tw/09/109年/2020台東.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2020東光",
+                "url": "http://south.tjc.org.tw/09/109年/2020東光.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2020復興",
+                "url": "http://south.tjc.org.tw/09/109年/2020復興.jpg",
+                "kind": "image"
+              }
+            ]
+          }
+        ],
+        [
+          "108年",
+          {
+            "parts": [
+              {
+                "label": "2019屏東",
+                "url": "http://south.tjc.org.tw/09/108年/2019屏東.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2019彰化",
+                "url": "http://south.tjc.org.tw/09/108年/2019彰化.jpg",
+                "kind": "image"
+              }
+            ]
+          }
+        ],
+        [
+          "107年",
+          {
+            "parts": [
+              {
+                "label": "2018十全-1",
+                "url": "http://south.tjc.org.tw/09/107年/2018十全-1.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "2018十全-2",
+                "url": "http://south.tjc.org.tw/09/107年/2018十全-2.jpg",
+                "kind": "image"
+              }
+            ]
+          }
+        ]
+      ]
+    }
+  ],
+  "note": "以上為各教會宗教教育週的海報，在此向提供的教會致謝。點海報名稱開啟原站圖檔。"
+}

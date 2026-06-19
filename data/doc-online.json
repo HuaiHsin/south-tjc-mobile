@@ -1,0 +1,623 @@
+{
+  "source": "http://south.tjc.org.tw/15/index.htm",
+  "kicker": "線上靈糧",
+  "title": "線上靈糧",
+  "subtitle": "各地教會線上直播・聚會頻道彙整",
+  "sections": [
+    {
+      "name": "聯總",
+      "columns": [
+        "教會 / 頻道",
+        "備註"
+      ],
+      "primary": 0,
+      "rows": [
+        [
+          {
+            "t": "國際聯總影音網站",
+            "u": "https://tjc.org/all-media",
+            "k": "external"
+          },
+          ""
+        ],
+        [
+          {
+            "t": "TJC全球福音分享網",
+            "u": "https://reurl.cc/j7kdOm",
+            "k": "external"
+          },
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "台總",
+      "columns": [
+        "教會 / 頻道",
+        "備註"
+      ],
+      "primary": 0,
+      "rows": [
+        [
+          {
+            "t": "真光之聲",
+            "u": "https://supr.link/uUTbg",
+            "k": "external"
+          },
+          ""
+        ],
+        [
+          {
+            "t": "喜信視聽中心",
+            "u": "https://supr.link/BA9P6",
+            "k": "external"
+          },
+          ""
+        ],
+        [
+          {
+            "t": "腓利門書房頻道",
+            "u": "https://supr.link/sIKyT",
+            "k": "external"
+          },
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "宗教教育課程",
+      "columns": [
+        "教會 / 頻道",
+        "備註"
+      ],
+      "primary": 0,
+      "rows": [
+        [
+          {
+            "t": "真耶穌教會臺灣總會教牧處",
+            "u": "https://reurl.cc/nz1vL6",
+            "k": "external"
+          },
+          ""
+        ],
+        [
+          {
+            "t": "2020中區青教組教員進修會",
+            "u": "https://reurl.cc/1xZbG8",
+            "k": "external"
+          },
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "台灣(北區)",
+      "columns": [
+        "教會 / 頻道",
+        "備註"
+      ],
+      "primary": 0,
+      "rows": [
+        [
+          {
+            "t": "台北教會",
+            "u": "https://supr.link/D8KvR",
+            "k": "external"
+          },
+          "主頻道"
+        ],
+        [
+          {
+            "t": "台北教會",
+            "u": "https://supr.link/yKep5",
+            "k": "external"
+          },
+          "中英講道聚會/每週四"
+        ],
+        [
+          {
+            "t": "松山教會",
+            "u": "https://supr.link/Oh65M",
+            "k": "external"
+          },
+          ""
+        ],
+        [
+          {
+            "t": "內湖教會",
+            "u": "https://reurl.cc/xZ9vvL",
+            "k": "external"
+          },
+          ""
+        ],
+        [
+          {
+            "t": "景美教會",
+            "u": "https://supr.link/9Lu57",
+            "k": "external"
+          },
+          ""
+        ],
+        [
+          {
+            "t": "木柵教會",
+            "u": "https://supr.link/8MJov",
+            "k": "external"
+          },
+          "臉書直播"
+        ],
+        [
+          {
+            "t": "大同教會",
+            "u": "https://supr.link/U2hIa",
+            "k": "external"
+          },
+          ""
+        ],
+        [
+          {
+            "t": "石牌教會",
+            "u": "https://supr.link/8jSXt",
+            "k": "external"
+          },
+          ""
+        ],
+        [
+          {
+            "t": "北投教會",
+            "u": "https://supr.link/zuFpS",
+            "k": "external"
+          },
+          ""
+        ],
+        [
+          {
+            "t": "東園教會",
+            "u": "https://supr.link/TVi7U",
+            "k": "external"
+          },
+          ""
+        ],
+        [
+          {
+            "t": "八斗教會",
+            "u": "https://supr.link/wn0ze",
+            "k": "external"
+          },
+          ""
+        ],
+        [
+          {
+            "t": "三重教會",
+            "u": "https://reurl.cc/WdkR1y",
+            "k": "external"
+          },
+          ""
+        ],
+        [
+          {
+            "t": "永和教會",
+            "u": "https://supr.link/EZuvJ",
+            "k": "external"
+          },
+          ""
+        ],
+        [
+          {
+            "t": "樹林教會",
+            "u": "https://supr.link/THNW6",
+            "k": "external"
+          },
+          ""
+        ],
+        [
+          {
+            "t": "關東橋教會",
+            "u": "https://supr.link/1e8pr",
+            "k": "external"
+          },
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "台灣(北區) · 台灣(中區/南區)",
+      "columns": [
+        "教會 / 頻道",
+        "備註"
+      ],
+      "primary": 0,
+      "rows": [
+        [
+          {
+            "t": "北臺中教會",
+            "u": "https://supr.link/I99Yi",
+            "k": "external"
+          },
+          ""
+        ],
+        [
+          {
+            "t": "永福教會",
+            "u": "https://supr.link/HlxMd",
+            "k": "external"
+          },
+          ""
+        ],
+        [
+          {
+            "t": "南台中教會",
+            "u": "https://reurl.cc/WdrNv9",
+            "k": "external"
+          },
+          ""
+        ],
+        [
+          {
+            "t": "台南教會",
+            "u": "https://supr.link/BD7pn",
+            "k": "external"
+          },
+          ""
+        ],
+        [
+          {
+            "t": "東昇教會",
+            "u": "https://supr.link/YjLIz",
+            "k": "external"
+          },
+          ""
+        ],
+        [
+          {
+            "t": "十全教會",
+            "u": "https://reurl.cc/b5nlo6",
+            "k": "external"
+          },
+          ""
+        ],
+        [
+          {
+            "t": "三多教會",
+            "u": "https://reurl.cc/QdLEXO",
+            "k": "external"
+          },
+          ""
+        ],
+        [
+          {
+            "t": "TJC網站",
+            "u": "https://tjc.org/tjc-live-stream",
+            "k": "external"
+          },
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "日本",
+      "columns": [
+        "教會 / 頻道",
+        "備註"
+      ],
+      "primary": 0,
+      "rows": [
+        [
+          {
+            "t": "日本總會",
+            "u": "https://reurl.cc/GVxp5A",
+            "k": "external"
+          },
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "香港",
+      "columns": [
+        "教會 / 頻道",
+        "備註"
+      ],
+      "primary": 0,
+      "rows": [
+        [
+          {
+            "t": "香港教會",
+            "u": "https://reurl.cc/z8Zq86",
+            "k": "external"
+          },
+          ""
+        ],
+        [
+          {
+            "t": "九龍教會",
+            "u": "https://www.youtube.com/channel/UCtccXPvlcWwwfA3DEfrbm3A",
+            "k": "youtube"
+          },
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "新加坡",
+      "columns": [
+        "教會 / 頻道",
+        "備註"
+      ],
+      "primary": 0,
+      "rows": [
+        [
+          {
+            "t": "亞當路教會",
+            "u": "https://twitch.tv/tjcadam",
+            "k": "external"
+          },
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "印尼",
+      "columns": [
+        "教會 / 頻道",
+        "備註"
+      ],
+      "primary": 0,
+      "rows": [
+        [
+          {
+            "t": "印尼教會",
+            "u": "http://tjc.org/id/sabat",
+            "k": "external"
+          },
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "馬來西亞",
+      "columns": [
+        "教會 / 頻道",
+        "備註"
+      ],
+      "primary": 0,
+      "rows": [
+        [
+          {
+            "t": "馬來西亞教會",
+            "u": "https://tjc.org.my/",
+            "k": "external"
+          },
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "澳洲",
+      "columns": [
+        "教會 / 頻道",
+        "備註"
+      ],
+      "primary": 0,
+      "rows": [
+        [
+          {
+            "t": "阿德雷德教會",
+            "u": "https://supr.link/EIBt9",
+            "k": "external"
+          },
+          "Adelaide"
+        ]
+      ]
+    },
+    {
+      "name": "阿根廷",
+      "columns": [
+        "教會 / 頻道",
+        "備註"
+      ],
+      "primary": 0,
+      "rows": [
+        [
+          {
+            "t": "阿根廷教會",
+            "u": "https://supr.link/OGsIX",
+            "k": "external"
+          },
+          "La Verdadera Iglesia de Jesus ARG"
+        ]
+      ]
+    },
+    {
+      "name": "紐西蘭",
+      "columns": [
+        "教會 / 頻道",
+        "備註"
+      ],
+      "primary": 0,
+      "rows": [
+        [
+          {
+            "t": "基督城教會",
+            "u": "https://reurl.cc/GVxakD",
+            "k": "external"
+          },
+          "新西蘭)Christchurch"
+        ]
+      ]
+    },
+    {
+      "name": "英國",
+      "columns": [
+        "教會 / 頻道",
+        "備註"
+      ],
+      "primary": 0,
+      "rows": [
+        [
+          {
+            "t": "倫敦教會",
+            "u": "https://reurl.cc/NjAxKp",
+            "k": "external"
+          },
+          "英 & 中"
+        ],
+        [
+          {
+            "t": "紐卡素教會",
+            "u": "https://uk.tjc.org/newcastle",
+            "k": "external"
+          },
+          "英 & 粤"
+        ],
+        [
+          {
+            "t": "愛丁堡區教會",
+            "u": "https://reurl.cc/z8Z5a6",
+            "k": "external"
+          },
+          "英 & 粤"
+        ],
+        [
+          {
+            "t": "里斯特教會(",
+            "u": "https://uk.tjc.org/leicester/members",
+            "k": "external"
+          },
+          "英 & 粤"
+        ]
+      ]
+    },
+    {
+      "name": "加拿大",
+      "columns": [
+        "教會 / 頻道",
+        "備註"
+      ],
+      "primary": 0,
+      "rows": [
+        [
+          {
+            "t": "多倫多教會",
+            "u": "https://reurl.cc/8Go9My",
+            "k": "external"
+          },
+          "a"
+        ],
+        [
+          {
+            "t": "多倫多教會",
+            "u": "https://tonykuo.my.webex.com/meet/tony.kuo",
+            "k": "external"
+          },
+          ""
+        ],
+        [
+          {
+            "t": "https://tonykuo.my.webex.com/meet/tony.kuo",
+            "u": "https://tonykuo.my.webex.com/meet/tony.kuo",
+            "k": "external"
+          },
+          "b"
+        ]
+      ]
+    },
+    {
+      "name": "美國 · Northwest Region",
+      "columns": [
+        "教會 / 頻道",
+        "備註"
+      ],
+      "primary": 0,
+      "rows": [
+        [
+          {
+            "t": "西北區線上聚會",
+            "u": "http://www.tjcsj.org/online-service",
+            "k": "external"
+          },
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "美國 · Southwest Region",
+      "columns": [
+        "教會 / 頻道",
+        "備註"
+      ],
+      "primary": 0,
+      "rows": [
+        [
+          {
+            "t": "西南區線上聚會",
+            "u": "https://tjc.org/usa/service",
+            "k": "external"
+          },
+          ""
+        ],
+        [
+          {
+            "t": "爾灣教會",
+            "u": "https://reurl.cc/WdrOVe",
+            "k": "external"
+          },
+          "Chinese/English中英 (Irvine Church"
+        ],
+        [
+          {
+            "t": "爾灣教會",
+            "u": "https://reurl.cc/O1AmLv",
+            "k": "external"
+          },
+          "Korean 韓語 (Glendale Church"
+        ]
+      ]
+    },
+    {
+      "name": "美國 · 東區線上聚會(Hillsborough)",
+      "columns": [
+        "教會 / 頻道",
+        "備註"
+      ],
+      "primary": 0,
+      "rows": [
+        [
+          {
+            "t": "喜樂坡教會",
+            "u": "https://reurl.cc/V6DWq5",
+            "k": "external"
+          },
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "美國 · 中區線上聚會",
+      "columns": [
+        "教會 / 頻道",
+        "備註"
+      ],
+      "primary": 0,
+      "rows": [
+        [
+          {
+            "t": "芝加哥教會",
+            "u": "https://reurl.cc/g72Ylb",
+            "k": "external"
+          },
+          "Chicago"
+        ],
+        [
+          {
+            "t": "達拉斯教會",
+            "u": "https://reurl.cc/R4rkRZ",
+            "k": "external"
+          },
+          ""
+        ]
+      ]
+    }
+  ],
+  "note": "點教會/頻道名稱開啟線上聚會或直播連結；各連結由原站提供。"
+}

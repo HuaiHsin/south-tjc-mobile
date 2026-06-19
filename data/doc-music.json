@@ -1,0 +1,565 @@
+{
+  "source": "http://south.tjc.org.tw/05/index.htm",
+  "kicker": "聖樂活動影音",
+  "title": "聖樂活動影音",
+  "subtitle": "歷屆音樂營、研習會與音樂會成果影音、相片",
+  "channel": {
+    "text": "TJC真耶穌教會南區聖樂活動YouTube入口網站",
+    "url": "https://www.youtube.com/channel/UCcodRsoqtIPb0gg38nZXwSg/playlists?view_as=subscriber"
+  },
+  "sections": [
+    {
+      "name": "兒童音樂營",
+      "columns": [
+        "年度 / 屆別",
+        "影音・相片"
+      ],
+      "primary": 1,
+      "rows": [
+        [
+          "2014年 第7屆",
+          {
+            "parts": [
+              {
+                "label": "成果",
+                "url": "https://www.youtube.com/watch?v=Tdeg6ZTbn9w&list=PLAOjCvEhddLxQ2eWYkVGYnw2aOs_KCwj6&index=4",
+                "kind": "youtube"
+              }
+            ]
+          }
+        ],
+        [
+          "2016年 第9屆",
+          {
+            "parts": [
+              {
+                "label": "成果+花絮",
+                "url": "https://www.youtube.com/watch?v=OT2Cmsd4V28&list=PLAOjCvEhddLxQ2eWYkVGYnw2aOs_KCwj6&index=5",
+                "kind": "youtube"
+              }
+            ]
+          }
+        ],
+        [
+          "2018年 第11屆",
+          {
+            "parts": [
+              {
+                "label": "成果",
+                "url": "https://www.youtube.com/watch?v=NkozqypLJyY&list=PLAOjCvEhddLxQ2eWYkVGYnw2aOs_KCwj6&index=3",
+                "kind": "youtube"
+              },
+              {
+                "label": "花絮",
+                "url": "https://www.youtube.com/watch?v=IgbglJdL5Fw&list=PLAOjCvEhddLxQ2eWYkVGYnw2aOs_KCwj6&index=2",
+                "kind": "youtube"
+              }
+            ]
+          }
+        ],
+        [
+          "2019年 第12屆",
+          {
+            "parts": [
+              {
+                "label": "成果",
+                "url": "https://www.youtube.com/watch?v=J8tBG9JoQVs&list=PLAOjCvEhddLxQ2eWYkVGYnw2aOs_KCwj6&index=6",
+                "kind": "youtube"
+              }
+            ]
+          }
+        ],
+        [
+          "2020年 第13屆",
+          {
+            "parts": [
+              {
+                "label": "成果",
+                "url": "https://www.youtube.com/watch?v=Roq3lgaWVhs",
+                "kind": "youtube"
+              },
+              {
+                "label": "大合照",
+                "url": "http://south.tjc.org.tw/05/109年兒童音樂營大合照.jpg",
+                "kind": "image"
+              }
+            ]
+          }
+        ],
+        [
+          "2022年 第14屆",
+          {
+            "parts": [
+              {
+                "label": "成果",
+                "url": "https://www.youtube.com/watch?v=dviW38BJ5-E",
+                "kind": "youtube"
+              },
+              {
+                "label": "花絮",
+                "url": "https://www.youtube.com/watch?v=KSfLiTAjDgI",
+                "kind": "youtube"
+              }
+            ]
+          }
+        ],
+        [
+          "2023年 第15屆",
+          {
+            "parts": [
+              {
+                "label": "成果",
+                "url": "https://www.youtube.com/watch?v=-Lsr20507kw",
+                "kind": "youtube"
+              },
+              {
+                "label": "花絮",
+                "url": "https://www.youtube.com/watch?v=-K8B9k9Yblo",
+                "kind": "youtube"
+              },
+              {
+                "label": "大合照",
+                "url": "http://south.tjc.org.tw/05/112年兒童音樂營大合照.JPG",
+                "kind": "image"
+              }
+            ]
+          }
+        ],
+        [
+          "2024年 第16屆",
+          {
+            "parts": [
+              {
+                "label": "成果",
+                "url": "https://www.youtube.com/watch?v=Sg1LrWS9fQw",
+                "kind": "youtube"
+              },
+              {
+                "label": "花絮",
+                "url": "https://youtu.be/Y4QgTK_voBQ",
+                "kind": "youtube"
+              },
+              {
+                "label": "大合照",
+                "url": "http://south.tjc.org.tw/05/113年兒童音樂營大合照.jpg",
+                "kind": "image"
+              }
+            ]
+          }
+        ],
+        [
+          "2025年 第17屆",
+          {
+            "parts": [
+              {
+                "label": "成果",
+                "url": "https://youtu.be/1ko2ZGmrSt4",
+                "kind": "youtube"
+              },
+              {
+                "label": "花絮",
+                "url": "https://youtu.be/F-nlcOkJ1yA",
+                "kind": "youtube"
+              },
+              {
+                "label": "大合照",
+                "url": "http://south.tjc.org.tw/05/114年兒童音樂營大合照.jpg",
+                "kind": "image"
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "name": "青少年音樂營",
+      "columns": [
+        "年度 / 屆別",
+        "影音・相片"
+      ],
+      "primary": 1,
+      "rows": [
+        [
+          "2017年 第4屆",
+          {
+            "parts": [
+              {
+                "label": "成果",
+                "url": "https://www.youtube.com/watch?v=9jOax8yHlYE&list=PLAOjCvEhddLy7ZnrBoqStHVDYTjTAhWfN&index=4",
+                "kind": "youtube"
+              }
+            ]
+          }
+        ],
+        [
+          "2019年 第6屆",
+          {
+            "parts": [
+              {
+                "label": "成果",
+                "url": "https://www.youtube.com/watch?v=YCZqNbeHUT0&list=PLAOjCvEhddLy7ZnrBoqStHVDYTjTAhWfN&index=2",
+                "kind": "youtube"
+              },
+              {
+                "label": "花絮",
+                "url": "https://www.youtube.com/watch?v=jOamQhvrjrk&list=PLAOjCvEhddLy7ZnrBoqStHVDYTjTAhWfN&index=3",
+                "kind": "youtube"
+              },
+              {
+                "label": "大合照",
+                "url": "http://south.tjc.org.tw/05/108年青少年音樂營大合照.jpg",
+                "kind": "image"
+              }
+            ]
+          }
+        ],
+        [
+          "2020年 第7屆",
+          {
+            "parts": [
+              {
+                "label": "成果",
+                "url": "https://www.youtube.com/watch?v=rJQj-3mOMbc",
+                "kind": "youtube"
+              }
+            ]
+          }
+        ],
+        [
+          "2021年 第8屆",
+          {
+            "parts": [
+              {
+                "label": "成果",
+                "url": "https://www.youtube.com/watch?v=Vuk1HhjOrBA",
+                "kind": "youtube"
+              },
+              {
+                "label": "大合照-1",
+                "url": "http://south.tjc.org.tw/05/110年青少年音樂營大合照-1.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "大合照-2",
+                "url": "http://south.tjc.org.tw/05/110年青少年音樂營大合照-2.jpg",
+                "kind": "image"
+              }
+            ]
+          }
+        ],
+        [
+          "2023年 第9屆",
+          {
+            "parts": [
+              {
+                "label": "成果",
+                "url": "https://youtu.be/8-t25hEn5_E",
+                "kind": "youtube"
+              },
+              {
+                "label": "大合照",
+                "url": "http://south.tjc.org.tw/05/112年青少年音樂營大合照.jpg",
+                "kind": "image"
+              }
+            ]
+          }
+        ],
+        [
+          "2024年 第10屆",
+          {
+            "parts": [
+              {
+                "label": "成果",
+                "url": "https://www.youtube.com/watch?v=fFs4ujdIv3Q",
+                "kind": "youtube"
+              },
+              {
+                "label": "大合照",
+                "url": "http://south.tjc.org.tw/05/113年青少年音樂營大合照.jpg",
+                "kind": "image"
+              }
+            ]
+          }
+        ],
+        [
+          "2025年 第11屆",
+          {
+            "parts": [
+              {
+                "label": "成果",
+                "url": "https://youtu.be/apbzY6deHhw",
+                "kind": "youtube"
+              },
+              {
+                "label": "花絮",
+                "url": "https://youtu.be/XHXi-zcs3lY",
+                "kind": "youtube"
+              },
+              {
+                "label": "大合照",
+                "url": "http://south.tjc.org.tw/05/114年青少年音樂營大合照.jpg",
+                "kind": "image"
+              }
+            ]
+          }
+        ],
+        [
+          "2026年 第12屆",
+          {
+            "parts": [
+              {
+                "label": "成果",
+                "url": "https://www.youtube.com/watch?v=XJ2FZP-MPHo",
+                "kind": "youtube"
+              },
+              {
+                "label": "大合照",
+                "url": "http://south.tjc.org.tw/05/115年青少年音樂營大合照.jpg",
+                "kind": "image"
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "name": "聖樂研習會",
+      "columns": [
+        "年度 / 屆別",
+        "影音・相片"
+      ],
+      "primary": 1,
+      "rows": [
+        [
+          "2017年",
+          {
+            "parts": [
+              {
+                "label": "成果",
+                "url": "https://www.youtube.com/watch?v=kX0jS3DYm_c&list=PLAOjCvEhddLy93O9qgrJIxdaaQqdE1c2S&index=4",
+                "kind": "youtube"
+              }
+            ]
+          }
+        ],
+        [
+          "2018年",
+          {
+            "parts": [
+              {
+                "label": "成果",
+                "url": "https://www.youtube.com/watch?v=UUrwguzIkqc&list=PLAOjCvEhddLy93O9qgrJIxdaaQqdE1c2S&index=2",
+                "kind": "youtube"
+              }
+            ]
+          }
+        ],
+        [
+          "2019年",
+          {
+            "parts": [
+              {
+                "label": "成果",
+                "url": "https://www.youtube.com/watch?v=mcILeD2L8p4&list=PLAOjCvEhddLy93O9qgrJIxdaaQqdE1c2S&index=3",
+                "kind": "youtube"
+              }
+            ]
+          }
+        ],
+        [
+          "2020年",
+          {
+            "parts": [
+              {
+                "label": "成果",
+                "url": "https://www.youtube.com/watch?v=dMZ72DjlWZY&t=262s",
+                "kind": "youtube"
+              },
+              {
+                "label": "大合照-1",
+                "url": "http://south.tjc.org.tw/05/109年聖樂研習會大合照-1.jpg",
+                "kind": "image"
+              },
+              {
+                "label": "大合照-2",
+                "url": "http://south.tjc.org.tw/05/109年聖樂研習會大合照-2.jpg",
+                "kind": "image"
+              }
+            ]
+          }
+        ],
+        [
+          "2021年",
+          {
+            "parts": [
+              {
+                "label": "成果",
+                "url": "https://www.youtube.com/watch?v=k3N2qLVO1Pc",
+                "kind": "youtube"
+              },
+              {
+                "label": "花絮",
+                "url": "https://www.youtube.com/watch?v=WlEWD7zmCnw",
+                "kind": "youtube"
+              }
+            ]
+          }
+        ],
+        [
+          "2022年",
+          {
+            "parts": [
+              {
+                "label": "成果",
+                "url": "https://www.youtube.com/watch?v=aVKjO2TMRsg",
+                "kind": "youtube"
+              },
+              {
+                "label": "大合照",
+                "url": "http://south.tjc.org.tw/05/111年聖樂研習會大合照.jpg",
+                "kind": "image"
+              }
+            ]
+          }
+        ],
+        [
+          "2023年",
+          {
+            "parts": [
+              {
+                "label": "成果",
+                "url": "https://www.youtube.com/watch?v=E7oLCGk_mS4",
+                "kind": "youtube"
+              },
+              {
+                "label": "花絮",
+                "url": "https://www.youtube.com/watch?v=kxiH-lUx4YY",
+                "kind": "youtube"
+              },
+              {
+                "label": "大合照",
+                "url": "http://south.tjc.org.tw/05/112年聖樂研習會大合照.jpg",
+                "kind": "image"
+              }
+            ]
+          }
+        ],
+        [
+          "2024年",
+          {
+            "parts": [
+              {
+                "label": "成果",
+                "url": "https://youtu.be/JxxZNKUReOA",
+                "kind": "youtube"
+              },
+              {
+                "label": "花絮",
+                "url": "https://youtu.be/awDBdvFViik",
+                "kind": "youtube"
+              },
+              {
+                "label": "大合照",
+                "url": "http://south.tjc.org.tw/05/113年聖樂研習會大合照.jpg",
+                "kind": "image"
+              }
+            ]
+          }
+        ],
+        [
+          "2025年",
+          {
+            "parts": [
+              {
+                "label": "大合照",
+                "url": "http://south.tjc.org.tw/05/114年聖樂研習會大合照.jpg",
+                "kind": "image"
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "name": "新年音樂會",
+      "columns": [
+        "年度 / 屆別",
+        "影音・相片"
+      ],
+      "primary": 1,
+      "rows": [
+        [
+          "2019年",
+          {
+            "parts": [
+              {
+                "label": "成果",
+                "url": "https://www.youtube.com/watch?v=m4thw-IREIg&list=PLAOjCvEhddLwa6YsauQX1HD6bpIaFBF0a",
+                "kind": "youtube"
+              }
+            ]
+          }
+        ],
+        [
+          "2021年",
+          {
+            "parts": [
+              {
+                "label": "成果",
+                "url": "https://www.youtube.com/watch?v=RkPfq6ccRHE",
+                "kind": "youtube"
+              }
+            ]
+          }
+        ],
+        [
+          "2023年",
+          {
+            "parts": [
+              {
+                "label": "成果",
+                "url": "https://www.youtube.com/watch?v=wYz4xztVi9A",
+                "kind": "youtube"
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "name": "合唱指揮研習",
+      "columns": [
+        "年度 / 屆別",
+        "影音・相片"
+      ],
+      "primary": 1,
+      "rows": [
+        [
+          "2022年",
+          {
+            "parts": [
+              {
+                "label": "花絮",
+                "url": "https://www.youtube.com/watch?v=mUdNIGz1T80",
+                "kind": "youtube"
+              }
+            ]
+          }
+        ],
+        [
+          "2025年",
+          {
+            "parts": [
+              {
+                "label": "紀實",
+                "url": "http://south.tjc.org.tw/05/114年初階合唱指揮研習活動紀實.mp4",
+                "kind": "page"
+              }
+            ]
+          }
+        ]
+      ]
+    }
+  ],
+  "note": "點各屆「成果／花絮／大合照」開啟影音或相片；亦可由上方 YouTube 入口瀏覽。"
+}

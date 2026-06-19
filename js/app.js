@@ -45,7 +45,10 @@
     { gid: "activity|教牧資源分享", file: "data/doc-pastoral.json", icon: "🗂️", sub: "各股室主題資源、簡報與表格（依股別分區）" },
     { gid: "other|健康醫訊", file: "data/doc-health.json", icon: "🩺", sub: "歷期健康・醫療專欄文章" },
     { gid: "other|真光園區", file: "data/doc-zhenguang.json", icon: "🌳", sub: "園區公告、申請文件與相片集" },
-    { gid: "official|最新公告", file: "data/doc-life.json", icon: "📰", sub: "生活、健康類實用文章（原站選單為「最新公告」）" }
+    { gid: "official|最新公告", file: "data/doc-life.json", icon: "📰", sub: "生活、健康類實用文章（原站選單為「最新公告」）" },
+    { gid: "activity|聖樂活動影音", file: "data/doc-music.json", icon: "🎵", sub: "歷屆音樂營、研習會成果影音與相片" },
+    { gid: "activity|宗教教育週海報", file: "data/doc-reposters.json", icon: "🖼️", sub: "各教會歷年宗教教育週海報" },
+    { gid: "spirit|線上靈糧", file: "data/doc-online.json", icon: "📡", sub: "各地教會線上直播・聚會頻道" }
   ];
   var DOCS = {};
 
@@ -429,12 +432,15 @@
         '<div class="dt-wrap"><table class="dt-table"><thead>' + thead + "</thead><tbody>" + body + "</tbody></table></div></section>";
     }).join("");
     var intro = (d.intro || []).map(function (p) { return '<p class="cf-sub" style="display:block">' + esc(p) + "</p>"; }).join("");
+    var channel = d.channel ? '<div class="cf-cta"><a class="pm-channel" ' + attrs(d.channel.url) +
+      '><svg viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="3"/><path d="M10 9l5 3-5 3z" fill="currentColor" stroke="none"/></svg>' +
+      esc(d.channel.text) + "　›</a></div>" : "";
     return '<div class="cf dt">' +
       '<div class="cf-hero"><div class="cf-kick">✦ ' + esc(d.kicker || "南區辦事處") + "</div>" +
       '<h1 class="cf-h1">' + esc(d.title) + "</h1>" +
       (d.subtitle ? '<p class="cf-sub">' + esc(d.subtitle) +
         (d.updated ? '<span class="cf-upd">' + esc(d.updated) + " 更新</span>" : "") + "</p>" : "") +
-      intro + "</div>" + secs +
+      intro + channel + "</div>" + secs +
       (d.note ? '<p class="cf-foot-note">' + esc(d.note) + "</p>" : "") + "</div>";
   }
   function renderDocPageDetail(gid) {
