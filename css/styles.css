@@ -526,6 +526,8 @@ a.bline:hover .ttl{color:var(--color-primary)}
 .dt-link{color:var(--color-primary);font-weight:600;display:inline-flex;align-items:center;gap:6px;flex-wrap:wrap}
 .dt-link:hover{text-decoration:underline}
 .dt-empty{color:#c3cad6}
+.dt-lead{display:block;margin-bottom:6px;color:#3a4658}
+.dt-chips{display:flex;flex-wrap:wrap;gap:6px}
 .dt-table tbody tr:hover{background:var(--color-soft)}
 
 /* 桌機：條紋表格；手機：每列轉卡片（thead 隱藏，td 以 data-label 顯示欄名） */

@@ -40,7 +40,8 @@
   // 表格型頁面（共用 renderDocTable）：原站整頁是欄位表格，逐頁解析成結構化 JSON
   var DOC_DEFS = [
     { gid: "official|南區公文", file: "data/doc-south-gongwen.json", icon: "📑", sub: "發文日期、字號、收送對象一覽" },
-    { gid: "official|高屏小區公文", file: "data/doc-gaoping-gongwen.json", icon: "📋", sub: "高屏小區聚會、活動通知一覽" }
+    { gid: "official|高屏小區公文", file: "data/doc-gaoping-gongwen.json", icon: "📋", sub: "高屏小區聚會、活動通知一覽" },
+    { gid: "spirit|講義彙編", file: "data/doc-handout.json", icon: "📚", sub: "歷年進修會、講座講義與簡報（事工／生活／查經／靈修類）" }
   ];
   var DOCS = {};
 
@@ -401,6 +402,12 @@
     if (c == null) return "";
     if (typeof c === "string") c = { t: c };
     var t = esc(c.t || "");
+    if (c.parts) {
+      var lead = c.t ? '<span class="dt-lead">' + t + "</span>" : "";
+      return lead + '<span class="dt-chips">' + c.parts.map(function (p) {
+        return '<a class="chip" ' + attrs(p.url) + ">" + esc(p.label) + (p.kind ? badge(p.kind) : "") + "</a>";
+      }).join("") + "</span>";
+    }
     if (c.u) return '<a class="dt-link" ' + attrs(c.u) + ">" + t + (c.k ? badge(c.k) : "") + "</a>";
     return t || '<span class="dt-empty">／</span>';
   }
