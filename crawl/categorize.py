@@ -35,7 +35,6 @@ SOURCE_MAP = {
     "11/index.htm":            ("other",    "好站連結",       False),
     "12/index.htm":            ("activity", "教牧資源分享",     True),
     "13/index.htm":            ("spirit",   "傳道靈糧分享",     True),
-    "14/index.htm":            ("official", "最新公告",       False),
     "14/人力資源.htm":           ("activity", "人力資源",       False),
     "15/index.htm":            ("spirit",   "線上靈糧",       False),
     "16/index.htm":            ("other",    "健康醫訊",       True),
@@ -51,7 +50,8 @@ SOURCE_MAP = {
 
 HOME_SOURCES = {"(home)", "index.htm", "index2.htm"}
 # 各教會頁：散落的「相片/簡介/FB」連結不收進分類，改用 churches.json 通訊錄呈現
-SKIP_SOURCES = {"03/index.htm", "03/index1.htm", "03/index2.htm"}
+# 14/index.htm（原「最新公告」實為生活資訊）：非原站正式導覽頁、屬孤立內容，業主確認移除
+SKIP_SOURCES = {"03/index.htm", "03/index1.htm", "03/index2.htm", "14/index.htm"}
 
 
 # 依附圖的菜單順序：每個一級菜單下，圖中列出的二級項目排在最前（其餘折進來的排後面）
