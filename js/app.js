@@ -42,7 +42,10 @@
     { gid: "official|南區公文", file: "data/doc-south-gongwen.json", icon: "📑", sub: "發文日期、字號、收送對象一覽" },
     { gid: "official|高屏小區公文", file: "data/doc-gaoping-gongwen.json", icon: "📋", sub: "高屏小區聚會、活動通知一覽" },
     { gid: "spirit|講義彙編", file: "data/doc-handout.json", icon: "📚", sub: "歷年進修會、講座講義與簡報（事工／生活／查經／靈修類）" },
-    { gid: "activity|教牧資源分享", file: "data/doc-pastoral.json", icon: "🗂️", sub: "各股室主題資源、簡報與表格（依股別分區）" }
+    { gid: "activity|教牧資源分享", file: "data/doc-pastoral.json", icon: "🗂️", sub: "各股室主題資源、簡報與表格（依股別分區）" },
+    { gid: "other|健康醫訊", file: "data/doc-health.json", icon: "🩺", sub: "歷期健康・醫療專欄文章" },
+    { gid: "other|真光園區", file: "data/doc-zhenguang.json", icon: "🌳", sub: "園區公告、申請文件與相片集" },
+    { gid: "official|最新公告", file: "data/doc-life.json", icon: "📰", sub: "生活、健康類實用文章（原站選單為「最新公告」）" }
   ];
   var DOCS = {};
 
