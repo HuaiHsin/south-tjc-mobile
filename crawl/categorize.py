@@ -27,7 +27,6 @@ SOURCE_MAP = {
     "04/提供外地同靈住宿資訊表.htm": ("other",    "外地學生住宿資訊",  False),
     "05/index.htm":            ("activity", "聖樂活動影音",     False),
     "06/讀經教材.htm":           ("spirit",   "讀經教材",       False),
-    "07/index.htm":            ("activity", "家護園地",       False),
     "08/index.htm":            ("spirit",   "講義彙編",       True),
     "09/index.htm":            ("activity", "宗教教育週海報",   False),
     "09/人力資源.htm":           ("activity", "人力資源",       False),
@@ -49,9 +48,10 @@ SOURCE_MAP = {
 
 HOME_SOURCES = {"(home)", "index.htm", "index2.htm"}
 # 各教會頁：散落的「相片/簡介/FB」連結不收進分類，改用 churches.json 通訊錄呈現
-# 14/index.htm（原「最新公告」實為生活資訊）、16/index.htm（健康醫訊）：
+# 07/index.htm（家護園地）、14/index.htm（原「最新公告」實為生活資訊）、16/index.htm（健康醫訊）：
 # 非原站正式導覽頁、屬孤立內容，業主確認移除
-SKIP_SOURCES = {"03/index.htm", "03/index1.htm", "03/index2.htm", "14/index.htm", "16/index.htm"}
+SKIP_SOURCES = {"03/index.htm", "03/index1.htm", "03/index2.htm",
+                "07/index.htm", "14/index.htm", "16/index.htm"}
 
 
 # 依附圖的菜單順序：每個一級菜單下，圖中列出的二級項目排在最前（其餘折進來的排後面）
