@@ -43,6 +43,15 @@ def cell_link(c):
     return {"t": clean(m.group(2)), "u": url, "k": "pdf"}
 
 
+def sort_key(row):
+    """依發文日期（無年份者年=0）再以字號數字排序，供倒敘用。"""
+    m = re.match(r"(?:(\d{2,3})[./])?(\d{1,2})[/.](\d{1,2})", row[0] or "")
+    date = (int(m.group(1) or 0), int(m.group(2)), int(m.group(3))) if m else (0, 0, 0)
+    zh = row[1] if len(row) > 1 and isinstance(row[1], str) else ""
+    zn = re.search(r"(\d+)", zh or "")
+    return date + (int(zn.group(1)) if zn else 0,)
+
+
 def parse_table(t):
     trs = re.findall(r"<tr\b[^>]*>(.*?)</tr>", t, re.S | re.I)
     if not trs:
@@ -77,6 +86,7 @@ def main():
         if p.strip().lower().startswith("<table"):
             rows = parse_table(p)
             if rows:
+                rows.sort(key=sort_key, reverse=True)   # 倒敘：最新公文在最上面
                 name = pending or "公文列表"
                 m = re.search(r"(\d{3}年)", name)
                 upd = re.search(r"(\d{1,2}/\d{1,2})\s*更新", name)

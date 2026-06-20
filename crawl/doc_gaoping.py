@@ -51,6 +51,11 @@ def main():
         subj = cell_link(cells[1]) or {"t": clean(cells[1])}
         rows.append([clean(cells[0]), subj, clean(cells[2]), clean(cells[3])])
 
+    def date_key(row):   # 115.5.29 → (115,5,29)，供倒敘
+        m = re.match(r"(\d{2,3})[./](\d{1,2})[./](\d{1,2})", row[0] or "")
+        return (int(m.group(1)), int(m.group(2)), int(m.group(3))) if m else (0, 0, 0)
+    rows.sort(key=date_key, reverse=True)   # 倒敘：最新公文在最上面
+
     data = {
         "source": SRC, "kicker": "高屏小區公文",
         "title": "高屏小區公文", "subtitle": "高屏小區聚會、活動通知一覽",
