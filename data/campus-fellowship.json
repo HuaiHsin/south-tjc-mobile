@@ -31,7 +31,18 @@
     }
   ],
   "fg": { "label": "我要去團契", "url": "http://fg.tjc.org.tw/" },
-  "lodging": { "label": "提供外地學生來南區住宿資料", "url": "http://south.tjc.org.tw/04/提供外地同靈住宿資訊表.htm" },
+  "lodging": {
+    "title": "外地學生住宿資訊",
+    "intro": "提供外地來南區求學的同靈，莒光教會學生中心住宿相關辦法與申請表單。",
+    "source": { "label": "外地同靈住宿資訊原頁", "url": "http://south.tjc.org.tw/04/提供外地同靈住宿資訊表.htm" },
+    "links": [
+      { "text": "勤居傳單（照片）", "url": "http://south.tjc.org.tw/04/南區辦事處網站管理/04/勤居傳單.doc", "type": "doc" },
+      { "text": "學生宿舍管理辦法", "url": "http://south.tjc.org.tw/04/莒光教會學生宿舍管理辦法.doc", "type": "doc" },
+      { "text": "學生中心住宿申請表", "url": "http://south.tjc.org.tw/04/學生中心住宿申請表.doc", "type": "doc" },
+      { "text": "學生中心住宿推薦表", "url": "http://south.tjc.org.tw/04/莒光教會住宿推薦書.docx", "type": "doc" },
+      { "text": "住宿審查意見表", "url": "http://south.tjc.org.tw/04/學生中心住宿審查意見表.doc", "type": "doc" }
+    ]
+  },
   "notes": [
     "本會於全國各大專院校成立校園團契與高級班，輔導及關懷在外求學之青年，鼓勵求學階段積極參與團契及高級班聚會，俾使其屬靈生命得到堅固並成長，榮耀天上的真神。",
     "增設「我要去團契」網站提供大專新生和所有關心大專事工的弟兄姊妹，尋找大專院校之所屬大專團契、高級班及牧養（聚會）教會。",

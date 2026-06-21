@@ -522,6 +522,15 @@
       '<div class="cf-church">' + esc(CAMPUS.columns.church) + "</div></div>" +
       rows + "</div></div>";
   }
+  function campusLodging(lod) {
+    if (!lod || !lod.links || !lod.links.length) return "";
+    return '<section class="cf-sec">' +
+      '<h2 class="cf-h2">🏠 ' + esc(lod.title || "外地學生住宿資訊") + "</h2>" +
+      (lod.intro ? '<p class="cf-sub" style="display:block;margin:-4px 0 14px">' + esc(lod.intro) + "</p>" : "") +
+      '<div class="dgroup"><ul class="links">' + lod.links.map(linkRow).join("") + "</ul></div>" +
+      (lod.source ? '<a class="cf-lodging" style="margin-top:14px" ' + attrs(lod.source.url) + ">🏠 " + esc(lod.source.label) + "　›</a>" : "") +
+      "</section>";
+  }
   function renderCampusDetail() {
     var d = CAMPUS;
     var notes = (d.notes || []).map(function (n, i) {
@@ -536,10 +545,10 @@
       '<div class="cf-cta">' +
       '<a class="cf-fg" ' + attrs(d.fg.url) + '><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>' +
       esc(d.fg.label) + " 查詢系統　›</a>" +
-      (d.lodging ? '<a class="cf-lodging" ' + attrs(d.lodging.url) + ">🏠 " + esc(d.lodging.label) + "</a>" : "") +
       "</div></div>" +
       '<section class="cf-sec">' + d.regions.map(campusRegion).join("") + "</section>" +
       (notes ? '<section class="cf-sec"><h2 class="cf-h2">大專事工說明</h2><ul class="cf-notes">' + notes + "</ul></section>" : "") +
+      campusLodging(d.lodging) +
       "</div>";
     showDetail("校園團契", html);
   }

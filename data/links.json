@@ -5,7 +5,7 @@
     "note": "連結指向原站;HTTPS 修復後將 base 改為 https 即可全站切換",
     "generated": "2026-06-12",
     "linkCount": 1401,
-    "groupCount": 30,
+    "groupCount": 26,
     "unmapped": {}
   },
   "categories": [
@@ -4611,6 +4611,31 @@
           "text": "我要去團契",
           "url": "http://fg.tjc.org.tw/",
           "type": "external"
+        },
+        {
+          "text": "外地學生住宿—勤居傳單（照片）",
+          "url": "http://south.tjc.org.tw/04/南區辦事處網站管理/04/勤居傳單.doc",
+          "type": "doc"
+        },
+        {
+          "text": "外地學生住宿—學生宿舍管理辦法",
+          "url": "http://south.tjc.org.tw/04/莒光教會學生宿舍管理辦法.doc",
+          "type": "doc"
+        },
+        {
+          "text": "外地學生住宿—學生中心住宿申請表",
+          "url": "http://south.tjc.org.tw/04/學生中心住宿申請表.doc",
+          "type": "doc"
+        },
+        {
+          "text": "外地學生住宿—學生中心住宿推薦表",
+          "url": "http://south.tjc.org.tw/04/莒光教會住宿推薦書.docx",
+          "type": "doc"
+        },
+        {
+          "text": "外地學生住宿—住宿審查意見表",
+          "url": "http://south.tjc.org.tw/04/學生中心住宿審查意見表.doc",
+          "type": "doc"
         }
       ]
     },
@@ -6997,40 +7022,6 @@
           "text": "106年(中繁/簡英對照版)聖經章節投放軟體",
           "url": "http://south.tjc.org.tw/公告附件/永久性公告/聖經章節投放ce601.xls",
           "type": "excel"
-        }
-      ]
-    },
-    {
-      "id": "other|外地學生住宿資訊",
-      "title": "外地學生住宿資訊",
-      "category": "other",
-      "paginated": false,
-      "order": 50,
-      "links": [
-        {
-          "text": "（照片）",
-          "url": "http://south.tjc.org.tw/04/南區辦事處網站管理/04/勤居傳單.doc",
-          "type": "doc"
-        },
-        {
-          "text": "學生宿舍管理辦法",
-          "url": "http://south.tjc.org.tw/04/莒光教會學生宿舍管理辦法.doc",
-          "type": "doc"
-        },
-        {
-          "text": "學生中心住宿申請表",
-          "url": "http://south.tjc.org.tw/04/學生中心住宿申請表.doc",
-          "type": "doc"
-        },
-        {
-          "text": "學生中心住宿推薦表",
-          "url": "http://south.tjc.org.tw/04/莒光教會住宿推薦書.docx",
-          "type": "doc"
-        },
-        {
-          "text": "住宿審查意見表",
-          "url": "http://south.tjc.org.tw/04/學生中心住宿審查意見表.doc",
-          "type": "doc"
         }
       ]
     }

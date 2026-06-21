@@ -24,7 +24,8 @@ SOURCE_MAP = {
     "02/index.htm":            ("official", "南區公文",       False),
     # 03 各教會頁改由 churches.py 解析成通訊錄，這裡不收散落的相片/簡介/FB
     "04/index-1.htm":          ("activity", "校園團契",       False),
-    "04/提供外地同靈住宿資訊表.htm": ("other",    "外地學生住宿資訊",  False),
+    # 外地學生住宿資訊：併入「校園團契」整頁（放該頁下方），不再單獨成「其他資源」群組
+    "04/提供外地同靈住宿資訊表.htm": ("activity", "校園團契",       False),
     "05/index.htm":            ("activity", "聖樂活動影音",     False),
     "06/讀經教材.htm":           ("spirit",   "讀經教材",       False),
     "08/index.htm":            ("spirit",   "講義彙編",       True),
