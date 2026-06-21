@@ -4,8 +4,8 @@
     "base": "http://south.tjc.org.tw/",
     "note": "連結指向原站;HTTPS 修復後將 base 改為 https 即可全站切換",
     "generated": "2026-06-12",
-    "linkCount": 1401,
-    "groupCount": 26,
+    "linkCount": 1396,
+    "groupCount": 25,
     "unmapped": {}
   },
   "categories": [
@@ -580,11 +580,6 @@
           "type": "pdf"
         },
         {
-          "text": "112年南區行事曆",
-          "url": "http://south.tjc.org.tw/公告附件/有時效性公告/112年南區行事曆.pdf",
-          "type": "pdf"
-        },
-        {
           "text": "南區各教會新任教會負責人名單—112.6.1-115.5.31",
           "url": "http://south.tjc.org.tw/公告附件/有時效性公告/112-115新任期教會負責人名單--(彩色版).jpeg",
           "type": "image"
@@ -592,35 +587,6 @@
         {
           "text": "臺灣總會最新電話分機號碼表",
           "url": "http://south.tjc.org.tw/公告附件/有時效性公告/臺灣總會電話分機號碼表20230628.pdf",
-          "type": "pdf"
-        },
-        {
-          "text": "112年南區駐牧傳道安排表",
-          "url": "http://south.tjc.org.tw/公告附件/有時效性公告/112年南區駐牧安排表.pdf",
-          "type": "pdf"
-        }
-      ]
-    },
-    {
-      "id": "official|總會公文",
-      "title": "總會公文",
-      "category": "official",
-      "paginated": false,
-      "order": 50,
-      "links": [
-        {
-          "text": "2019上半年靈恩佈道會傳單小冊訂購事宜",
-          "url": "http://south.tjc.org.tw/17/108-0019公文%202019上%20佈道會傳單公文%20函%20(真臺宣字第108-0019號).pdf",
-          "type": "pdf"
-        },
-        {
-          "text": "2019上半年靈恩會舉開日期及協助傳道長執",
-          "url": "http://south.tjc.org.tw/17/108-0015公文%202019上靈恩會%20舉開日期及協助傳道長執%20%20函(真臺宣字第108-0015號)0114更.pdf",
-          "type": "pdf"
-        },
-        {
-          "text": "舉開2019年國際青年聯誼會",
-          "url": "http://south.tjc.org.tw/17/108-0027舉開2019年國際青年聯誼會（真臺牧字第0027號）0111.pdf",
           "type": "pdf"
         }
       ]

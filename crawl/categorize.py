@@ -51,8 +51,16 @@ HOME_SOURCES = {"(home)", "index.htm", "index2.htm"}
 # 各教會頁：散落的「相片/簡介/FB」連結不收進分類，改用 churches.json 通訊錄呈現
 # 07/index.htm（家護園地）、14/index.htm（原「最新公告」實為生活資訊）、16/index.htm（健康醫訊）：
 # 非原站正式導覽頁、屬孤立內容，業主確認移除
+# 17/index.htm（總會公文）：內容皆為 2019 舊資料，業主確認隱藏整頁
 SKIP_SOURCES = {"03/index.htm", "03/index1.htm", "03/index2.htm",
-                "07/index.htm", "14/index.htm", "16/index.htm"}
+                "07/index.htm", "14/index.htm", "16/index.htm",
+                "17/index.htm"}
+
+# 業主指定隱藏的個別連結（舊年度資料）：以 BASE 去除並解碼後的相對路徑比對
+SKIP_URLS = {
+    "公告附件/有時效性公告/112年南區行事曆.pdf",
+    "公告附件/有時效性公告/112年南區駐牧安排表.pdf",
+}
 
 
 # 依附圖的菜單順序：每個一級菜單下，圖中列出的二級項目排在最前（其餘折進來的排後面）
@@ -138,6 +146,8 @@ def main():
         sk = src_key(l)
         if sk in SKIP_SOURCES:
             continue  # 各教會頁 -> 改用通訊錄
+        if urllib.parse.unquote(short(l["url"])) in SKIP_URLS:
+            continue  # 業主指定隱藏的舊年度連結
         order = None
         if sk in HOME_SOURCES:
             cat, title = classify_home(l)
