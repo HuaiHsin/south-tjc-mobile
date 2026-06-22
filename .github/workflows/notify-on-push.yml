@@ -1,0 +1,35 @@
+name: 推播通知（push 到 main 時）
+
+# 辦事員跑 sync 工具 push、或任何人 push 到 main，就推一則 ntfy 手機通知。
+# 主題名稱放在 repo secret NTFY_TOPIC（本 repo 為 public，不可寫死在檔案裡）。
+on:
+  push:
+    branches: [main]
+
+permissions: {}
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 送出 ntfy 通知
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          PUSHER: ${{ github.event.pusher.name }}
+          MSG: ${{ github.event.head_commit.message }}
+          COMPARE: ${{ github.event.compare }}
+        run: |
+          if [ -z "$NTFY_TOPIC" ]; then
+            echo "::warning::尚未設定 NTFY_TOPIC secret，略過通知"
+            exit 0
+          fi
+          # 用 jq 安全組裝 JSON（避免 commit 訊息中的特殊字元造成注入或壞掉）
+          body=$(jq -n \
+            --arg topic "$NTFY_TOPIC" \
+            --arg title "南區官網已更新" \
+            --arg message "由 ${PUSHER:-未知} 更新：${MSG:-（無說明）}" \
+            --arg click "https://huaihsin.github.io/south-tjc-mobile/" \
+            '{topic:$topic, title:$title, message:$message, tags:["church"], click:$click, priority:4}')
+          curl -fsS -X POST "https://ntfy.sh" \
+            -H "Content-Type: application/json" \
+            -d "$body"
