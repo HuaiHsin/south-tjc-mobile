@@ -1,0 +1,6 @@
+# Windows 批次檔必須用 CRLF，否則 cmd.exe 會解析錯誤（cd /d 被拆壞、python 進互動模式）
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Shell 腳本維持 LF
+*.sh text eol=lf
