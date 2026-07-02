@@ -62,6 +62,22 @@ SKIP_URLS = {
     "公告附件/有時效性公告/112年南區駐牧安排表.pdf",
 }
 
+# 手動優化的連結標題（寫在這裡 sync 重跑才會保留）：解碼後相對路徑 -> 顯示文字
+RENAME_TEXT = {
+    "04/南區辦事處網站管理/04/勤居傳單.doc": "外地學生住宿—勤居傳單（照片）",
+    "04/莒光教會學生宿舍管理辦法.doc": "外地學生住宿—學生宿舍管理辦法",
+    "04/學生中心住宿申請表.doc": "外地學生住宿—學生中心住宿申請表",
+    "04/莒光教會住宿推薦書.docx": "外地學生住宿—學生中心住宿推薦表",
+    "04/學生中心住宿審查意見表.doc": "外地學生住宿—住宿審查意見表",
+}
+
+# 安息日領會表的經文引言（群組 verse 欄位，前端自動顯示；寫在這裡 sync 重跑才會保留）
+SABBATH_VERSE = ("「你若在安息日掉轉（或作謹慎）你的腳步，在我聖日不以操作為喜樂，"
+                 "稱安息日為可喜樂的，稱耶和華的聖日為可尊重的，而且尊敬這日，"
+                 "不辦自己的私事，不隨自己的私意，不說自己的私話，你就以耶和華為樂。"
+                 "耶和華要使你乘駕地的高處，又以你祖雅各的產業養育你。」"
+                 "這是耶和華親口說的。（賽五十八 13~14）")
+
 
 # 依附圖的菜單順序：每個一級菜單下，圖中列出的二級項目排在最前（其餘折進來的排後面）
 ORDER = {
@@ -167,7 +183,8 @@ def main():
             continue
         seen.add(key)
         g = get_group(gid, title, cat, paginated, order)
-        item = {"text": l["text"] or "(未命名連結)", "url": l["url"], "type": l["type"]}
+        txt = RENAME_TEXT.get(urllib.parse.unquote(short(l["url"]))) or l["text"] or "(未命名連結)"
+        item = {"text": txt, "url": l["url"], "type": l["type"]}
         g["links"].append(item)
 
     cat_order = {c["id"]: i for i, c in enumerate(CATEGORIES)}
@@ -200,6 +217,7 @@ def main():
 
         # 3) 安息日領會表：只顯示「當年度」全 12 個月，沒安排的月份留空，同月 W/P 並排
         if g["title"] == "安息日領會表":
+            g["verse"] = SABBATH_VERSE
             files_by = {}  # (year, month) -> [files]
             for l in g["links"]:
                 m = re.search(r"(\d{2,3})年(\d{1,2})月", urllib.parse.unquote(l["url"]))
