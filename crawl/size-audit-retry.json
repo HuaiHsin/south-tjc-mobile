@@ -1,0 +1,480 @@
+{
+ "retry_ok": [
+  {
+   "url": "http://south.tjc.org.tw/04/莒光教會學生宿舍管理辦法.doc",
+   "bytes": 68096
+  },
+  {
+   "url": "http://south.tjc.org.tw/04/提供外地同靈住宿資訊表.htm",
+   "bytes": 285348
+  },
+  {
+   "url": "http://south.tjc.org.tw/04/租屋資訊申請表.doc",
+   "bytes": 29184
+  },
+  {
+   "url": "http://south.tjc.org.tw/04/莒光教會住宿推薦書.docx",
+   "bytes": 15494
+  },
+  {
+   "url": "http://south.tjc.org.tw/05/109年兒童音樂營大合照.jpg",
+   "bytes": 15915635
+  },
+  {
+   "url": "http://south.tjc.org.tw/05/109年聖樂研習會大合照-1.jpg",
+   "bytes": 203188
+  },
+  {
+   "url": "http://south.tjc.org.tw/05/111年聖樂研習會大合照.jpg",
+   "bytes": 553732
+  },
+  {
+   "url": "http://south.tjc.org.tw/05/112年兒童音樂營大合照.JPG",
+   "bytes": 13566805
+  },
+  {
+   "url": "http://south.tjc.org.tw/05/110年青少年音樂營大合照-1.jpg",
+   "bytes": 387304
+  },
+  {
+   "url": "http://south.tjc.org.tw/05/109年聖樂研習會大合照-2.jpg",
+   "bytes": 203956
+  },
+  {
+   "url": "http://south.tjc.org.tw/05/110年青少年音樂營大合照-2.jpg",
+   "bytes": 406394
+  },
+  {
+   "url": "http://south.tjc.org.tw/08/事工類講義/109年/少年班樂理技巧教學.pdf",
+   "bytes": 1468083
+  },
+  {
+   "url": "http://south.tjc.org.tw/08/事工類講義/109年/如何用聖經故事引導反思.pdf",
+   "bytes": 207864
+  },
+  {
+   "url": "http://south.tjc.org.tw/08/事工類講義/109年/幼年班樂理技巧教學.pdf",
+   "bytes": 338026
+  },
+  {
+   "url": "http://south.tjc.org.tw/08/事工類講義/109年/幼稚班詩頌課應用延伸.pdf",
+   "bytes": 1003252
+  },
+  {
+   "url": "http://south.tjc.org.tw/08/事工類講義/109年/網路工具的使用.pdf",
+   "bytes": 1381695
+  },
+  {
+   "url": "http://south.tjc.org.tw/08/事工類講義/109年/網路工具的使用-QR-Code.jpg",
+   "bytes": 875478
+  },
+  {
+   "url": "http://south.tjc.org.tw/08/事工類講義/109年/網路工具的應用(連結版).docx",
+   "bytes": 17819
+  },
+  {
+   "url": "http://south.tjc.org.tw/08/事工類講義/109年/認識台灣民間禁忌.pdf",
+   "bytes": 993655
+  },
+  {
+   "url": "http://south.tjc.org.tw/08/事工類講義/109年/教員甘苦談討論題目.pdf",
+   "bytes": 83822
+  },
+  {
+   "url": "http://south.tjc.org.tw/08/事工類講義/109年/講道學.pdf",
+   "bytes": 425067
+  },
+  {
+   "url": "http://south.tjc.org.tw/08/事工類講義/109年/認識台灣民間宗教.pdf",
+   "bytes": 1210751
+  },
+  {
+   "url": "http://south.tjc.org.tw/08/生活類講義/96年/大專青年感情觀.doc",
+   "bytes": 54784
+  },
+  {
+   "url": "http://south.tjc.org.tw/08/生活類講義/96年/活出健康的青春.doc",
+   "bytes": 76800
+  },
+  {
+   "url": "http://south.tjc.org.tw/08/生活類講義/96年/談失智症家屬的社會支持服務.doc",
+   "bytes": 41472
+  },
+  {
+   "url": "http://south.tjc.org.tw/08/生活類講義/96年/愛餐食譜與實務.doc",
+   "bytes": 55296
+  },
+  {
+   "url": "http://south.tjc.org.tw/08/生活類講義/96年/家庭照顧者的需求與協助.doc",
+   "bytes": 83456
+  },
+  {
+   "url": "http://south.tjc.org.tw/08/生活類講義/97年/交通事故之處理.doc",
+   "bytes": 27136
+  },
+  {
+   "url": "http://south.tjc.org.tw/08/生活類講義/97年/基督徒的人際關係.doc",
+   "bytes": 26112
+  },
+  {
+   "url": "http://south.tjc.org.tw/08/生活類講義/97年/強制險理賠申請應備文件.doc",
+   "bytes": 28160
+  },
+  {
+   "url": "http://south.tjc.org.tw/08/生活類講義/97年/贏在你我之間─談人際關係.doc",
+   "bytes": 36352
+  },
+  {
+   "url": "http://south.tjc.org.tw/08/生活類講義/99年/黃金律與婚姻經營(信徒版).pdf",
+   "bytes": 132858
+  },
+  {
+   "url": "http://south.tjc.org.tw/08/生活類講義/97年/汽車任意險簡報.ppt",
+   "bytes": 80384
+  },
+  {
+   "url": "http://south.tjc.org.tw/08/生活類講義/97年/產險案例.ppt",
+   "bytes": 56832
+  },
+  {
+   "url": "http://south.tjc.org.tw/08/生活類講義/99年/經營佳美婚姻.doc",
+   "bytes": 280064
+  },
+  {
+   "url": "http://south.tjc.org.tw/09/113年/和順.jpg",
+   "bytes": 136035
+  },
+  {
+   "url": "http://south.tjc.org.tw/09/113年/岡山.jpg",
+   "bytes": 345662
+  },
+  {
+   "url": "http://south.tjc.org.tw/09/113年/民權.jpg",
+   "bytes": 165818
+  },
+  {
+   "url": "http://south.tjc.org.tw/09/113年/小港.jpg",
+   "bytes": 321664
+  },
+  {
+   "url": "http://south.tjc.org.tw/09/113年/民生.jpg",
+   "bytes": 170490
+  },
+  {
+   "url": "http://south.tjc.org.tw/09/113年/楠梓.jpg",
+   "bytes": 271942
+  },
+  {
+   "url": "http://south.tjc.org.tw/09/113年/永康.jpg",
+   "bytes": 434770
+  },
+  {
+   "url": "http://south.tjc.org.tw/09/113年/歸仁.jpg",
+   "bytes": 239989
+  },
+  {
+   "url": "http://south.tjc.org.tw/09/113年/迦美.jpg",
+   "bytes": 131013
+  },
+  {
+   "url": "http://south.tjc.org.tw/09/113年/麻豆.jpg",
+   "bytes": 326044
+  },
+  {
+   "url": "http://south.tjc.org.tw/09/113年/開元.jpg",
+   "bytes": 101391
+  },
+  {
+   "url": "http://south.tjc.org.tw/12/教牧股/其他/內壢教會訪問事工講習(簡).doc",
+   "bytes": 33792
+  },
+  {
+   "url": "http://south.tjc.org.tw/12/宣道股/麻豆/福音茶會實施計劃案(麻豆).doc",
+   "bytes": 34304
+  },
+  {
+   "url": "http://south.tjc.org.tw/12/教牧股/南門/同靈關懷及陪同成長跟進計畫(南門).doc",
+   "bytes": 22530
+  },
+  {
+   "url": "http://south.tjc.org.tw/12/教牧股/台南/台南教會簡介.doc",
+   "bytes": 23552
+  },
+  {
+   "url": "http://south.tjc.org.tw/12/教牧股/南門/歷任教會負責人聯席會章程(南門).doc",
+   "bytes": 19458
+  },
+  {
+   "url": "http://south.tjc.org.tw/12/教牧股/南門/關懷及跟進人員輔導課程表(南門).doc",
+   "bytes": 37377
+  },
+  {
+   "url": "http://south.tjc.org.tw/12/教育股/台南/SARS叮嚀單.doc",
+   "bytes": 26112
+  },
+  {
+   "url": "http://south.tjc.org.tw/12/教牧股/台南/北台中教會來訪簡報(台南).ppt",
+   "bytes": 7872512
+  },
+  {
+   "url": "http://south.tjc.org.tw/12/教育股/台南/90年少年班特別聚會戶外活動規劃.doc",
+   "bytes": 25600
+  },
+  {
+   "url": "http://south.tjc.org.tw/12/教育股/台南/90年少年班特別聚會注意事項.doc",
+   "bytes": 42496
+  },
+  {
+   "url": "http://south.tjc.org.tw/12/教育股/台南/90年少特班戶外活動計分卡.doc",
+   "bytes": 29696
+  },
+  {
+   "url": "http://south.tjc.org.tw/12/教育股/台南/少特班測驗卷.doc",
+   "bytes": 23040
+  },
+  {
+   "url": "http://south.tjc.org.tw/12/教育股/台南/成長營值日工作表.doc",
+   "bytes": 19456
+  },
+  {
+   "url": "http://south.tjc.org.tw/12/教育股/台南/懇親會邀請函.doc",
+   "bytes": 19968
+  },
+  {
+   "url": "http://south.tjc.org.tw/12/教育股/台南/向偉大的父親致敬(台南).ppt",
+   "bytes": 371712
+  },
+  {
+   "url": "http://south.tjc.org.tw/12/教育股/台南/成長營課務組工作安排.doc",
+   "bytes": 28672
+  },
+  {
+   "url": "http://south.tjc.org.tw/12/教育股/台南/青教組成長營課程計劃表.doc",
+   "bytes": 40960
+  },
+  {
+   "url": "http://south.tjc.org.tw/12/教育股/台南/靈恩會小叮嚀.doc",
+   "bytes": 27136
+  },
+  {
+   "url": "http://south.tjc.org.tw/12/教育股/台南/成長營邀請函.doc",
+   "bytes": 31232
+  },
+  {
+   "url": "http://south.tjc.org.tw/12/總務股/台南/除偶像切結書(台南).doc",
+   "bytes": 25088
+  },
+  {
+   "url": "http://south.tjc.org.tw/12/總務股/開元/開元桌球聯誼賽手冊.doc",
+   "bytes": 71682
+  },
+  {
+   "url": "http://south.tjc.org.tw/13/index.htm",
+   "bytes": 286838
+  },
+  {
+   "url": "http://south.tjc.org.tw/13/投影片/1.藏在基立溪旁.ppt",
+   "bytes": 961024
+  },
+  {
+   "url": "http://south.tjc.org.tw/13/投影片/4.在羅騰樹下睡著了.ppt",
+   "bytes": 1074176
+  },
+  {
+   "url": "http://south.tjc.org.tw/13/投影片/3.迦密山風雲.ppt",
+   "bytes": 1737728
+  },
+  {
+   "url": "http://south.tjc.org.tw/13/投影片/以斯拉記.pptx",
+   "bytes": 326177
+  },
+  {
+   "url": "http://south.tjc.org.tw/13/投影片/2.一把麵一點油.ppt",
+   "bytes": 1046016
+  },
+  {
+   "url": "http://south.tjc.org.tw/13/每週靈修小語/因神而喜的信仰.pdf",
+   "bytes": 218918
+  },
+  {
+   "url": "http://south.tjc.org.tw/13/每週靈修小語/勇於面對慾、誘、怨.pdf",
+   "bytes": 189663
+  },
+  {
+   "url": "http://south.tjc.org.tw/13/每週靈修小語/如水晶的玻璃海.pdf",
+   "bytes": 167345
+  },
+  {
+   "url": "http://south.tjc.org.tw/13/每週靈修小語/亞伯雖死，仍舊說話！.pdf",
+   "bytes": 235569
+  },
+  {
+   "url": "http://south.tjc.org.tw/19/高屏小區真光園區申請書--107.9.12.pdf",
+   "bytes": 778893
+  },
+  {
+   "url": "http://south.tjc.org.tw/20/112年度第二次969團契靈修會.pdf",
+   "bytes": 211113
+  },
+  {
+   "url": "http://south.tjc.org.tw/20/112年高屏小區慕道者暨初信者聯誼活動.pdf",
+   "bytes": 515650
+  }
+ ],
+ "dead_404": [
+  "http://south.tjc.org.tw/02/台南小區福音茶會(永康)--112.8.20.pdf",
+  "http://south.tjc.org.tw/02/台南大專聯契迎新--112.9.16-17.pdf",
+  "http://south.tjc.org.tw/02/園遊會--112.11.19.pdf",
+  "http://south.tjc.org.tw/02/園遊會協調會--112.9.3.pdf",
+  "http://south.tjc.org.tw/02/社青聯合聚會活動(莒光)--112.8.20.pdf",
+  "http://south.tjc.org.tw/02/高屏大專聯契迎新(前鎮)--112.9.24.pdf",
+  "http://south.tjc.org.tw/02/軍中同靈團契聚會(莒光)--112.8.12-13.pdf",
+  "http://south.tjc.org.tw/02/高屏小區福音人員講習會(十全)--112.8.20.pdf",
+  "http://south.tjc.org.tw/04/南區辦事處網站管理/04/勤居傳單.doc",
+  "http://south.tjc.org.tw/05/108年青少年音樂營大合照.jpg",
+  "http://south.tjc.org.tw/08/事工類講義/102年/人際關係∼談教員應具備的溝通能力.pdf",
+  "http://south.tjc.org.tw/08/事工類講義/102年/如何準備講道.pdf",
+  "http://south.tjc.org.tw/08/事工類講義/108年/多元活動融入詩頌教學.pdf",
+  "http://south.tjc.org.tw/08/事工類講義/108年/長執本質學能的提昇.pdf",
+  "http://south.tjc.org.tw/08/事工類講義/108年/青少年兩性輔導技巧.pptx",
+  "http://south.tjc.org.tw/08/事工類講義/108年/末世魔鬼的工作方針(兒教).pdf",
+  "http://south.tjc.org.tw/08/釋經類講義/106年/新舊約背景全部--106.3.22版.pdf",
+  "http://south.tjc.org.tw/12/宣道股/南門/南門教會慕道資料表1.doc",
+  "http://south.tjc.org.tw/10/color273@yahoo.com.tw",
+  "http://south.tjc.org.tw/12/宣道股/南門/南門教會真理造就班聚會工作安排表-100年10月.doc",
+  "http://south.tjc.org.tw/12/宣道股/南門/南門教會真理造就班聚會工作安排表-100年12月.doc",
+  "http://south.tjc.org.tw/12/宣道股/南門/南門教會真理造就班聚會工作安排表-100年9月.doc",
+  "http://south.tjc.org.tw/12/宣道股/南門/南門教會真理造就班聚會工作安排表-100年7月.doc",
+  "http://south.tjc.org.tw/12/宣道股/南門/南門教會真理造就班聚會工作安排表-100年8月.doc",
+  "http://south.tjc.org.tw/12/宣道股/南門/南門教會真理造就班聚會工作安排表-101年02月.doc",
+  "http://south.tjc.org.tw/12/宣道股/南門/南門教會真理造就班聚會工作安排表-101年01月.doc",
+  "http://south.tjc.org.tw/12/宣道股/南門/南門教會真理造就班聚會工作安排表-101年03月.doc",
+  "http://south.tjc.org.tw/12/宣道股/南門/南門教會真理造就班聚會工作安排表-101年07月.doc",
+  "http://south.tjc.org.tw/12/宣道股/南門/南門教會真理造就班聚會工作安排表-101年04月.doc",
+  "http://south.tjc.org.tw/12/宣道股/南門/南門教會真理造就班聚會工作安排表-101年05月.doc",
+  "http://south.tjc.org.tw/12/宣道股/南門/南門教會真理造就班聚會工作安排表-101年06月.doc",
+  "http://south.tjc.org.tw/12/宣道股/南門/南門教會真理造就班聚會工作安排表-101年11月.doc",
+  "http://south.tjc.org.tw/12/宣道股/南門/南門教會真理造就班聚會工作安排表-101年08月.doc",
+  "http://south.tjc.org.tw/12/宣道股/南門/南門教會真理造就班聚會工作安排表-101年09月.doc",
+  "http://south.tjc.org.tw/12/宣道股/南門/南門教會真理造就班聚會工作安排表-101年12月.doc",
+  "http://south.tjc.org.tw/12/宣道股/南門/南門教會真理造就班聚會工作安排表-101年10月.doc",
+  "http://south.tjc.org.tw/12/宣道股/南門/南門教會真理造就班聚會工作安排表-102年01月.doc",
+  "http://south.tjc.org.tw/12/宣道股/南門/南門教會真理造就班聚會工作安排表-102年04月.doc",
+  "http://south.tjc.org.tw/12/宣道股/南門/南門教會真理造就班聚會工作安排表-102年02月.doc",
+  "http://south.tjc.org.tw/12/宣道股/南門/南門教會真理造就班聚會工作安排表-102年03月.doc",
+  "http://south.tjc.org.tw/12/宣道股/南門/南門教會真理造就班聚會工作安排表-102年05月.doc",
+  "http://south.tjc.org.tw/12/宣道股/南門/關懷及跟進輔導課程--南門.doc",
+  "http://south.tjc.org.tw/12/宣道股/南門/福音茶會意見表blank__NEW__.xls",
+  "http://south.tjc.org.tw/12/宣道股/南門/南門教會真理造就班聚會工作安排表-102年06月.doc",
+  "http://south.tjc.org.tw/12/宣道股/南門/真耶穌教會_南門教會_留名卡-修改.doc",
+  "http://south.tjc.org.tw/12/宣道股/南門/陪談跟進關懷工作之內容與注意事項.doc",
+  "http://south.tjc.org.tw/12/教牧股/台南/表單附件(台南).doc",
+  "http://south.tjc.org.tw/14/109年/2020十全.jpg",
+  "http://south.tjc.org.tw/14/109年/2020台南.jpg",
+  "http://south.tjc.org.tw/14/107年/2018十全-1.jpg",
+  "http://south.tjc.org.tw/14/109年/2020南門.jpg",
+  "http://south.tjc.org.tw/14/109年/2020莒光.jpg",
+  "http://south.tjc.org.tw/14/109年/2020小港.jpg",
+  "http://south.tjc.org.tw/14/109年/2020開元.jpg",
+  "http://south.tjc.org.tw/14/109年/2020迦美.jpg",
+  "http://south.tjc.org.tw/14/111年/2022五甲.jpg",
+  "http://south.tjc.org.tw/14/111年/2022前鎮.jpg",
+  "http://south.tjc.org.tw/14/111年/2022十全.jpg",
+  "http://south.tjc.org.tw/14/111年/2022南門.jpg",
+  "http://south.tjc.org.tw/14/111年/2022小港.png",
+  "http://south.tjc.org.tw/14/111年/2022歸仁.jpg",
+  "http://south.tjc.org.tw/14/111年/2022屏東.jpg",
+  "http://south.tjc.org.tw/14/111年/2022東昇.jpg",
+  "http://south.tjc.org.tw/14/111年/2022永康.png",
+  "http://south.tjc.org.tw/14/111年/2022麻豆.jpg",
+  "http://south.tjc.org.tw/14/111年/2022莒光.jpg",
+  "http://south.tjc.org.tw/14/112年/五甲.jpg",
+  "http://south.tjc.org.tw/14/111年/2022開元.jpg",
+  "http://south.tjc.org.tw/14/112年/南門.jpg",
+  "http://south.tjc.org.tw/14/112年/十全.jpg",
+  "http://south.tjc.org.tw/14/112年/楠梓.jpg",
+  "http://south.tjc.org.tw/14/112年/小港.jpg",
+  "http://south.tjc.org.tw/14/112年/屏東.jpg",
+  "http://south.tjc.org.tw/14/112年/永康.jpg",
+  "http://south.tjc.org.tw/14/112年/莒光.jpg",
+  "http://south.tjc.org.tw/14/112年/迦美.jpg",
+  "http://south.tjc.org.tw/14/112年/歸仁.jpg",
+  "http://south.tjc.org.tw/14/112年/開元.jpg",
+  "http://south.tjc.org.tw/14/113年/三多.jpg",
+  "http://south.tjc.org.tw/14/112年/麻豆.jpg",
+  "http://south.tjc.org.tw/14/112年/麻豆--集點卡.jpg",
+  "http://south.tjc.org.tw/14/113年/楠梓.jpg",
+  "http://south.tjc.org.tw/14/113年/歸仁.jpg",
+  "http://south.tjc.org.tw/14/113年/民權.jpg",
+  "http://south.tjc.org.tw/14/113年/岡山.jpg",
+  "http://south.tjc.org.tw/14/113年/永康.jpg",
+  "http://south.tjc.org.tw/14/113年/民生.jpg",
+  "http://south.tjc.org.tw/14/113年/開元.jpg",
+  "http://south.tjc.org.tw/14/113年/迦美.jpg",
+  "http://south.tjc.org.tw/14/113年/南門.jpg",
+  "http://south.tjc.org.tw/14/113年/麻豆.jpg",
+  "http://south.tjc.org.tw/14/113年/和順.jpg",
+  "http://south.tjc.org.tw/14/113年/十全.jpg",
+  "http://south.tjc.org.tw/14/113年/五甲.jpg",
+  "http://south.tjc.org.tw/公告附件/有時效性公告/112年下半年靈恩佈道會日期--全區版--8.11更新.pdf",
+  "http://south.tjc.org.tw/公告附件/有時效性公告/112-115新任期教會負責人名單--(彩色版).jpeg",
+  "http://south.tjc.org.tw/公告附件/有時效性公告/臺灣總會電話分機號碼表20230628.pdf",
+  "http://south.tjc.org.tw/各教會相片/01.台南.jpg",
+  "http://south.tjc.org.tw/各教會相片/02.開元.JPG",
+  "http://south.tjc.org.tw/各教會相片/03.麻豆.jpg",
+  "http://south.tjc.org.tw/各教會相片/06.喜樹.JPG",
+  "http://south.tjc.org.tw/各教會相片/05.東昇.jpg",
+  "http://south.tjc.org.tw/各教會相片/07.和順.jpg",
+  "http://south.tjc.org.tw/各教會相片/08.新營.jpg",
+  "http://south.tjc.org.tw/各教會相片/11.莒光.jpg",
+  "http://south.tjc.org.tw/各教會相片/09.歸仁.jpg",
+  "http://south.tjc.org.tw/各教會相片/12.高雄.jpg",
+  "http://south.tjc.org.tw/各教會相片/14.五甲.JPG",
+  "http://south.tjc.org.tw/各教會相片/13.鳳山.JPG",
+  "http://south.tjc.org.tw/各教會相片/16.十全.jpg",
+  "http://south.tjc.org.tw/各教會相片/15.迦美.jpg",
+  "http://south.tjc.org.tw/各教會相片/17.岡山.jpg",
+  "http://south.tjc.org.tw/各教會相片/18.杉林.jpg",
+  "http://south.tjc.org.tw/各教會相片/19.三多.jpg",
+  "http://south.tjc.org.tw/各教會相片/20.楠梓.JPG",
+  "http://south.tjc.org.tw/各教會相片/21.前鎮.JPG",
+  "http://south.tjc.org.tw/各教會相片/22.小港.jpg",
+  "http://south.tjc.org.tw/各教會相片/23.民生.jpg",
+  "http://south.tjc.org.tw/各教會相片/24.民權.jpg",
+  "http://south.tjc.org.tw/各教會相片/25.茂林.jpg",
+  "http://south.tjc.org.tw/各教會相片/26.屏東.jpg",
+  "http://south.tjc.org.tw/各教會相片/27.烏龍.JPG",
+  "http://south.tjc.org.tw/各教會相片/29.古樓.jpg",
+  "http://south.tjc.org.tw/各教會相片/04.南門.JPG",
+  "http://south.tjc.org.tw/各教會相片/10.永康.jpg",
+  "http://south.tjc.org.tw/總會來文/永久公告/104-0209提供新版「受洗申請書、受洗同意書、除偶像委託書」之資料0507.doc",
+  "http://south.tjc.org.tw/各教會相片/28.潮州.jpg"
+ ],
+ "still_fail": [
+  {
+   "url": "http://south.tjc.org.tw/19/真光園區納骨使用注意事項105.01.03.pdf",
+   "err": "[WinError 10054] 遠端主機已強制關閉一個現存的連線。"
+  },
+  {
+   "url": "http://south.tjc.org.tw/20/969團契114年度第二次靈修會(真高屏召字第114008號).pdf",
+   "err": "[WinError 10054] 遠端主機已強制關閉一個現存的連線。"
+  },
+  {
+   "url": "http://south.tjc.org.tw/20/114年高屏小區新受洗及慕道友聯誼活動(真高屏宣字第114006號).pdf",
+   "err": "<urlopen error [WinError 10060] 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連"
+  },
+  {
+   "url": "http://south.tjc.org.tw/20/115年度第一次969團契靈修會(真高屏召字第115004號).pdf",
+   "err": "<urlopen error [WinError 10060] 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連"
+  },
+  {
+   "url": "http://south.tjc.org.tw/20/112高屏少特班課程表.pdf",
+   "err": "<urlopen error [WinError 10060] 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連"
+  },
+  {
+   "url": "http://south.tjc.org.tw/20/通知舉開115年高屏小區少年班特別聚會(真高屏育字第115006號).pdf",
+   "err": "<urlopen error [WinError 10060] 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連"
+  }
+ ],
+ "grand_total_bytes": 1684515653
+}
